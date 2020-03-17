@@ -140,6 +140,7 @@ body{
   .nav-bar ul li:hover .mega-menu{
     opacity: 1;
     visibility: visible;
+   
   }
   
   .inner-mega-menu{
@@ -147,6 +148,7 @@ body{
     float: left;
     margin-top: -3%;
     margin-right: 1%;
+   z-index: 2;
   }
   
   .inner-mega-menu p{
@@ -155,6 +157,9 @@ body{
     text-transform: uppercase;
     transition: all 0.4s ease;
     text-align: left;
+    z-index: 3;
+    position: relative;
+    z-index: auto;
     font-weight: 100;
   }
   
@@ -196,13 +201,18 @@ body{
 }
 .carousel-caption{
     float: left;
+    z-index: 0;
+    position: relative;
+
     text-align: left;
 }
 .carousel-caption h1{
     width: 45%;
     height: 20%;
+    z-index: -3;
     margin-top: -45%;
     color: #1f1e24;
+    position: relative;
     font-size: 60px;
     font-weight: 600;
     float: left;

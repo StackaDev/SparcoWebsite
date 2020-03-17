@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-bar{
+  width: 100%;
+  height: 75px;
+  background: #2c3e50;
+  padding: 10px 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid #1a252f;
+}
+
+.nav-bar ul{
+  list-style: none;
+  width: 770px;
+  height: 100%;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.nav-bar ul li{
+  width: 120px;
+  float: left;
+  margin-right: 10px;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+
+.nav-bar ul li:last-child{
+  margin-right: 0;
+}
+
+.nav-bar ul li:hover{
+  color: #18bc9c;
+}
+
+.nav-bar ul li:hover .mega-menu{
+  color: #fff;
+}
+
+.nav-bar ul li .mega-menu p:hover{
+   color: #18bc9c;
+}
+
+.header-banner{
+  background: #18bc9c;
+  width: 100%;
+  height: 350px;
+}
+
+.mega-menu{
+  position: absolute;
+  top: 65px;
+  left: 0;
+  width: 750px;
+  height: 250px;
+  background: #2c3e50;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.nav-bar ul li:hover .mega-menu{
+  opacity: 1;
+  visibility: visible;
+}
+
+.inner-mega-menu{
+  width: 24%;
+  float: left;
+  margin-right: 1%;
+}
+
+.inner-mega-menu p{
+  padding: 10px 0;
+  transition: all 0.4s ease;
+}
+
+.inner-mega-menu:last-child{
+  margin-right: 0%;
+}

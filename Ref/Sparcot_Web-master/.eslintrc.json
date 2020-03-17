@@ -1,0 +1,23 @@
+{
+    "extends": ["airbnb", "prettier", "plugin:react/recommended"],
+    "plugins": ["prettier", "react"],
+    "rules": {
+      "prettier/prettier": ["error"],
+      "react/react-in-jsx-scope": "off",
+      "react/jsx-filename-extension": "off",
+      "import/no-named-as-default": "off",
+      "react/prop-types": "off",
+      "jsx-a11y/anchor-is-valid": "off",
+      "no-return-assign": "off",
+      "import/no-named-as-default-member": "off",
+      "class-methods-use-this": "off",
+      "jsx-a11y/no-noninteractive-element-interactions": "off",
+      "jsx-a11y/click-events-have-key-events": "off"
+    },
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "globals": { "React": "writable" }
+  }  

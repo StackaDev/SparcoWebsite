@@ -176,9 +176,7 @@ body{
 
 
   /* Slider Css */
-  .carousel-sec{
-      background-color: black;
-  }
+  
   .carousel-inner img {
     width: 100%;
     height: 100%;
@@ -320,9 +318,11 @@ body{
     font-size: 18px;
     font-weight: 600;
     margin-top: 4%;
-    width: 200px;
-    margin-left: 30%;
-    border: 1px solid red !important; 
+    width: 250px;
+    position: relative;
+    padding: 5px;
+    margin-left: 25%;
+    border: 3px solid red !important; 
 }
 .hot-f-50 a{
     margin-left: 40%;
@@ -341,6 +341,7 @@ body{
     margin-top: -55%;
     margin-left: 5%;
 }
+.btnload,
 .hot-s-img a,
 .hot-t-img a{
     border-radius: 0px;
@@ -348,10 +349,51 @@ body{
     background-color:#01124a ;
     color: #fff;
     font-size: 10px;
+    
+}
+.hot-s-img a,
+.hot-t-img a {
     margin-top: 15%;
     margin-left: 5%;
 }
 .hot-s-img a{
     
     margin-bottom: 17%;
+}
+.btnlaod{
+  position: relative;
+  margin-top: 20px;
+
+}
+
+
+
+/* Middile Banner Section */
+
+
+
+.banner{
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/homebanner.png");
+}
+.banner1 h1{
+  color: #fff;
+  width: 80%;
+  margin-top: 10%;
+  font-size: 50px;
+  margin-left: 20%;
+  text-transform: uppercase;
+}
+.banner1 h3{
+  color: #fff;
+  text-transform: initial;
+  font-size: 35px;
+  font-weight: 200;
+  width:40%;
+  margin-left: 20%;
+}
+.banner2 img{
+  height: 300px;
+  margin-top: 8%;
 }

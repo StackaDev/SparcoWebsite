@@ -76,6 +76,7 @@ body {
   height: 50%;
   margin-top: 40px;
 }
+
 /* Navigation Menu */
 
 .nav-bar {
@@ -1569,17 +1570,6 @@ margin-top: -1.25%;
 font-weight: 500;
 }
 
-.social-links {
-  float: left;
-  list-style: none;
-  padding: 0;
-  text-align: center;
-  margin-top: 6%;
-}
-
-
-
-
 .nav-bar ul li{
 width: 120px;
 margin-right:0px;
@@ -1818,6 +1808,7 @@ margin-top: 4px;
   margin-left: 25%;
   margin-top: 4%;
 }
+
 
 
 }

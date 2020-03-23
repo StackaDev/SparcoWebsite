@@ -1,0 +1,106 @@
+<!--OUR MARKET-->
+    <section id="market">
+      <div class="container">
+        <h3 class="text-uppercase">our market</h3>
+        <br />
+        <p class="lead">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt <br />ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation <br />ullamco laboris
+          nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <br />
+        <h4 class="text-uppercase col-md-12">india&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>i</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;africa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>i</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;china&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>i</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bangladesh<br><br>russia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>i</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bahrain&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>i</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kuwait</h2>
+        </div>
+      </div>
+      <br />
+    </section>
+    <!--OUR CLIENTS-->
+    <section id="clients">
+      <div class="container">
+        <h3 class="text-uppercase">our clients</h3>
+        <br />
+        <p class="lead">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt <br />ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation <br />ullamco laboris
+          nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <br />
+        <div class="row img-responsive row seven-cols">
+          <div class="col-md-2 img-responsive">
+            <img src="img/moon.png"alt="moon" width="50"/>
+          </div>
+          <div class="col-md-2 img-responsive">
+            <img src="img/call.png" alt="call" width="75"/>
+          </div>
+          <div class="col-md-2 img-responsive">
+            <img
+              src="img/sparco.png" alt="sparco" width="50"/>
+          </div>
+              <div class="col-md-2 img-responsive">
+                <img src="img/sparcot.png" alt="sparcot" width="50"/>
+              </div>
+              <div class="col-md-2 img-responsive">
+                <img src="img/moms.png" alt="moms" width="50"/>
+              </div>
+              <div class="col-md-2 img-responsive">
+                <img
+                  src="img/roxitta.png" alt="roxitta" width="50"/>
+              
+              </div>
+        </div>
+      </div>
+      <br />
+    </section>
+    <!--OUR BRANDS-->
+    <section id="brands">
+      <div class="container ">
+        <h3 class="text-uppercase mt-5">our brands</h3>
+        <br>
+        <div class="row img-responsive">
+          <div class="col-md-2 img-responsive">
+            <img src="img/moon.png" class="img-responsive" alt="moon" width="50"/>
+          </div>
+          <div class="col-md-2">
+            <img src="img/roxitta.png" class="img-responsive" alt="roxitta" width="50"/>
+          </div>
+          <div class="col-md-2 img-responsive">
+            <img
+              src="img/sparcot.png" class="img-responsive" alt="sparcot" width="50"/>
+          </div>
+              <div class="col-md-2 img-responsive">
+                <img src="img/sparco.png" class="img-responsive" alt="sparco" width="50"/>
+              </div>
+              <div class="col-md-2">
+                <img src="img/mx.png" class="img-responsive" alt="mx" width="50"/>
+              </div>
+              <div class="col-md-2 img-responsive">
+                <img
+                  src="img/call.png" class="img-responsive" alt="call" width="75"/>
+          </div>
+        </div>
+      </div>
+      <br />
+    </section>
+
+/* css*/
+
+    /*our market*/
+#market{
+    text-align: center;
+    
+}
+#market span{
+color:#000684;
+font-weight: 351;
+}
+/*our clients*/
+#clients{
+    text-align: center;
+    background-color: #F5F5F6;
+}
+/*our brands*/
+#brands{
+    text-align: center;
+}

@@ -658,8 +658,41 @@ ul.list-info-w3pvt {
   margin-left: 5%;
 }
 
+/*about css*/
 
-
+.aboutbanner{
+  width: 100%;
+  height: 250px;
+  background-image: url("../img/aboutban.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* about head banner*/
+.aboutheadbanner{
+  width: 100%;
+  height: 430px;
+  background-image: url("../img/aboutheadbanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aboutheadbanner h1{
+  color: #000;
+  font-size: 52px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 18%;
+  text-transform: uppercase;
+}
+.aboutheadbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 31px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline-block;
+}
 
 
 /*kitchen css*/
@@ -702,13 +735,7 @@ ul.list-info-w3pvt {
   background-color: #f4f4f6;
 }
 
-.cat-h-sub{
-  height: 250px;
-  margin-top: 27.5%;
-  margin-left: 4%;
-  width: 250px;
-  background-color: #f4f4f6;
-}
+
 .cat-l h1,
 .cat-l h1{
   font-size: 30px;
@@ -737,8 +764,50 @@ ul.list-info-w3pvt {
   margin-top: -7%;
 
 }
+/* kitchen 2 css*/
 
+.container-kit{
+  margin-left: .5cm;
+  margin-right: 3cm;
+  margin-top: -.8cm;
+}
+.kit-h-sub img{
+  height: 210px;
+  width: 425px;
+  padding-left: 2cm;
+  padding-right: -3cm;
+  margin-left: 0cm;
+  margin-right: -2cm;
+}
+.kit-h-sub{
+  margin-top: 23%;
+  width: 80px;
+}
 
+.kit-l a:hover{
+  background-color: #001747;
+  color: #fff;
+}
+.kit-l a{
+  margin-top: -16%;
+  background-color: #F1F0EE;
+  font-weight: 550;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: 0;
+  border-radius: 0;
+  text-align: center;
+  height: 55px;
+  width: 350px;
+  color: #000;
+  padding-left: 2cm;
+  padding-right: 2cm;
+  padding-top: .4cm;
+  padding-bottom: .4cm;
+  margin-left: 2cm;
+  margin-right: 2cm;
+}
 
 /*home app css*/
 
@@ -762,7 +831,7 @@ ul.list-info-w3pvt {
   color: #000;
   text-transform: initial;
   font-size: 40px;
-  font-weight: 200;
+ font-weight: 200;
   margin-left: 25%;
   display: inline;
 }
@@ -1710,8 +1779,8 @@ ul.list-info-w3pvt {
   font-size: 20px;
   color: #fff;
   letter-spacing: 0px;
-  margin-top: 25%;
-  margin-left: 25%;
+  margin-top: 80%;
+  margin-left: 88%;
 }
 
 .footer-content p {

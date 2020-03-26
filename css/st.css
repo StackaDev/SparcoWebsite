@@ -329,21 +329,7 @@ body {
   font-weight: 400;
 }
 
-/* about last image sections */
 
-.hot img {
-  height: 600px;
-}
-
-.hot-s-img img, .hot-t-img img {
-  height: 273px;
-  margin-bottom: 35px;
-  margin-right: .7cm;
-}
-.hot-f-50 img{
-  height: 580px;
-  margin-left: .7cm;
-} 
 
 
 /* Middile Banner Section */
@@ -628,6 +614,21 @@ ul.list-info-w3pvt {
   margin-left: 25%;
   display: inline-block;
 }
+/* about last image sections */
+
+.hot img {
+  height: 600px;
+}
+
+.hot-s-img img, .hot-t-img img {
+  height: 273px;
+  margin-bottom: 35px;
+  margin-right: .4cm;
+}
+.hot-f-50 img{
+  height: 580px;
+  margin-left: .4cm;
+} 
 
 
 /*kitchen css*/
@@ -1538,47 +1539,59 @@ ul.list-info-w3pvt {
     color: #ffffff;
     font-weight: 400;
   } 
-  /* about last image  sections */
-  .hot img {
-    height: 365px;
-  }
-  .hot-s-img img, .hot-t-img img {
-    height: 164px;
-    margin-bottom: -16px;
-  }
-  .hot-f-50 h1 {
-    margin-top: -50%;
-    font-size: 26px;
-  }
-  .hot-f-50 h3 {
-    text-align: center;
-    font-weight: 300;
-    font-size: 20px;
-  }
-  .hot-f-50 h4 {
-    font-size: 12px;
-    font-weight: 600;
-    margin-top: 4%;
-    width: 180px;
-    position: relative;
-    padding: 5px;
-    margin-left: 22%;
-    border: 2px solid red !important;
-  }
-  .hot-s-img h1, .hot-t-img h1 {
-    font-size: 25px;
-    width: 40%;
-    margin-top: -40%;
-    margin-left: 5%;
-  }
-  .hot-s-img a, .hot-t-img a {
-    margin-top: 8%;
-    margin-left: 5%;
-    font-size: 10px;
-  }
-  .btnlaod {
-    margin-top: 4px;
-  }
+  /*about css*/
+
+.aboutbanner{
+  width: 100%;
+  height: 180px;
+  background-image: url("../img/aboutban.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* about head banner*/
+.aboutheadbanner{
+  width: 100%;
+  height: 280px;
+  background-image: url("../img/aboutheadbanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aboutheadbanner h1{
+  color: #000;
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 18%;
+  text-transform: uppercase;
+}
+.aboutheadbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 18px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline-block;
+}
+/* about last image sections */
+
+.hot img {
+  height: 600px;
+  width: 425px;
+}
+
+.hot-s-img img, .hot-t-img img {
+  height: 179px;
+  width: 311px;
+  margin-bottom: 35px;
+  margin-right: .4cm;
+}
+.hot-f-50 img{
+  height: 393px;
+  width: 310px;
+  margin-left: .4cm;
+} 
   /* Middile Banner Section */
   .banner {
     height: 280px;
@@ -2050,52 +2063,59 @@ margin-top: -50%;
     color: #ffffff;
     font-weight: 400;
 }
+/*about css*/
 
-/* about last image sections */
-.hot img{
-  height: 480px;
-}  
-.hot-s-img img,
-.hot-t-img img {
-  height: 224px;
-  margin-bottom: 21px;
+.aboutbanner{
+  width: 100%;
+  height: 250px;
+  background-image: url("../img/aboutban.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-.hot-f-50 h1{
-  margin-top: -50%;
-  font-size: 34px;
+/* about head banner*/
+.aboutheadbanner{
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/aboutheadbanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.hot-f-50 h3{
-  text-align: center;
-  font-weight: 300;
-  font-size: 25px;
-}
-.hot-f-50 h4{
-  font-size: 16px;
+.aboutheadbanner h1{
+  color: #000;
+  font-size: 40px;
   font-weight: 600;
-  margin-top: 4%;
-  width: 230px;
-  position: relative;
-  padding: 5px;
-  margin-left: 22%;
-  border: 2px solid red !important; 
+  margin-left: 25%;
+  margin-top: 18%;
+  text-transform: uppercase;
 }
-.hot-s-img h1,
-.hot-t-img h1{
-  font-size: 30px;
-  width: 40%;
-  margin-top: -55%;
-  margin-left: 5%;
+.aboutheadbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 24px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline-block;
 }
-.hot-s-img a,
-.hot-t-img a {
-  margin-top: 12%;
-  margin-left: 5%;
-}
-.btnlaod{
-margin-top: 4px;
+/* about last image sections */
 
+.hot img {
+  height: 600px;
+  width: 425px;
 }
+
+.hot-s-img img, .hot-t-img img {
+  height: 273px;
+  margin-bottom: 35px;
+  margin-right: .4cm;
+}
+.hot-f-50 img{
+  height: 580px;
+  width: 425px;
+  margin-left: .4cm;
+} 
+
 
 
 /* Middile Banner Section */

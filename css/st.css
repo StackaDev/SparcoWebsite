@@ -1321,41 +1321,60 @@ ul.list-info-w3pvt {
   background-color: #cccccc;
 }
 
+/*about css*/
 
+.aboutbanner{
+  width: 100%;
+  height: 200px;
+  background-image: url("../img/aboutban.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* about head banner*/
+.aboutheadbanner{
+  width: 100%;
+  height: 200px;
+  background-image: url("../img/aboutheadbanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aboutheadbanner h1{
+  color: #000;
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 18%;
+  text-transform: uppercase;
+}
+.aboutheadbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 17px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline-block;
+}
 /* about last image sections */
 
 .hot img {
   height: 600px;
+  width: 425px;
 }
 
 .hot-s-img img, .hot-t-img img {
-  height: 290px;
-  margin-bottom: 21px;
+  height: 130px;
+  width: 240px;
+  margin-bottom: 20px;
+  margin-right: .4cm;
+  padding-top: 0cm;
 }
 .hot-f-50 img{
-  padding-right: 3cm;
-}
-.hot-s-img a, .hot-t-img a {
-  margin-top: 15%;
-  margin-left: 5%;
-  background-image: url("../img/arrow1.png");
-  background-position: 105px;
-  padding: 10px;
-  background-repeat: no-repeat;
-  padding-right: 60px;
-  padding-left: 30px;
-}
-
-.hot-s-img a {
-  margin-bottom: 17%;
-}
-
-.btnlaod {
-  position: relative;
-  margin-top: 200px;
-}
-
-
+  height: 280px;
+  width: 240px;
+  margin-left: .4cm;
+} 
 
 
 /*home app css*/

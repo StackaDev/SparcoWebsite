@@ -329,87 +329,22 @@ body {
   font-weight: 400;
 }
 
-/* Inner sections */
+/* about last image sections */
 
 .hot img {
   height: 600px;
 }
 
 .hot-s-img img, .hot-t-img img {
-  height: 290px;
-  margin-bottom: 21px;
+  height: 273px;
+  margin-bottom: 35px;
+  margin-right: .7cm;
 }
+.hot-f-50 img{
+  height: 580px;
+  margin-left: .7cm;
+} 
 
-.hot-f-50 h1, .hot-f-50 h4, .hot-f-50 a {
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.hot-f-50 h1 {
-  margin-top: -50%;
-}
-
-.hot-f-50 h3 {
-  text-align: center;
-  font-weight: 300;
-}
-
-.hot-f-50 h4 {
-  font-size: 18px;
-  font-weight: 600;
-  margin-top: 4%;
-  width: 250px;
-  position: relative;
-  padding: 5px;
-  margin-left: 25%;
-  border: 3px solid red !important;
-}
-
-.hot-f-50 a {
-  margin-left: 40%;
-  font-size: 12px;
-  color: #fff;
-  border-radius: 0px;
-  background-color: #01124a;
-  border: 0px;
-  margin-top: 2%;
-}
-
-.hot-s-img h1, .hot-t-img h1 {
-  text-transform: uppercase;
-  font-size: 32px;
-  width: 40%;
-  margin-top: -55%;
-  margin-left: 5%;
-}
-
-.btnload, .hot-s-img a, .hot-t-img a {
-  border-radius: 0px;
-  border: 0px;
-  background-color: #01124a;
-  color: #fff;
-  font-size: 12px;
-}
-
-.hot-s-img a, .hot-t-img a {
-  margin-top: 15%;
-  margin-left: 5%;
-  background-image: url("../img/arrow1.png");
-  background-position: 105px;
-  padding: 10px;
-  background-repeat: no-repeat;
-  padding-right: 60px;
-  padding-left: 30px;
-}
-
-.hot-s-img a {
-  margin-bottom: 17%;
-}
-
-.btnlaod {
-  position: relative;
-  margin-top: 20px;
-}
 
 /* Middile Banner Section */
 
@@ -950,9 +885,7 @@ ul.list-info-w3pvt {
     height: 135px;
   }
   /* Slider Section */
-  .carousel-sec{
-    
-  }
+  
   .carousel-inner img {
     width: 70%;
     height: 70%;
@@ -1020,7 +953,7 @@ ul.list-info-w3pvt {
     font-weight: 400;
     padding: 0px;
   } 
-  /* Inner sections */
+  /* about last image sections */
   .hot img {
     height: 240px;
   }
@@ -1028,6 +961,7 @@ ul.list-info-w3pvt {
     height: 117px;
     margin-bottom: -69px;
   }
+  
   .hot-f-50 h1 {
     margin-top: -50%;
     font-size: 14px;
@@ -1386,6 +1320,43 @@ ul.list-info-w3pvt {
   background-color: #cccccc;
 }
 
+
+/* about last image sections */
+
+.hot img {
+  height: 600px;
+}
+
+.hot-s-img img, .hot-t-img img {
+  height: 290px;
+  margin-bottom: 21px;
+}
+.hot-f-50 img{
+  padding-right: 3cm;
+}
+.hot-s-img a, .hot-t-img a {
+  margin-top: 15%;
+  margin-left: 5%;
+  background-image: url("../img/arrow1.png");
+  background-position: 105px;
+  padding: 10px;
+  background-repeat: no-repeat;
+  padding-right: 60px;
+  padding-left: 30px;
+}
+
+.hot-s-img a {
+  margin-bottom: 17%;
+}
+
+.btnlaod {
+  position: relative;
+  margin-top: 200px;
+}
+
+
+
+
 /*home app css*/
 
 .homeappbanner{
@@ -1567,7 +1538,7 @@ ul.list-info-w3pvt {
     color: #ffffff;
     font-weight: 400;
   } 
-  /* Inner sections */
+  /* about last image  sections */
   .hot img {
     height: 365px;
   }
@@ -2080,7 +2051,7 @@ margin-top: -50%;
     font-weight: 400;
 }
 
-/* Inner sections */
+/* about last image sections */
 .hot img{
   height: 480px;
 }  

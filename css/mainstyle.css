@@ -1266,7 +1266,7 @@ nav.active{
     margin-right: 4%;
   }
   #quality h4 {
-    font-size: 28px;
+    font-size: 22px;
   }
   .lead{
     font-size: 10px;
@@ -1352,6 +1352,7 @@ nav.active{
     font-size: 8px;
   }
   .btnlaod {
+    border-radius: 0;
     margin-top:   4px;
   }
   /* Middile Banner Section */
@@ -1394,21 +1395,21 @@ nav.active{
     border: 0px;
     background-color: #01124a;
     color: #fff;
-    font-size: 8px;
+    font-size: 10px;
     margin-top: 6%;
     margin-left: 4%;
     font-weight: lighter;
     background-image: url("../img/arrow1.png");
-    background-position: 105px;
+    background-position: 86px;
     padding: 10px;
     background-repeat: no-repeat;
     padding-right: 60px;
     padding-left: 30px;
   }
   .cat-s-sub {
-    height: 80px;
+    height: 90px;
     margin-top: 21%;
-    margin-left: 2%;
+    margin-left: 10%;
     width: 160px;
     background-color: #f4f4f6;
   }
@@ -1434,7 +1435,7 @@ nav.active{
   }
   .cat-s-sub img {
     height: 70px;
-    margin-left: 25%;
+    margin-left: 26%;
     margin-top: 4%;
   }
 

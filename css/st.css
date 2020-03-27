@@ -827,7 +827,15 @@ display: inline-block;
   margin-top: 2cm;
 
 }
-/* middl section between banner*/
+/* cycle middl section between banner*/
+.steel{
+  padding-bottom: 1.7cm;
+}
+.steel h2{
+  font-size: 42px;
+  text-align: center;
+  margin-top: 2cm;
+}
 .cycle-2-banner1.black{
   color: #000;
   text-align: center;
@@ -837,7 +845,48 @@ display: inline-block;
   margin-top: 1cm;
 
 }
+.plastic{
+  margin-bottom: 3cm;
+}
+.plastic img{
+height: 600px;
+width: 500px;
+}
+.plastic h2{
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 42px;
+  padding-bottom: 1cm;
+  padding-top: 1.4cm;
+  margin-left: 1cm;
+}
+.plastic p{
+  font-size: 18px;
+  line-height: .9cm;
+  margin-left: 1cm;
+}
 
+.happy{
+  margin-bottom: 3cm;
+}
+.happy img{
+  height: 550px;
+  width: 500px;
+  margin-left: 1cm;
+  }
+  .happy h2{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 42px;
+    padding-bottom: 1cm;
+    padding-top: 1cm;
+    
+  }
+  .happy p{
+    font-size: 18px;
+    line-height: .9cm;
+    
+  }
 
 
 

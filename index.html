@@ -6,20 +6,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
+        <link rel="stylesheet" href="./css/mainstyle.css">
         <link rel="icon" href="./img/logo.png">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="./Js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <link rel="stylesheet" href="../Code/css/mainstyle.css">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/b332fe29c5.js"></script>
+        
         
         <title>Sparcot International</title>
+
+        <!-- Jquery forbotton click -->
+         <script type="text/javascript">
+          $(document).ready(function() {
+            $('.toggle-rep span').click(function() {
+              $('nav').toggleClass('active')
+            })
+          })
+        </script>
+
         <!-- Font Awesome Icons In Folder Included -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Font Montserrat -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap" rel="stylesheet">
         
       </head>
+      <!-- end -->
     <body>
       <!-- Top Heading Section -->
       <section> 
@@ -27,7 +43,7 @@
         <div class="row top-logo-sec">
           <div class="col-sm-4 col-xs-4 padding-0">
             
-            <img class="img img-responsive img-logo mt-3" src="../Code/img/logo.png">  
+            <img class="img img-responsive img-logo mt-3" src="./img/logo.png">  
 
           </div>
 
@@ -102,7 +118,13 @@
 
       <!-- Top Nav Section -->
       <section>
+
+        
+        <div class="toggle-rep">
+          <span>Catagories</span>
+        </div>
           <nav class="nav-bar">
+            
             <ul>
               <li class="activepage">All categories
                 <div class="mega-menu">
@@ -135,34 +157,34 @@
                   </div>
                 </div>
               </li>
-              <li>Kitchen collection
+              <li> <a href="#" >Kitchen collection</a>
                 <div class="mega-menu">
                   <div class="inner-mega-menu">
-                    <p>dish rack</p>
-                    <p>cooker</p>
-                    <p>grill</p>
-                    <p>soap dish</p>
+                    <p><a href="#" ></a>dish rack</p></a>
+                    <p><a href="#" >cooker</p></a>
+                    <p><a href="#" ></a>grill</p></a>
+                    <p><a href="#" ></a>soap dish</p></a>
                   </div>
                   <div class="vl"></div>
                   <div class="inner-mega-menu">
-                    <p>dish rack</p>
-                    <p>cooker</p>
-                    <p>grill</p>
-                    <p>soap dish</p>
+                    <p><a href="#" ></a>dish rack</p></a>
+                    <p><a href="#" ></a>cooker</p></a>
+                    <p><a href="#" ></a>grill</p></a>
+                    <p><a href="#" ></a>soap dish</p></a>
                   </div>
                   <div class="vl"></div>
                   <div class="inner-mega-menu">
-                    <p>dish rack</p>
-                    <p>cooker</p>
-                    <p>grill</p>
-                    <p>soap dish</p>
+                    <p><a href="#" ></a>dish rack</p></a>
+                    <p><a href="#" ></a>cooker</p></a>
+                    <p><a href="#" ></a>grill</p></a>
+                    <p><a href="#" ></a>soap dish</p></a>
                   </div>
                   <div class="vl"></div>
                   <div class="inner-mega-menu">
-                    <p>dish rack</p>
-                    <p>cooker</p>
-                    <p>grill</p>
-                    <p>soap dish</p>
+                    <p><a href="#" ></a>dish rack</p></a>
+                    <p><a href="#" ></a>cooker</p></a>
+                    <p><a href="#" ></a>grill</p></a>
+                    <p><a href="#" ></a>soap dish</p></a>
                   </div>
                 </div>
               </li>
@@ -224,19 +246,21 @@
             <div class="carousel-item active">
               <img class="d-block w-100" src="./img/image1.jpg" alt="First slide">
               <div class="carousel-caption text-center">
-                <h1 style="color: black;">SPARCO &nbsp;&nbsp; DISH RACK</h1>
-                <h3 style="color: black;">Experience the quality</h3>
-                <a class="btn btn-success btn-lg" href="#cource">BUY NOW</a> 
+                <h1 style="color: black;">SPARCO<br>DISH RACK</h1>
+                <h3 style="color: black;">Experience the<br>quality</h3>
+                <a class="btn btn-success btn-lg" href="#cource">BUY NOW</a>
+                <img class="d-block" src="./img/rack.png" alt="Inner slide"> 
               </div>
             </div>
             <!-- End Slide 1 -->
              <!-- Slide 2 -->
              <div class="carousel-item">
-              <img class="d-block w-100" src="./img/image2.jpg" alt="Secound slide">
+              <img class="d-block w-100" src="./img/image1.jpg" alt="Secound slide">
               <div class="carousel-caption">
-                <h1 style="color: black;">SPARCO&nbsp; STEEL RACK</h1>
-                <h3 style="color: black;">Experience the quality</h3>
-                <a class="btn btn-success btn-lg" href="#cource">BUY NOW</a> 
+                <h1 style="color: black;">SPARCO<br>STEEL RACK</h1>
+                <h3 style="color: black;">Experience the<br>quality</h3>
+                <a class="btn btn-success btn-lg" href="#cource">BUY NOW</a>
+                <img class="d-block" src="./img/rack.png" alt="Inner slide"> 
               </div>
              </div>
             <!-- End Slide 2 -->
@@ -244,9 +268,10 @@
              <div class="carousel-item">
               <img class="d-block w-100" src="./img/image1.jpg" alt="Third slide">
               <div class="carousel-caption text-center">
-                <h1 style="color: black;">SPARCO SPOON RACK</h1>
-                <h3 style="color: black;">Experience the quality</h3>
-                <a class="btn btn-success btn-lg" href="#cource">BUY NOW</a> 
+                <h1 style="color: black;">SPARCO<br>GLASS BOWL</h1>
+                <h3 style="color: black;">Experience the<br>quality</h3>
+                <a class="btn btn-success btn-lg" href="#cource">BUY NOW</a>
+                <img class="d-block" src="./img/rack.png" alt="Inner slide"> 
               </div>
              </div>
             <!-- End Slide 3 -->
@@ -254,7 +279,7 @@
           <!-- Next and Prev Button -->
           <a class="carousel-control-prev"href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+            <span class="sr-only previos-but">Previous</span>
           </a>
           <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -365,7 +390,7 @@
                                   </div>
   
                                   </div>
-                                  <a class="btn btn-success btn-lg btnload" style="margin-top: 10%;margin-left: 40%; color: #000000; padding-left:45px ;padding-right: 45px; font-size: 12px; background-color: #cccccc;" href="#cource">LOAD MORE</a>
+                                  <a class="btn btn-success btn-lg btnload" style="" href="#cource">LOAD MORE</a>
                                 </div>
                              </div>
                             </div>
@@ -386,8 +411,8 @@
         <div class="banner">
           <div class="row">
             <div class="col-sm-6 banner1">
-              <h1>sparco elctronics & Home Appliences</h1>
-              <h3>More than 2000 products</h3>
+              <h1>sparco<br>elctronics &<br>Home Appliences</h1>
+              <h3>More than<br>2000 products</h3>
             </div>
             <div class="col-sm-6 banner2">
               <img src="./img/homephoto.png">
@@ -706,8 +731,6 @@
         
         
         
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/b332fe29c5.js"></script>
+       
 </body>
 </html>

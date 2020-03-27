@@ -778,6 +778,70 @@ ul.list-info-w3pvt {
   margin-left: 230%;
 }
 
+/*cycle page css strat here*/
+/* first banner */
+.cyclebanner{
+  width: 100%;
+  height: 350px;
+  background-image: url("../img/cycle_exp.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cyclebanner h1{
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 580;
+  margin-left: 50%;
+  margin-top: 3.8cm;
+display: inline-block;
+  text-transform: uppercase;
+}
+/*second cycle banner*/
+.cycle-2-banner{
+  width: 100%;
+  height: 430px;
+  background-image: url("../img/cycle_what_products.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cycle-2-banner h2{
+  color: #fff;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 450;
+  margin-top: 2.5cm;
+display: inline-block;
+  text-transform: uppercase;
+  
+  margin-left: 10cm;
+}
+.cycle-2-banner1{
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-left: 6cm;
+  margin-top: 2cm;
+
+}
+/* middl section between banner*/
+.cycle-2-banner1.black{
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-left: 0cm;
+  margin-top: 1cm;
+
+}
+
+
+
+
+
 /* Media Queries Satrt Here */
 
 @media only screen and (max-width: 576px) {}

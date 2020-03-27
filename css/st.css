@@ -779,6 +779,26 @@ ul.list-info-w3pvt {
 }
 
 /*cycle page css strat here*/
+.speci{
+  text-align: center;
+  margin-bottom: 1cm;
+}
+.speci h2{
+  text-transform: uppercase;
+  margin-top: 1cm;
+  padding-bottom: .2cm;
+}
+.speci h4{
+  text-transform: uppercase;
+  color: #001747;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: -.7cm;
+}
+.speci p{
+  margin-top: .7cm;
+}
+
 /* first banner */
 .cyclebanner{
   width: 100%;

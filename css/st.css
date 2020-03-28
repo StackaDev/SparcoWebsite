@@ -779,6 +779,48 @@ ul.list-info-w3pvt {
 }
 
 /*cycle page css strat here*/
+.cysec img{
+  padding: .3cm .3cm .3cm .3cm;
+height: 180px;
+width: 180px;
+}
+.csec img{
+  height: 528px;
+  width: 500px;
+  padding-top: .3cm;
+  margin-left: .5cm;
+}
+.c-1-sec h3{
+text-transform: uppercase;
+margin-left: 6cm;
+display: inline-block;
+padding-top: 1.4cm;
+font-size: 32px;
+}
+.c-1-sec h4{
+  text-transform: uppercase;
+  margin-left: 6cm;
+  margin-bottom: 11cm;
+  font-weight: 600;
+  font-size: 22px;
+}
+.c-1-sec img{
+height: 28px;
+margin-left: 9cm;
+margin-top: -11.8cm;
+}
+.c-1-sec ul li{
+  list-style: none; /* Remove default bullets */
+}
+.c-1-sec ul li::before{
+  margin-left: 0cm;
+  font-size: 56px;
+  color: #E7E5E2; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+ line-height: .5cm;
+  content: "\2024 ";
+  display: inline-block;
+}
 .speci{
   text-align: center;
   margin-bottom: 1cm;
@@ -787,6 +829,7 @@ ul.list-info-w3pvt {
   text-transform: uppercase;
   margin-top: 1cm;
   padding-bottom: .2cm;
+  font-weight: 550;
 }
 .speci h4{
   text-transform: uppercase;

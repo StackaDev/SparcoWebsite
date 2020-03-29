@@ -1016,18 +1016,22 @@ width: 500px;
     height: 20px;
     width: 110px;
     margin-left: 2.7cm;
-    margin-top: -.7cm;
+    margin-top: -.4cm;
     }
-.card li{
+.card ul{
       list-style: none; /* Remove default bullets */
+      font-size: 14px;
+      margin-right: .7cm;
+      line-height: .0001cm;
     }
   .card li::before{
       font-size: 56px;
-      color: #E7E5E2; /* Change the color */
-      font-weight: bold; /* If you want it to be bold */
+      color: #001747; /* Change the color */
+      font-weight: lighter; /* If you want it to be bold */
      line-height: .6cm;
       content: "\2024 ";
       display: inline-block;
+      font-size: 72px;
     }
   .card {
   outline-color: #fff;
@@ -1039,6 +1043,7 @@ width: 500px;
   
   .card h6{
     margin-right: 3.1cm;
+    margin-bottom: -.2cm;
   }
   
   .card button {

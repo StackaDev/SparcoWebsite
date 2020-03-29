@@ -4,6 +4,7 @@
   padding: 0;
   margin-right: 0px;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -11,6 +12,7 @@ body {
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
 }
+
 
 .top-sec {
   margin-right: 4%;
@@ -51,16 +53,16 @@ body {
   position: absolute;
   z-index: 2;
   display: block;
-  width: 2.375rem;
-  height: 2.375rem;
+  width: 3.375rem;
+  height: 3.375rem;
   line-height: 3.675rem;
-  margin-left: 87%;
+  margin-left: 75%;
   text-align: center;
   pointer-events: none;
   color: rgb(26, 26, 26);
 }
 
-.has-form {
+.has-search input {
   height: 3.675rem;
   border: 0;
   background-color: rgb(245, 243, 243);
@@ -76,6 +78,7 @@ body {
   height: 50%;
   margin-top: 40px;
 }
+
 
 /* Navigation Menu */
 
@@ -201,7 +204,25 @@ body {
   margin-top: -2%;
   margin-left: -5%;
 }
-
+.toggle-rep{
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: -60px;
+  position: relative;
+  margin-bottom: 10%;
+  box-sizing: border-box;
+  text-align: center;
+  display: none;
+}
+.toggle-rep span{
+  color: #ffffff;
+  background-color: #01124a;
+  padding: 15px 174px;
+  cursor: pointer;
+  margin-right: 5px;
+  font-weight: 500;
+}
 /* Slider Css */
 
 .carousel-inner img {
@@ -209,22 +230,22 @@ body {
   height: 100%;
 }
 
-.carousel-indicators li {
+.carousel-sec ol li {
   background-color: #01124a;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-sec .carousel-control-prev span, .carousel-sec .carousel-control-next span {
   height: 90px;
   width: 55px;
   background-size: 100%, 100%;
   margin-top: -50%;
 }
 
-.carousel-control-prev-icon {
+.carousel-sec .carousel-control-prev span{
   background-image: url("../img/left.png");
 }
 
-.carousel-control-next-icon {
+.carousel-sec .carousel-control-next span{
   background-image: url("../img/right.png");
 }
 
@@ -235,8 +256,8 @@ body {
   text-align: left;
 }
 
-.carousel-caption h1 {
-  width: 35%;
+.carousel-item h1 {
+  width: 50%;
   height: 20%;
   z-index: -3;
   margin-top: -40%;
@@ -249,7 +270,7 @@ body {
 }
 
 .carousel-caption a {
-  margin-top: -17%;
+  margin-top: -10%;
   background-color: #01124a;
   text-transform: uppercase;
   font-size: 12px;
@@ -260,11 +281,19 @@ body {
 
 .carousel-caption h3 {
   width: 30%;
-  margin-top: -27%;
+  margin-top: -24%;
   float: left;
   text-align: left;
   font-size: 40px;
   font-weight: lighter;
+}
+.carousel-caption img{
+  width: 465px;
+  height: 415px;
+  float: right;
+  margin-right: 4%;
+  position: relative;
+  margin-top: -40%;
 }
 
 /* Our Qualities */
@@ -779,6 +808,9 @@ ul.list-info-w3pvt {
 }
 
 /*cycle page css strat here*/
+.cy-head{
+  margin-top: 1.3cm;
+}
 .cysec img{
   padding: .3cm .3cm .3cm .3cm;
 height: 180px;
@@ -813,14 +845,34 @@ margin-top: -11.8cm;
   list-style: none; /* Remove default bullets */
 }
 .c-1-sec ul li::before{
-  margin-left: 0cm;
   font-size: 56px;
   color: #E7E5E2; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
- line-height: .5cm;
+ line-height: .6cm;
   content: "\2024 ";
   display: inline-block;
 }
+.posi{
+  margin-left: 6cm;
+  margin-top: -10.5cm;
+}
+.cy-para{
+  margin-left: 6.9cm;
+  margin-top: -10.12cm;
+  line-height: .6cm;
+  font-weight: 600;
+}
+.link-am{
+  margin-left: 19cm;
+  z-index: 0;
+}
+#amazon{
+margin-left: 1cm;
+margin-top: -4cm;
+z-index: 0;
+}
+
+
 .speci{
   text-align: center;
   margin-bottom: 1cm;
@@ -950,7 +1002,62 @@ width: 500px;
     line-height: .9cm;
     
   }
+  /* similar products*/
+  .sim{
+    margin-top: 1.5cm;
+  }
+  .sim h2{
+    text-transform: uppercase;
+    margin-bottom: 1.5cm;
+    font-weight: 600;
+    font-size: 38px;
+  }
+  .sim-star{
+    height: 20px;
+    width: 110px;
+    margin-left: 2.7cm;
+    margin-top: -.7cm;
+    }
+.card li{
+      list-style: none; /* Remove default bullets */
+    }
+  .card li::before{
+      font-size: 56px;
+      color: #E7E5E2; /* Change the color */
+      font-weight: bold; /* If you want it to be bold */
+     line-height: .6cm;
+      content: "\2024 ";
+      display: inline-block;
+    }
+  .card {
+  outline-color: #fff;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 0;
+  }
+  
+  .card h6{
+    margin-right: 3.1cm;
+  }
+  
+  .card button {
+ border: #fff;
+outline-color: #fff;
+   
+    color: #001747;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
 
+    
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
 
 
 

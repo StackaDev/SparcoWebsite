@@ -733,10 +733,7 @@ ul.list-info-w3pvt {
   pointer-events: none;
   color: rgb(26, 26, 26);
 }
-.row{
-     margin-right: 0px !important; 
-     margin-left: 0px !important;
-}
+
 .has-form {
   height: 4.975rem;
   width: 90%;

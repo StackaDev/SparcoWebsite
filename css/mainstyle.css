@@ -728,12 +728,15 @@ ul.list-info-w3pvt {
   height: 2.375rem;
   font-size: 20px;
   line-height: 3.375rem;
-  margin-left: 85%;
-  text-align: center;
   pointer-events: none;
+  right: 0;
+  margin-right: 25px;
   color: rgb(26, 26, 26);
 }
-
+.row{
+     margin-right: 0px !important; 
+     margin-left: 0px !important;
+}
 .has-form {
   height: 4.975rem;
   width: 90%;

@@ -1077,8 +1077,17 @@ outline-color: #fff;
   .map h4{
     padding-top: 1cm;
     color: #fff;
-    
     font-size: 26px;
+  }
+  
+  .map-text{
+    color: #fff;
+  }
+  /*map section 2*/
+  
+  .map-2{
+    background-color: #00143C;
+    padding-top: 2cm;
   }
   .wrapper{
     position: absolute;

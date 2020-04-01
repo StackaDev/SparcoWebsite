@@ -750,6 +750,7 @@ ul.list-info-w3pvt {
   margin-top: 2px;
   cursor: pointer;
   font-weight: 500;
+  line-height: 9vh;
 }
 .toggle-body .row{
   padding-left: 15px;
@@ -1203,6 +1204,7 @@ nav.active{
     margin-top: 2px;
     cursor: pointer;
     font-weight: 500;
+    line-height: 9.8vh;
   }
   .toggle-body .row{
     margin-top: 20px;

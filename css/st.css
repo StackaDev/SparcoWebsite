@@ -1087,7 +1087,7 @@ outline-color: #fff;
   
   .map-2{
     background-color: #00143C;
-    padding-top: 2cm;
+    margin-bottom: -1cm;
   }
   .wrapper{
     position: absolute;

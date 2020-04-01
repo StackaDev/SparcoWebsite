@@ -79,7 +79,7 @@ body {
   width: 100%;
   height: 50px;
   background: #01124a;
-  padding: 10px 0;
+  text-align: center;
   margin-top: 40px !important;
   box-sizing: border-box;
   border-bottom: 1px solid #1a252f;
@@ -90,9 +90,9 @@ body {
   width: 100%;
   height: 100%;
   margin: 0 auto;
+  padding: 0 !important;
   display: table;
   color: #fff;
-  margin-top: -.75%;
   font-family: 'Montserrat', sans-serif;
   position: relative;
 }
@@ -102,15 +102,13 @@ body {
 }
 
 .nav-bar ul li {
-  width: 150px;
-  float: left;
-  margin-right: 0px;
+  width: 130px;
   text-align: center;
-  padding: 15px 0;
+  line-height: 10vh;
   font-size: 14px;
-  margin-left: 1%;
+  display: inline-block;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 0px;
   transition: all 0.4s ease;
 }
 
@@ -198,24 +196,9 @@ body {
   margin-left: -5%;
 }
 .toggle-rep{
-  width: 100%;
-  background-color: #ffffff;
-  padding: 20px;
-  margin-top: -60px;
-  position: relative;
-  margin-bottom: 10%;
-  box-sizing: border-box;
-  text-align: center;
   display: none;
 }
-.toggle-rep span{
-  color: #ffffff;
-  background-color: #01124a;
-  padding: 15px 174px;
-  cursor: pointer;
-  margin-right: 5px;
-  font-weight: 500;
-}
+
 /* Slider Css */
 
 .carousel-inner img {
@@ -691,8 +674,9 @@ ul.list-info-w3pvt {
 
 @media (max-width: 576px) {
   .img-logo {
-    width: 100%;
+    width: 200px;
     margin-top: 15px !important;
+
   }
   .tog-res-btn{
     width: 50px;
@@ -758,14 +742,29 @@ ul.list-info-w3pvt {
 }
 .toggle-rep{
   display: block;
+  height: 100%;
 }
+
 .toggle-rep span{
-  padding: 3% 36%;
+  color: #ffffff;
+  margin-top: 2px;
   cursor: pointer;
-  font-size: 22px;
-  margin-right: 5px;
-  margin-left: 3px;
   font-weight: 500;
+}
+.toggle-body .row{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col-tog{
+  height: 50px;
+  font-size: 26px;
+  width: 90% !important;
+  text-align: center;
+  background-color: #01124a;
+  margin-bottom: 10px;
+}
+.tog{
+  display: none;
 }
 /* NAvigation Menu */
 nav{
@@ -804,8 +803,7 @@ nav.active{
 }
 
 /* Silder Image */
-.carousel-sec{
-  margin-top: -8%;
+.carousel-sec{  
   text-align: center;
 }
 .carousel-inner img {
@@ -1134,6 +1132,7 @@ nav.active{
   /* Head Section */
   .img-logo {
     width: 100%;
+    margin-top: 10px;
     
   }
   .top-sec {
@@ -1170,10 +1169,7 @@ nav.active{
     padding-left: 25px !important;
     padding-right: 25px !important;
   }
-  .tog{
-    display: none;
-
-  }
+  
   .toggle-button {
     float: right;
     margin-top: -15%;
@@ -1190,63 +1186,77 @@ nav.active{
     line-height: 2.975rem;
     
   }
+  .nav-bar {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: none;
+    text-align: center;
+  }
+  .toggle-rep{
+    display: block;
+    height: 100%;
+  }
+  
+  .toggle-rep span{
+    color: #ffffff;
+    margin-top: 2px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .toggle-body .row{
+    margin-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .col-tog{
+    height: 50px;
+    font-size: 26px;
+    width: 100% !important;
+    text-align: center;
+    background-color: #01124a;
+    margin-bottom: 10px;
+  }
+  .tog{
+    display: none;
+  }
 
   /* Navigation Menu */
-  .nav-bar {
-    margin-top: 20px !important;
-    height: 25px;
-  }
-  .nav-bar ul {
-    margin-top: -2.7%;
-    margin-left: -1%;
-  }
-  .nav-bar ul li {
-    width: 75px;
-    margin-right: 0px;
-    padding: 15px 0;
-    font-size: 8px;
-    margin-left: 1%;
-  }
-  .mega-menu {
-    top: 30px;
-    width: 350px;
-    height: 150px;
-    padding: 10px;
-  }
-  .mega-menu-ri {
-    top: 30px;
-    width: 350px;
-    height: 150px;
-    padding: 10px;
-  }
-  .inner-mega-menu {
-    width: 24%;
-    float: left;
-    margin-top: -3%;
-    margin-right: 1%;
-    z-index: 2;
-  }
-  
-  .inner-mega-menu p {
-    padding: 5px 0;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    transition: all 0.4s ease;
-    text-align: left;
-    z-index: 3;
-    font-size: 8px;
-    position: relative;
-    z-index: auto;
-    font-weight: 100;
-  }
-  
-  .inner-mega-menu:last-child {
-    margin-right: 1%;
-  }
-  .vl {
-    border-left: 1px solid rgb(238, 238, 238);
-    height: 135px;
-  }
+  nav{
+    padding: 0;
+   }
+   
+   .nav-bar ul{
+     text-align: center;
+     padding: 10px;
+     margin-top: 20px;
+     padding-left: 0;
+    }
+   .nav-bar ul li {
+     float: none;
+     width: 100%;
+     font-size: 22px;
+     text-align: center;
+     display: block;
+    }
+    .nav-bar ul li:hover {
+     font-weight: 600;
+     color: #01124a;
+     background-color: #ffffff;
+     border: 0;
+     border-radius: 0;
+   }
+   
+   .mega-menu {
+   display: none;
+   }
+   
+   .mega-menu-ri {
+     display: none;
+   }
+   nav.active{
+     display: block;
+   }
   /* Slider Section */
   .carousel-sec{
     
@@ -1615,7 +1625,8 @@ ul.list-info-w3pvt {
 @media (min-width: 768px) and (max-width: 992px) {
   /* Head Section */
   .img-logo {
-    width: 100%;
+    width: 280px;
+    margin-top: 20px !important;
   }
   .top-sec {
   }
@@ -1666,15 +1677,11 @@ ul.list-info-w3pvt {
     height: 30px;
   }
   .nav-bar ul {
-    margin-top: -1.75%;
-    margin-left: 1%;
   }
   .nav-bar ul li {
     width: 100px;
-    margin-right: 0px;
-    padding: 15px 0;
     font-size: 10px;
-    margin-left: 1%;
+    line-height: 5vh;
   }
   .mega-menu {
     top: 30px;
@@ -2076,7 +2083,6 @@ margin-top: 20px !important;
 }
 
 .nav-bar ul{  
-margin-top: -1.25%;
 }
 
 .nav-bar ul .activepage{
@@ -2084,11 +2090,9 @@ font-weight: 500;
 }
 
 .nav-bar ul li{
+  line-height: 8vh !important;
 width: 120px;
-margin-right:0px;
-padding: 15px 0;
 font-size: 12px;
-margin-left: 1%;
 }
 
 .nav-bar ul li:hover{

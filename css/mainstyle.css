@@ -826,7 +826,7 @@ nav.active{
   width: 100%;
   height: 20%;
   top: -50px !important;
-  margin-left: 0%;
+  float: none;
   line-height: 50px;
   font-size: 10vw;
   text-align: center;

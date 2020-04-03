@@ -9,9 +9,8 @@
 body {
   margin: 0;
   overflow-x: hidden;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }
-
 .padding-0 {
   padding-right: 0;
   padding-left: 0;
@@ -282,15 +281,18 @@ body {
 }
 
 #quality h4 {
-  font-size: 35px;
+  font-size: 2.3rem;
   font-weight: 400;
+}
+#quality .lead{
+  font-size: 1rem;
+  font-weight: lighter;
 }
 
 /* Best Seller */
 
 .project-tab {
-  padding: 10%;
-  margin-top: -8%;
+  padding: 10px;
 }
 
 .project-tab #tabs {
@@ -339,58 +341,71 @@ body {
 
 .hot img {
   height: 600px;
+  position: relative;
+  width: 100%;
 }
 
 .hot-s-img img, .hot-t-img img {
   height: 290px;
+  position: relative;
   margin-bottom: 21px;
+}
+.best-sell-1{
+  position: absolute;
+  top: 320px !important;
 }
 
 .hot-f-50 h1, .hot-f-50 h4, .hot-f-50 a {
   text-transform: uppercase;
   text-align: center;
 }
-
+.hot-f-50{
+  text-align: center;
+}
 .hot-f-50 h1 {
-  margin-top: -50%;
+  
 }
 
 .hot-f-50 h3 {
   text-align: center;
   font-weight: 300;
+  top: 380px;
 }
 
 .hot-f-50 h4 {
   font-size: 18px;
   font-weight: 600;
-  margin-top: 4%;
-  width: 250px;
-  position: relative;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
   padding: 5px;
-  margin-left: 25%;
+  width: 40%;
   border: 3px solid red !important;
 }
 
 .hot-f-50 a {
-  margin-left: 40%;
   font-size: 12px;
   color: #fff;
+  margin: 0 auto;
   border-radius: 0px;
   background-color: #01124a;
   border: 0px;
-  margin-top: 2%;
+  margin-top: 25px;
 }
 
 .hot-s-img h1, .hot-t-img h1 {
   text-transform: uppercase;
   font-size: 32px;
+  top: 30px;
+  position: absolute;
   width: 40%;
-  margin-top: -55%;
   margin-left: 5%;
 }
 
-.btnload, .hot-s-img a, .hot-t-img a {
+.hot-s-img a, .hot-t-img a {
   border-radius: 0px;
+  position: absolute;
+  top: 200px;
   border: 0px;
   background-color: #01124a;
   color: #fff;
@@ -398,7 +413,6 @@ body {
 }
 
 .hot-s-img a, .hot-t-img a {
-  margin-top: 15%;
   margin-left: 5%;
   background-image: url("../img/arrow1.png");
   background-position: 105px;
@@ -413,9 +427,10 @@ body {
 }
 
 .btnload {
-  margin-top: 10%;
-  margin-left: 40%;
+
   color: #000000;
+  border: 0px;
+  border-radius: 0px;
   padding-left:45px ;
   padding-right: 45px;
   font-size: 12px;
@@ -825,14 +840,17 @@ nav.active{
 .carousel-caption h1 {
   top: -50px !important;
   float: none;
-  
+  width: 100% !important;
   letter-spacing: 2px;
-  margin-left: 0 !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
   line-height: 50px;
-  font-size: 10vw;
+  font-size: 8vw;
   text-align: center;
 }
-
+.carousel-item{
+  text-align: center !important;
+}
 .carousel-caption a {
   margin-top: 10px;
   background-color: #01124a;
@@ -908,57 +926,48 @@ nav.active{
 /* Inner sections */
 .hot img {
   height: 400px;
-  margin-left: 16%;
-  margin-bottom: 36%;
 }
 .hot-s-img img, .hot-t-img img {
   height: 167px;
-  margin-bottom: -69px;
 }
 .hot-f-50 h1 {
-  margin-top: -75%;
   font-size: 22px;
   font-weight: 600;
-  margin-left: 0%;
+}
+.best-sell-1{
+  top: 220px !important;
 }
 .hot-f-50 h3 {
   text-align: center;
   font-weight: 300;
-  font-size: 16px;
-  margin-top: 0%;
-  margin-left: 0%;
+  font-size: 12px !important;
 }
 .hot-f-50 h4 {
-  font-size: 14px;
+  font-size: 10px !important;
   font-weight: 700;
-  margin-top: 4%;
   width: 120px;
-  position: relative;
-  padding: 8px;
-  margin-left: 38%;
   border: 3px solid red !important;
 }
 .hot-f-50 a {
-  margin-left: 35%;
-  font-size: 14px;
+  font-size: 8px;
   color: #fff;  
   padding: 6px 40px 6px 40px;
   border-radius: 0px;
   background-color: #01124a;
   border: 0px;
   margin-bottom: 6%;
-  margin-top: 0%;
+
 }
 
 .hot-s-img h1, .hot-t-img h1 {
   font-size: 18px;
   width: 40%;
-  margin-top: -16%;
-  margin-left: 20%;
 }
 .hot-s-img a, .hot-t-img a {
-  margin-top: 8%;
-  margin-left: 20% ;
+  top: 110px;
+  background-position: 85px;
+  background-size: 20px;
+  padding-right: 60px;
   font-size: 8px;
 }
 .btnload {
@@ -1284,28 +1293,20 @@ nav.active{
     top: -30px !important;
   }
   /* Our Qualities */
-  #quality{
-    margin-right: 4%;
-  }
   #quality h4 {
-    font-size: 28px;
+    font-size: 1.8rem !important;
   }
   .lead{
     font-size: 10px;
-    margin-top: -4%;
+    font-size: .8rem !important;
   }
   .qua-m {
-    margin-left: -4%;
   }
   .qua-c img {
-    width: 69%;
     margin-bottom: 4%;
   }
   /* Best Seller */
   .project-tab {
-    padding: 10%;
-    margin-top: -8%;
-    margin-right: 8%;
   }
   .project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     border-bottom: 3px solid !important;
@@ -1327,51 +1328,45 @@ nav.active{
   }
   .hot-s-img img, .hot-t-img img {
     height: 117px;
-    margin-bottom: -69px;
   }
   .hot-f-50 h1 {
-    margin-top: -50%;
     font-size: 14px;
-    margin-left: 2%;
   }
   .hot-f-50 h3 {
     text-align: center;
     font-weight: 300;
     font-size: 12px;
-    margin-top: -4%;
-    margin-left: 15%;
+  }
+  .best-sell-1{
+        top: 130px !important;
   }
   .hot-f-50 h4 {
     font-size: 6px;
     font-weight: 600;
-    margin-top: 4%;
     width: 100px;
     position: relative;
-    padding: 2px;
-    margin-left: 28%;
     border: 2px solid red !important;
   }
   .hot-f-50 a {
-    margin-left: 40%;
     font-size: 8px;
     color: #fff;  
     padding: 6px 8px 6px 8px;
     border-radius: 0px;
     background-color: #01124a;
     border: 0px;
-    margin-top: -6%;
   }
   
   .hot-s-img h1, .hot-t-img h1 {
-    font-size: 18px;
+    font-size: 14px;
     width: 40%;
-    margin-top: -20%;
-    margin-left: 5%;
+    top: 20px !important;
   }
   .hot-s-img a, .hot-t-img a {
-    margin-top: 8%;
     margin-left: 5% ;
     font-size: 8px;
+    top: 80px;
+    padding: 6px;
+
   }
   .btnlaod {
     margin-top:   4px;
@@ -1720,26 +1715,21 @@ ul.list-info-w3pvt {
   }
   /* Our Qualities */
   #quality{
-    margin-right: 4%;
   }
   #quality h4 {
-    font-size: 30px;
+    font-size: 2.0rem !important;
   }
-  .lead{
-    font-size: 14px;
-    margin-top: -2%;
-  }
-  .qua-m {
-    margin-left: -4%;
+  #quality .lead{
+    font-size: .9rem !important;
   }
   .qua-c img {
     width: 99%;
   }
   /* Best Seller */
   .project-tab {
-    padding: 8%;
-    margin-top: -8%;
-    margin-right: 2%;
+  }
+  .best-sell-1{
+    top: 180px !important;
   }
   .project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     border-bottom: 3px solid !important;
@@ -1760,11 +1750,10 @@ ul.list-info-w3pvt {
   }
   .hot-s-img img, .hot-t-img img {
     height: 164px;
-    margin-bottom: -16px;
   }
   .hot-f-50 h1 {
-    margin-top: -50%;
     font-size: 26px;
+    margin-top: 0px;
   }
   .hot-f-50 h3 {
     text-align: center;
@@ -1773,24 +1762,24 @@ ul.list-info-w3pvt {
   }
   .hot-f-50 h4 {
     font-size: 12px;
-    font-weight: 600;
-    margin-top: 4%;
-    width: 180px;
-    position: relative;
     padding: 5px;
-    margin-left: 22%;
     border: 2px solid red !important;
   }
   .hot-s-img h1, .hot-t-img h1 {
-    font-size: 25px;
+    font-size: 22px;
     width: 40%;
-    margin-top: -40%;
     margin-left: 5%;
   }
+
+
+  
   .hot-s-img a, .hot-t-img a {
-    margin-top: 8%;
-    margin-left: 5%;
     font-size: 10px;
+    top: 120px;
+    background-size: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+    background-position: 85px;
   }
   .btnlaod {
     margin-top: 4px;
@@ -2139,11 +2128,13 @@ width: 45px;
 
 /* Our Qualities */
 #quality h4{
-    font-size: 33px;
+    font-size: 2.2rem !important;
 }
 
+#quality .lead{
+  font-size: .9rem !important;
+}
 .qua-m{
-  margin-left: -4%;
 }
 .qua-c img{
   width: 99%;
@@ -2153,8 +2144,6 @@ width: 45px;
   /* Best Seller */
 
   .project-tab {
-    padding: 10%;
-    margin-top: -8%;
 }
 .project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     border-bottom: 4px solid !important;
@@ -2171,6 +2160,8 @@ width: 45px;
 }
 
 /* Inner sections */
+
+
 .hot img{
   height: 480px;
 }  
@@ -2181,9 +2172,16 @@ width: 45px;
 }
 
 .hot-f-50 h1{
-  margin-top: -50%;
   font-size: 34px;
+  top: 180px !important;
+
 }
+
+.best-sell-1{
+  position: absolute;
+  top: 250px !important;
+}
+
 .hot-f-50 h3{
   text-align: center;
   font-weight: 300;
@@ -2192,24 +2190,20 @@ width: 45px;
 .hot-f-50 h4{
   font-size: 16px;
   font-weight: 600;
-  margin-top: 4%;
   width: 230px;
   position: relative;
   padding: 5px;
-  margin-left: 22%;
   border: 2px solid red !important; 
 }
 .hot-s-img h1,
 .hot-t-img h1{
   font-size: 30px;
   width: 40%;
-  margin-top: -55%;
-  margin-left: 5%;
+  margin-left:   5%;
 }
 .hot-s-img a,
 .hot-t-img a {
-  margin-top: 12%;
-  margin-left: 5%;
+  top: 150px;
 }
 .btnlaod{
 margin-top: 4px;

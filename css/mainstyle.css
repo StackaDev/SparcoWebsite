@@ -481,9 +481,10 @@ body {
 }
 
 .cat-f img {
-  height: 200px;
+  max-width: 100%;
+  height: auto;
   float: right;
-  margin-top: -22%;
+margin: 0 auto;
   margin-right: 3%;
   position: relative;
 }
@@ -587,6 +588,7 @@ body {
 
 .seven-cols img {
   height: 70px;
+
 }
 
 /* Our Brands */
@@ -605,9 +607,7 @@ body {
   margin-top: 8%;
 }
 
-.mar-l {
-  margin-left: -20%;
-}
+
 
 .footer-content {
   height: 50%;
@@ -617,6 +617,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+  text-align: center;
 }
 
 .footer-content h3, .font-h {
@@ -625,6 +626,8 @@ body {
   color: #fff;
   letter-spacing: 0px;
   display: inline;
+  
+  
 }
 
 .footer-content h3 a {
@@ -632,20 +635,22 @@ body {
   color: #fff;
   letter-spacing: 0px;
   margin-top: 25%;
-  margin-left: 25%;
+  text-align: center;
+  
 }
 
 .footer-content p {
   margin-top: 25%;
-  margin-left: 25%;
   font-size: 14px;
   font-weight: lighter;
   line-height: 22px;
+  
 }
 
 .font-p {
   font-size: 14px;
   font-weight: lighter;
+  text-align: left;
 }
 
 .list-info-w3pvt li a {
@@ -664,10 +669,11 @@ ul.list-info-w3pvt {
 
 .last-w3ls-contact a {
   color: #fff;
+  text-align: left;
 }
 
 .last-w3ls-contact p {
-  margin-left: -10%;
+  text-align: left;
 }
 
 .w3ls-icons li {
@@ -682,6 +688,16 @@ ul.list-info-w3pvt {
 .footer-icons {
   margin-top: 2%;
   margin-left: 5%;
+  text-align: left;
+}
+.copy-g {
+  text-align: right;
+}
+.footer-top{
+  text-align: left;
+}
+.footer-w3pvt{
+  text-align: left;
 }
 
 /* Media Queries Satrt Here */
@@ -1100,10 +1116,11 @@ nav.active{
 #market {
   text-align: center;
   margin-top: 6%;
+ 
 }
 
 #market h3 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
 }
 
@@ -1112,15 +1129,8 @@ nav.active{
   font-weight: 351;
 }
 
-.lead {
-  font-size: 18px;
-  padding-left: 60px;
-  padding-right: 60px;
-  line-height: 30px;
-}
-
 #market h4 {
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 400;
 }
 
@@ -1133,17 +1143,16 @@ nav.active{
 }
 
 #clients h3, #brands h3 {
-  font-size: 38px;
+  font-size: 28px;
   padding-top: 10%;
-  font-weight: 400;
+  font-weight: 500;
 }
 
-#clients h3 {
-  padding-top: 10%;
-}
+
 
 .seven-cols img {
-  height: 80px;
+  height: 50px;
+  text-align: center;
 }
 
 /* Our Brands */
@@ -1153,7 +1162,115 @@ nav.active{
 }
 
 
+/* Footer Tags */
 
+.margin-h {
+  margin-top: 6%;
+}
+
+.para-h {
+  margin-top: 8%;
+}
+
+.mar-l {
+ 
+}
+
+.footer-content {
+  height: 50%;
+  background-color: #000F47;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-content h3, .font-h {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 0px;
+  display: inline;
+  text-align: center;
+}
+
+.footer-content h3 a {
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 0px;
+  margin-top: 25%;
+ text-align: center;
+}
+
+.footer-content p {
+  margin-top: 25%;
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 22px;
+  text-align: center;
+}
+
+.font-p {
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.list-info-w3pvt li a {
+  color: #fff;
+  font-size: 0.85em;
+  letter-spacing: 1px;
+}
+
+.list-info-w3pvt li a:hover {
+  opacity: 0.8;
+}
+
+ul.list-info-w3pvt {
+  list-style: none;
+}
+
+.last-w3ls-contact a {
+  color: #fff;
+}
+
+
+.w3ls-icons li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+.w3ls-icons li a span {
+  color: #fff;
+}
+
+.footer-icons {
+  margin-top: 2%;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.w3ls-footer{
+  text-align: center;
+}
+.copy-g{
+  text-align: center;
+}
+.copy-g span{
+  display: none;
+}
+.footer-top{
+  text-align: center;
+  margin-left: 0;
+  margin-top: 0;
+}
+.footer-w3pvt{
+  text-align: center;
+  margin-right: 0;
+}
 
 }
 
@@ -1480,7 +1597,30 @@ nav.active{
   }
 
   
+
 /* Our Market */
+
+#market {
+  text-align: center;
+  margin-top: 4%;
+}
+
+#market h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+#market span {
+  color: #000684;
+  font-weight: 351;
+}
+
+
+
+#market h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
 
 
 
@@ -1489,8 +1629,8 @@ nav.active{
 #clients {
   text-align: center;
   background-color: #F5F5F6;
-  margin-top: 2%;
-  height: 170px;
+  
+  margin-bottom: 5%;
 }
 
 #clients h3, #brands h3 {
@@ -1503,15 +1643,14 @@ nav.active{
 }
 
 .seven-cols img {
-  visibility: hidden;
+  height: 40px;
 }
 
 /* Our Brands */
 
 #brands {
   text-align: center;
-  visibility: hidden;
-  height: 0px;
+ margin-bottom: 2%;
 }
 
 /* Footer Tags */
@@ -1525,7 +1664,7 @@ nav.active{
 }
 
 .mar-l {
-  margin-left: -20%;
+ text-align: center;
 }
 
 .footer-content {
@@ -1544,6 +1683,7 @@ nav.active{
   color: #fff;
   letter-spacing: 0px;
   display: inline;
+  text-align: center;
 }
 
 .footer-content h3 a {
@@ -1551,12 +1691,13 @@ nav.active{
   color: #fff;
   letter-spacing: 0px;
   margin-top: 25%;
-  margin-left: 25%;
+  text-align: center;
+
 }
 
 .footer-content p {
   margin-top: 25%;
-  margin-left: 25%;
+  text-align: center;
   font-size: 14px;
   font-weight: lighter;
   line-height: 22px;
@@ -1565,18 +1706,22 @@ nav.active{
 .font-p {
   font-size: 14px;
   font-weight: lighter;
+  text-align: center;
 }
 
 .list-info-w3pvt li a {
   color: #fff;
   font-size: 0.85em;
   letter-spacing: 1px;
+  text-align: center;
 }
 
 .list-info-w3pvt li a:hover {
   opacity: 0.8;
 }
-
+.font-h{
+  text-align: center;
+}
 ul.list-info-w3pvt {
   list-style: none;
 }
@@ -1586,7 +1731,7 @@ ul.list-info-w3pvt {
 }
 
 .last-w3ls-contact p {
-  margin-left: -10%;
+  margin: 0 auto;
 }
 
 .w3ls-icons li {
@@ -1599,8 +1744,14 @@ ul.list-info-w3pvt {
 }
 
 .footer-icons {
-  margin-top: 2%;
-  margin-left: 5%;
+  margin-top: 0%;
+ text-align: center;
+}
+.footer-w3pvt{
+  text-align: center;
+}
+.footer-top{
+  text-align: center;
 }
 
 
@@ -1806,18 +1957,18 @@ ul.list-info-w3pvt {
   }
   /* Categories */
   .cat-f {
-    margin-left:-8%;
+    
     height: 160px;
   }
   .cat-f img {
     height: 140px;
-    margin-top: -22%;
-    margin-right: -2%;
+    
+    
   }
   .cat-f h1 {
     font-size: 24px;
     width: 40%;
-    margin-left: 4%;
+    
     margin-top: 6%;
   }
   .cat-f a {
@@ -1899,6 +2050,7 @@ ul.list-info-w3pvt {
   text-align: center;
   background-color: #F5F5F6;
   margin-top: 2%;
+
 }
 
 #clients h3, #brands h3 {
@@ -1918,8 +2070,12 @@ ul.list-info-w3pvt {
 
 #brands {
   text-align: center;
+  margin-top: 2%;
+  
 }
-
+.seven-cols img {
+  height: 55px;
+}
 /* Footer Tags */
 
 .margin-h {
@@ -1931,7 +2087,7 @@ ul.list-info-w3pvt {
 }
 
 .mar-l {
-  margin-left: -20%;
+  margin-left: 0%;
 }
 
 .footer-content {
@@ -1950,6 +2106,7 @@ ul.list-info-w3pvt {
   color: #fff;
   letter-spacing: 0px;
   display: inline;
+  text-align: right;
 }
 
 .footer-content h3 a {
@@ -1957,12 +2114,12 @@ ul.list-info-w3pvt {
   color: #fff;
   letter-spacing: 0px;
   margin-top: 25%;
-  margin-left: 25%;
+ text-align: left;
 }
 
 .footer-content p {
   margin-top: 25%;
-  margin-left: 25%;
+  text-align: left;
   font-size: 14px;
   font-weight: lighter;
   line-height: 22px;
@@ -1971,6 +2128,7 @@ ul.list-info-w3pvt {
 .font-p {
   font-size: 14px;
   font-weight: lighter;
+  text-align: left;
 }
 
 .list-info-w3pvt li a {
@@ -1992,7 +2150,7 @@ ul.list-info-w3pvt {
 }
 
 .last-w3ls-contact p {
-  margin-left: -10%;
+  margin-left: 0%;
 }
 
 .w3ls-icons li {
@@ -2006,7 +2164,7 @@ ul.list-info-w3pvt {
 
 .footer-icons {
   margin-top: 2%;
-  margin-left: 5%;
+
 }
 
 }
@@ -2298,6 +2456,7 @@ margin-top: 4px;
   margin-left: 25%;
   margin-top: 4%;
 }
+
 
 
 

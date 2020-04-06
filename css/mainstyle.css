@@ -482,9 +482,10 @@ body {
 
 .cat-f img {
   max-width: 100%;
-  height: auto;
+  height: 150px;
   float: right;
 margin: 0 auto;
+bottom: 100px;
   margin-right: 3%;
   position: relative;
 }
@@ -2008,17 +2009,11 @@ ul.list-info-w3pvt {
   }
   .cat-s-sub {
     height: 110px;
-    margin-top: 21%;
-    margin-left: 8%;
     width: 200px;
     background-color: #f4f4f6;
   }
-  .cat-s,.cat-t{
-    margin-left: 2%;
-  }
-  .cat-t {
-    margin-top: 1.75%;
-  }
+  
+  
   .cat-s h1, .cat-t h1 {
     font-size: 20px;
     margin-left: 40%;
@@ -2035,8 +2030,7 @@ ul.list-info-w3pvt {
   }
   .cat-s-sub img {
     height: 100px;
-    margin-left: 25%;
-    margin-top: 4%;
+    
   }
 
   
@@ -2423,47 +2417,47 @@ margin-top: 4px;
 }
 
 /* Categories */
-.cat-f{
-  margin-left: -2%;
+.cat-f {
+  background-color: #f4f4f6;
+  height: 200px;
+  margin-top: 6%;
 }
 .cat-f img{
-  height: 170px;
-  margin-top: -22%;
+  height: 140px;
+margin: 0 auto;
+bottom: 80px;
   margin-right: 1%;
 }
 .cat-f h1{
   font-size: 34px;
   width: 40%;
   margin-left: 4%;
-  margin-top: 4%;
+ 
 }
 .cat-f a{
   border-radius: 0px;
   border: 0px;
   background-color:#01124a ;
   color: #fff;
-  font-size: 12px;
+  font-size: 10px;
   margin-top: 4%;
   margin-left: 4%;
   font-weight: lighter;
     background-image: url("../img/arrow1.png");
-    background-position: 105px;
+    background-position: 80px;
     padding: 10px;
     background-repeat: no-repeat;
-    padding-right: 60px;
-    padding-left:30px;
+    padding-right: 50px;
+    padding-left:20px;
 }
 
 .cat-s-sub{
   height: 150px;
-  margin-top: 23%;
   margin-left: 8%;
-  width: 250px;
+  width: 200px;
   background-color: #f4f4f6;
 }
-.cat-t{
-  margin-top: 1%;
-}
+
 .cat-s h1,
 .cat-t h1{
   font-size: 22px;
@@ -2477,13 +2471,12 @@ margin-top: 4px;
   font-size: 12px;
   margin-left: 48%;
   font-weight: bold;
-  margin-top: -4%;
   text-transform: uppercase; 
 }
 .cat-s-sub img{
-  height: 130px;
-  margin-left: 25%;
-  margin-top: 4%;
+  height: 120px;
+  
+  
 }
 
 

@@ -1069,7 +1069,7 @@ nav.active{
   width: auto;
   height: auto;
   margin: 0 auto;
-  
+ bottom: .1cm;
 
 }
 
@@ -1081,7 +1081,7 @@ nav.active{
   width: 100%;
   height: auto;
   margin: 0 auto;
-  
+  top: .5cm;
   
 }
 
@@ -1095,15 +1095,13 @@ nav.active{
   z-index: 1;
   font-weight: lighter;
   background-image: url("../img/arrow1.png");
-  background-position: 105px;
+  background-position: 87px;
+  background-size: 20px;
   padding: 10px;
   background-repeat: no-repeat;
-  padding-right: 60px;
-  padding-left: 30px;
-  
-  margin: 0 auto;
- 
- 
+  padding-right: 40px;
+  padding-left: 20px;
+  bottom: .6cm;
 }
 
 .cat-s-sub {
@@ -1552,7 +1550,7 @@ ul.list-info-w3pvt {
   .cat-f img {
     height: 90px;
     margin: 0 auto;
-bottom: 50px;
+    bottom: 50px;
   
   }
   .cat-f h1 {
@@ -1571,9 +1569,9 @@ bottom: 50px;
     margin-left: 4%;
     font-weight: lighter;
     background-image: url("../img/arrow1.png");
-    background-position: 50px;
-    
-    padding: 10px;
+    background-position: 55px;
+    background-size: 22px;
+    padding: 7px;
     background-repeat: no-repeat;
     padding-right: 40px;
     padding-left: 10px;

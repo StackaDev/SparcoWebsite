@@ -486,7 +486,7 @@ body {
   float: right;
 margin: 0 auto;
 bottom: 100px;
-  margin-right: 3%;
+  
   position: relative;
 }
 
@@ -1009,7 +1009,7 @@ nav.active{
 .banner {
   
   width: 100%;
-  
+  height: auto;
 
   background-image: url("../img/homebanner.png");
 }
@@ -1044,7 +1044,6 @@ nav.active{
   width: auto;
   height: auto;
   margin: 0 auto;
-  margin-bottom: 20%;
   vertical-align: text-top;
 }
 
@@ -1054,40 +1053,35 @@ nav.active{
 
 .cat-f {
   
-  width: auto;
   background-color: #f4f4f6;
-  height: 490px;
-  margin-top: 6%;
-}
-
-.cat-f {
+  height: auto;
+  width: 100%;
   text-transform: uppercase;
 
+  
 }
 
+
+
 .cat-f img {
-  
-  
   max-width: 100%;
   position: relative;
+  width: auto;
   height: auto;
-margin: 0 auto;
-  bottom: 20px;
-  float: none;
+  margin: 0 auto;
   
 
 }
 
 .cat-f h1 {
   z-index: 1;
-  width: 100%;
   font-size: 28px;
   text-align: center;
   position: relative;
-  width: auto;
+  width: 100%;
   height: auto;
   margin: 0 auto;
-  top: 25px;
+  
   
 }
 
@@ -1098,7 +1092,6 @@ margin: 0 auto;
   color: #fff;
   font-size: 12px;
   position: relative;
-  top: 340px !important;
   z-index: 1;
   font-weight: lighter;
   background-image: url("../img/arrow1.png");
@@ -1107,8 +1100,10 @@ margin: 0 auto;
   background-repeat: no-repeat;
   padding-right: 60px;
   padding-left: 30px;
-  margin: 0 auto;
   
+  margin: 0 auto;
+ 
+ 
 }
 
 .cat-s-sub {

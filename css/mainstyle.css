@@ -711,11 +711,72 @@ ul.list-info-w3pvt {
 }
 
 
+
+
+
+
+
+/*---------------------------------------------about ---------------------------------css*/
+
+.aboutbanner{
+  width: 100%;
+  height: 250px;
+  background-image: url("../img/aboutban.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* about head banner*/
+.aboutheadbanner{
+  width: 100%;
+  height: 430px;
+  background-image: url("../img/aboutheadbanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aboutheadbanner h1{
+  color: #000;
+  font-size: 52px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 18%;
+  text-transform: uppercase;
+}
+.aboutheadbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 31px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline-block;
+}
+/* about last image sections */
+
+.hot img {
+  height: 600px;
+}
+
+.hot-s-img img, .hot-t-img img {
+  height: 273px;
+  margin-bottom: 35px;
+  margin-right: .4cm;
+}
+.hot-f-50 img{
+  height: auto;
+  margin-bottom: 35px;
+  margin-right: .4cm;
+} 
+.hot-z-50 img{
+  height: 224px;
+  
+}
+
 /* Media Queries Satrt Here */
 
-@media only screen and (max-width: 576px) {}
+@media only screen and (max-width: 574px) {}
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .img-logo {
     width: 200px;
     margin-top: 15px !important;
@@ -1283,6 +1344,44 @@ ul.list-info-w3pvt {
   text-align: center !important;
 }
 
+/*------------------------------------------------576---about css-----------------------------------------------------*/
+
+.aboutbanner{
+  width: auto;
+  height: 130px;
+  background-image: url("../img/aboutban.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+/* about head banner*/
+.aboutheadbanner{
+  width: auto;
+  height: 200px;
+  background-image: url("../img/aboutheadbanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.aboutheadbanner h1{
+  color: #000;
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 18%;
+  text-transform: uppercase;
+}
+.aboutheadbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 17px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline-block;
+}
+
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -1418,11 +1517,7 @@ ul.list-info-w3pvt {
      display: block;
    }
   /* Slider Section */
-  .carousel-sec{
-    
-  }
-  .carousel-inner img {
-  }
+  
   .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 50px !important;
     width: 30px !important;
@@ -1452,8 +1547,7 @@ ul.list-info-w3pvt {
     font-size: 10px;
     font-size: .8rem !important;
   }
-  .qua-m {
-  }
+  
   .qua-c img {
     margin-bottom: 4%;
   }
@@ -1767,6 +1861,69 @@ ul.list-info-w3pvt {
   margin: 0 auto;
   bottom: 0 auto;
 }
+
+
+/*--------------------576------------------------about css----------------------768--------------------------------------*/
+
+.aboutbanner{
+  width: 100%;
+  height: 200px;
+  background-image: url("../img/aboutban.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* about head banner*/
+.aboutheadbanner{
+  width: 100%;
+  height: 200px;
+  background-image: url("../img/aboutheadbanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aboutheadbanner h1{
+  color: #000;
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 18%;
+  text-transform: uppercase;
+}
+.aboutheadbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 17px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline-block;
+}
+/* about last image sections */
+
+.hot img {
+  height: 600px;
+  width: 425px;
+}
+
+.hot-s-img img, .hot-t-img img {
+  height: 130px;
+  width: 240px;
+  margin-bottom: 20px;
+  margin-right: .4cm;
+  
+}
+.hot-f-50 img{
+  height: 150px;
+  width: 240px;
+  margin-left: .4cm;
+} 
+.hot-z-50 img{
+  height: 95px;
+  width: 240px;
+  margin-left: .4cm;
+}
+
+
 
 }
 
@@ -2185,6 +2342,66 @@ ul.list-info-w3pvt {
   text-align: left;
 }
 
+
+ /*--------------------------------------------768-----about css-----992----------------------------------------------*/
+
+ .aboutbanner{
+  width: 100%;
+  height: 180px;
+  background-image: url("../img/aboutban.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* about head banner*/
+.aboutheadbanner{
+  width: 100%;
+  height: 280px;
+  background-image: url("../img/aboutheadbanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aboutheadbanner h1{
+  color: #000;
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 18%;
+  text-transform: uppercase;
+}
+.aboutheadbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 18px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline-block;
+}
+/* about last image sections */
+
+.hot img {
+  height: 600px;
+  width: 425px;
+}
+
+.hot-s-img img, .hot-t-img img {
+  height: 179px;
+  width: 311px;
+  margin-bottom: 35px;
+  margin-right: .4cm;
+}
+.hot-f-50 img{
+  height: 220px;
+  width: 310px;
+  margin-left: .4cm;
+} 
+.hot-z-50 img{
+  height: 138px;
+  width: 310px;
+  margin-left: .4cm;
+}
+
 }
 
 
@@ -2479,6 +2696,69 @@ bottom: 80px;
 .copy-g {
  margin-right: 1cm;
 }
+
+
+
+/*--------------------------------------992----------about css----------1200--------------------------------------------*/
+
+.aboutbanner{
+  width: 100%;
+  height: 250px;
+  background-image: url("../img/aboutban.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* about head banner*/
+.aboutheadbanner{
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/aboutheadbanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aboutheadbanner h1{
+  color: #000;
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 18%;
+  text-transform: uppercase;
+}
+.aboutheadbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 24px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline-block;
+}
+/* about last image sections */
+
+.hot img {
+  height: 600px;
+  width: 425px;
+}
+
+.hot-s-img img, .hot-t-img img {
+  height: 273px;
+  margin-bottom: 35px;
+  margin-right: .4cm;
+}
+.hot-f-50 img{
+  height: 316px;
+  width: 425px;
+  margin-left: .4cm;
+} 
+.hot-z-50 img{
+  height: 230px;
+  width: 425px;
+  margin-left: .4cm;
+}
+
+
+
 
 
 

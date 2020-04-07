@@ -1056,7 +1056,7 @@ nav.active{
   
   width: auto;
   background-color: #f4f4f6;
-  height: 470px;
+  height: 490px;
   margin-top: 6%;
 }
 
@@ -1070,11 +1070,12 @@ nav.active{
   
   max-width: 100%;
   position: relative;
-  width: auto;
   height: auto;
-  margin: 0 auto;
-  margin-bottom: 15%;
-  vertical-align: text-top;
+margin: 0 auto;
+  bottom: 20px;
+  float: none;
+  
+
 }
 
 .cat-f h1 {
@@ -1097,7 +1098,7 @@ nav.active{
   color: #fff;
   font-size: 12px;
   position: relative;
-  top: 325px !important;
+  top: 340px !important;
   z-index: 1;
   font-weight: lighter;
   background-image: url("../img/arrow1.png");
@@ -1106,7 +1107,8 @@ nav.active{
   background-repeat: no-repeat;
   padding-right: 60px;
   padding-left: 30px;
-  margin-left: 75px;
+  margin: 0 auto;
+  
 }
 
 .cat-s-sub {

@@ -772,6 +772,480 @@ ul.list-info-w3pvt {
   
 }
 
+
+
+
+
+/*-----------------------------------------cycle page css strat here----------------------------------------------*/
+.cy-head{
+  margin-top: 1.3cm;
+}
+.cysec img{
+  padding: .3cm .3cm .3cm .3cm;
+height: 180px;
+width: 180px;
+}
+.csec img{
+  height: 528px;
+  width: 500px;
+  padding-top: .3cm;
+  margin-left: .5cm;
+}
+.c-1-sec h3{
+text-transform: uppercase;
+margin-left: 6cm;
+display: inline-block;
+padding-top: 1.4cm;
+font-size: 32px;
+}
+.c-1-sec h4{
+  text-transform: uppercase;
+  margin-left: 6cm;
+  margin-bottom: 11cm;
+  font-weight: 600;
+  font-size: 22px;
+}
+.c-1-sec img{
+height: 28px;
+margin-left: 9cm;
+margin-top: -11.8cm;
+}
+.c-1-sec ul li{
+  list-style: none; /* Remove default bullets */
+}
+.c-1-sec ul li::before{
+  font-size: 56px;
+  color: #E7E5E2; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+ line-height: .6cm;
+  content: "\2024 ";
+  display: inline-block;
+}
+.posi{
+  margin-left: 6cm;
+  margin-top: -10.5cm;
+}
+.cy-para{
+  margin-left: 6.9cm;
+  margin-top: -10.12cm;
+  line-height: .6cm;
+  font-weight: 600;
+}
+.link-am{
+  margin-left: 19cm;
+  z-index: 0;
+}
+#amazon{
+margin-left: 1cm;
+margin-top: -4cm;
+z-index: 0;
+}
+
+
+.speci{
+  text-align: center;
+  margin-bottom: 1cm;
+}
+.speci h2{
+  text-transform: uppercase;
+  margin-top: 1cm;
+  padding-bottom: .2cm;
+  font-weight: 550;
+}
+.speci h4{
+  text-transform: uppercase;
+  color: #001747;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: -.7cm;
+}
+.speci p{
+  margin-top: .7cm;
+}
+
+/* first banner */
+.cyclebanner{
+  width: 100%;
+  height: 350px;
+  background-image: url("../img/cycle_exp.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cyclebanner h1{
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 580;
+  margin-left: 50%;
+  margin-top: 3.8cm;
+display: inline-block;
+  text-transform: uppercase;
+}
+/*second cycle banner*/
+.cycle-2-banner{
+  width: 100%;
+  height: 430px;
+  background-image: url("../img/cycle_what_products.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cycle-2-banner h2{
+  color: #fff;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 450;
+  margin-top: 2.5cm;
+display: inline-block;
+  text-transform: uppercase;
+  
+  margin-left: 10cm;
+}
+.cycle-2-banner1{
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-left: 6cm;
+  margin-top: 2cm;
+
+}
+/* cycle middl section between banner*/
+.steel{
+  padding-bottom: 1.7cm;
+}
+.steel h2{
+  font-size: 42px;
+  text-align: center;
+  margin-top: 2cm;
+}
+.cycle-2-banner1.black{
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-left: 0cm;
+  margin-top: 1cm;
+
+}
+.plastic{
+  margin-bottom: 3cm;
+}
+.plastic img{
+height: 600px;
+width: 500px;
+}
+.plastic h2{
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 42px;
+  padding-bottom: 1cm;
+  padding-top: 1.4cm;
+  margin-left: 1cm;
+}
+.plastic p{
+  font-size: 18px;
+  line-height: .9cm;
+  margin-left: 1cm;
+}
+
+.happy{
+  margin-bottom: 3cm;
+}
+.happy img{
+  height: 550px;
+  width: 500px;
+  margin-left: 1cm;
+  }
+  .happy h2{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 42px;
+    padding-bottom: 1cm;
+    padding-top: 1cm;
+    
+  }
+  .happy p{
+    font-size: 18px;
+    line-height: .9cm;
+    
+  }
+  /* cycle page similar products*/
+  .sim{
+    margin-top: 1.5cm;
+  }
+  .sim h2{
+    text-transform: uppercase;
+    margin-bottom: 1.5cm;
+    font-weight: 600;
+    font-size: 38px;
+  }
+  .sim-star{
+    height: 20px;
+    width: 110px;
+    margin-left: 2.7cm;
+    margin-top: -.4cm;
+    }
+.card ul{
+      list-style: none; /* Remove default bullets */
+      font-size: 14px;
+      margin-right: .7cm;
+      line-height: .0001cm;
+    }
+  .card li::before{
+      font-size: 56px;
+      color: #001747; /* Change the color */
+      font-weight: lighter; /* If you want it to be bold */
+     line-height: .6cm;
+      content: "\2024 ";
+      display: inline-block;
+      font-size: 72px;
+    }
+  .card {
+  outline-color: #fff;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 0;
+  }
+  
+  .card h6{
+    margin-right: 3.1cm;
+    margin-bottom: -.2cm;
+  }
+  
+  .card button {
+ border: #fff;
+outline-color: #fff;
+   
+    color: #001747;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+
+    
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+
+/*--------------------------------------------kitchen css--------------------------------------------------------*/
+
+.kitchenbanner{
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/kitchenbanner2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kitchenbanner h1{
+  color: #000;
+  font-size: 52px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 18%;
+  text-transform: uppercase;
+}
+.kitchenbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 36px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline;
+}
+
+.cat-h-sub img{
+  height: 170px;
+  margin-left: 15%;
+  margin-top: 20%;
+}
+.cat-h-sub{
+  height: 250px;
+  margin-top: 27.5%;
+  margin-left: 4%;
+  width: 250px;
+  background-color: #f4f4f6;
+}
+
+
+.cat-l h1,
+.cat-l h1{
+  font-size: 30px;
+  margin-left: 9%;
+  font-weight: 500;
+  margin-top: 6%;
+  text-transform: capitalize; 
+}
+.cat-l h3,
+.cat-l h3{
+  font-size: 22px;
+  margin-left: 10%;
+  font-weight:lighter;
+  margin-top: -3%;
+  text-transform: uppercase; 
+}
+.star{
+  width: 100px;
+  margin-top: -26%;
+  margin-left: 58%;
+
+}
+.paralorem{
+  font-size: 13px;
+  margin-left: 10%;
+  margin-top: -7%;
+
+}
+
+/*---------------------------------------------------kitchen 2 css------------------------------------------------------*/
+
+.container-kit{
+  margin-left: .5cm;
+  margin-right: 3cm;
+  margin-top: -.8cm;
+}
+.kit-h-sub img{
+  height: 210px;
+  width: 425px;
+  padding-left: 2cm;
+  padding-right: -3cm;
+  margin-left: 0cm;
+  margin-right: -2cm;
+}
+.kit-h-sub{
+  margin-top: 23%;
+  width: 80px;
+}
+
+.kit-l a:hover{
+  background-color: #001747;
+  color: #fff;
+}
+.kit-l a{
+  margin-top: -16%;
+  background-color: #F1F0EE;
+  font-weight: 550;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: 0;
+  border-radius: 0;
+  text-align: center;
+  height: 55px;
+  width: 350px;
+  color: #000;
+  padding-left: 2cm;
+  padding-right: 2cm;
+  padding-top: .4cm;
+  padding-bottom: .4cm;
+  margin-left: 2cm;
+  margin-right: 2cm;
+}
+
+
+
+  /*-----------------------------------------contact page css start here-----------------------------------------------*/
+  .map{
+    background-color: #00143C;
+    padding-top: 2cm;
+  }
+
+  .map h2{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 350;
+  }
+  .map h4{
+    padding-top: 1cm;
+    color: #fff;
+    font-size: 26px;
+  }
+  
+  .map-text{
+    color: #fff;
+  }
+  /*map section 2*/
+  
+  .map-2{
+    background-color: #00143C;
+    margin-bottom: -1cm;
+  }
+  .wrapper{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+    width: 100%;
+    padding: 0 2px;
+  }
+  
+  .contact-form{
+    display: flex;
+    max-width: 550px;
+    margin: 0 auto;
+    background: #00143C;
+    padding: 30px;
+    
+  }
+  
+  .input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+  }
+  
+  .input-fields{
+    width: 48%;
+  }
+  
+  .input-fields .input{
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #ffffff;
+    padding: 13px;
+    color: #ffffff;
+    width: 200%;
+    text-align: center;
+  }
+  
+  
+  
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #ffffff;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #ffffff;
+  }
+  :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #ffffff;
+  }
+  
+  .key {
+      background: #ffffff;
+      text-align: center;
+      padding: 10px 50px;
+      font-weight: 700;
+      color: #001747;
+      cursor: pointer;
+      text-transform: uppercase;
+      margin-left: -2.5cm;
+  margin-top: 8.5cm;
+      
+  }
+
+
+
+
 /* Media Queries Satrt Here */
 
 @media only screen and (max-width: 574px) {}
@@ -1925,6 +2399,87 @@ ul.list-info-w3pvt {
 
 
 
+/*--------------------------------567--------------kitchen css---------------768-------------------------------------*/
+
+.kitchenbanner{
+  width: 100%;
+  height: 230px;
+  background-image: url("../img/kitchenbanner2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kitchenbanner h1{
+  color: #000;
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 20%;
+  margin-top: 15%;
+  text-transform: uppercase;
+}
+.kitchenbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 24px;
+  font-weight: 200;
+  margin-left: 20%;
+  display: inline;
+}
+
+.cat-h-sub img{
+  height: 90px;
+  margin-left: 15%;
+  margin-top: 20%;
+}
+.cat-h-sub{
+  height: 125px;
+  margin-top: 27.5%;
+  margin-left: 4%;
+  width: 125px;
+  background-color: #f4f4f6;
+}
+
+.cat-l h1,
+.cat-l h1{
+  font-size: 15px;
+  margin-left: 7%;
+  font-weight: 500;
+  margin-top: 6%;
+  text-transform: capitalize; 
+}
+.cat-l h3,
+.cat-l h3{
+  font-size: 12px;
+  margin-left: 10%;
+  font-weight:lighter;
+  margin-top: -1%;
+  text-transform: uppercase; 
+}
+.star{
+  width: 50px;
+  margin-top: -52%;
+  margin-left: 70%;
+
+}
+.paralorem{
+  font-size: 7px;
+  margin-left: 10%;
+  margin-top: -26%;
+
+}
+.btn-success{
+  margin-top: 5%;
+  margin-bottom: 3%; 
+  margin-left: 50%; 
+  color: #000000; 
+  padding-left:6px ;
+  padding-right: 6px; 
+  font-size: 9px; 
+  background-color: #cccccc;
+}
+
+
+
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -2402,6 +2957,86 @@ ul.list-info-w3pvt {
   margin-left: .4cm;
 }
 
+
+/*----------------768------------------------------kitchen css----------------992-------------------------------------*/
+
+.kitchenbanner{
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/kitchenbanner2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kitchenbanner h1{
+  color: #000;
+  font-size: 44px;
+  font-weight: 600;
+  margin-left: 20%;
+  margin-top: 15%;
+  text-transform: uppercase;
+}
+.kitchenbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 30px;
+  font-weight: 200;
+  margin-left: 20%;
+  display: inline;
+}
+
+.cat-h-sub img{
+  height: 110px;
+  margin-left: 15%;
+  margin-top: 20%;
+}
+.cat-h-sub{
+  height: 150px;
+  margin-top: 27.5%;
+  margin-left: 4%;
+  width: 150px;
+  background-color: #f4f4f6;
+}
+
+.cat-l h1,
+.cat-l h1{
+  font-size: 18px;
+  margin-left: 7%;
+  font-weight: 500;
+  margin-top: 6%;
+  text-transform: capitalize; 
+}
+.cat-l h3,
+.cat-l h3{
+  font-size: 14px;
+  margin-left: 10%;
+  font-weight:lighter;
+  margin-top: -1%;
+  text-transform: uppercase; 
+}
+.star{
+  width: 70px;
+  margin-top: -40%;
+  margin-left: 50%;
+
+}
+.paralorem{
+  font-size: 9px;
+  margin-left: 10%;
+  margin-top: -15%;
+
+}
+.btn-success{
+  margin-top: 5%;
+  margin-bottom: 3%; 
+  margin-left: 25%; 
+  color: #000000; 
+  padding-left:10px ;
+  padding-right: 10px; 
+  font-size: 12px; 
+  background-color: #cccccc;
+}
+
 }
 
 
@@ -2757,6 +3392,75 @@ bottom: 80px;
   margin-left: .4cm;
 }
 
+
+/*-------------------------992-----------------kitchen css--------------------1200--------------------------------------*/
+
+.kitchenbanner{
+  width: 100%;
+  height: 350px;
+  background-image: url("../img/kitchenbanner2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kitchenbanner h1{
+  color: #000;
+  font-size: 52px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 15%;
+  text-transform: uppercase;
+}
+.kitchenbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 36px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline;
+}
+
+.cat-h-sub img{
+  height: 130px;
+  margin-left: 15%;
+  margin-top: 20%;
+}
+.cat-h-sub{
+  height: 200px;
+  margin-top: 27.5%;
+  margin-left: 4%;
+  width: 200px;
+  background-color: #f4f4f6;
+}
+
+.cat-l h1,
+.cat-l h1{
+  font-size: 24px;
+  margin-left: 7%;
+  font-weight: 500;
+  margin-top: 6%;
+  text-transform: capitalize; 
+}
+.cat-l h3,
+.cat-l h3{
+  font-size: 18px;
+  margin-left: 10%;
+  font-weight:lighter;
+  margin-top: -1%;
+  text-transform: uppercase; 
+}
+.star{
+  width: 100px;
+  margin-top: -30%;
+  margin-left: 50%;
+
+}
+.paralorem{
+  font-size: 11px;
+  margin-left: 10%;
+  margin-top: -7%;
+
+}
 
 
 

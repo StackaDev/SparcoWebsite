@@ -346,7 +346,7 @@ body {
 }
 
 .hot-s-img img, .hot-t-img img {
-  height: 290px;
+  height: 289px;
   position: relative;
   margin-bottom: 21px;
 }
@@ -2053,10 +2053,10 @@ ul.list-info-w3pvt {
   } 
   /* Inner sections */
   .hot img {
-    height: 240px;
+    height: 280px;
   }
   .hot-s-img img, .hot-t-img img {
-    height: 117px;
+    height: 129px;
   }
   .hot-f-50 h1 {
     font-size: 14px;
@@ -2633,10 +2633,10 @@ ul.list-info-w3pvt {
   } 
   /* Inner sections */
   .hot img {
-    height: 365px;
+    height: 380px;
   }
   .hot-s-img img, .hot-t-img img {
-    height: 164px;
+    height: 179px;
   }
   .hot-f-50 h1 {
     font-size: 26px;
@@ -2662,7 +2662,7 @@ ul.list-info-w3pvt {
   
   .hot-s-img a, .hot-t-img a {
     font-size: 10px;
-    top: 120px;
+    top: 100px;
     background-size: 20px;
     padding-left: 20px;
     padding-right: 40px;

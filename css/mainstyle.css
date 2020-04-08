@@ -883,39 +883,9 @@ z-index: 0;
   text-align: center;
   font-size: 50px;
   font-weight: 580;
-  margin-left: 50%;
-  margin-top: 3.8cm;
-display: inline-block;
-  text-transform: uppercase;
-}
-/*second cycle banner*/
-.cycle-2-banner{
-  width: 100%;
-  height: 430px;
-  background-image: url("../img/cycle_what_products.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.cycle-2-banner h2{
-  color: #fff;
-  text-align: center;
-  font-size: 42px;
-  font-weight: 450;
-  margin-top: 2.5cm;
-display: inline-block;
-  text-transform: uppercase;
-  
-  margin-left: 10cm;
-}
-.cycle-2-banner1{
-  color: #fff;
-  text-align: center;
-  font-size: 18px;
-  font-weight: lighter;
-  margin-left: 6cm;
-  margin-top: 2cm;
+  margin-top: 3.5cm;
 
+  text-transform: uppercase;
 }
 /* cycle middl section between banner*/
 .steel{
@@ -977,6 +947,35 @@ width: 500px;
     line-height: .9cm;
     
   }
+  
+/*second cycle banner*/
+.cycle-2-banner{
+  width: 100%;
+  height: 430px;
+  background-image: url("../img/cycle_what_products.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cycle-2-banner h2{
+  color: #fff;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 450;
+  margin-top: 2.5cm;
+display: inline-block;
+  text-transform: uppercase;
+  width: 100%;
+}
+.cycle-2-banner1{
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 1cm;
+  width: 100%;
+
+}
   /* cycle page similar products*/
   .sim{
     margin-top: 1.5cm;
@@ -1067,47 +1066,46 @@ outline-color: #fff;
   display: inline;
 }
 
-.cat-h-sub img{
+.kitcat-h-sub img{
   height: 170px;
   margin-left: 15%;
   margin-top: 20%;
 }
-.cat-h-sub{
+.kitcat-h-sub{
   height: 250px;
   margin-top: 27.5%;
-  margin-left: 4%;
   width: 250px;
   background-color: #f4f4f6;
 }
 
 
-.cat-l h1,
-.cat-l h1{
+
+.kitcat-l h1{
   font-size: 30px;
-  margin-left: 9%;
+  text-align: center;
+  margin-right: 6%;
+  width: 100%;
   font-weight: 500;
   margin-top: 6%;
   text-transform: capitalize; 
 }
-.cat-l h3,
-.cat-l h3{
-  font-size: 22px;
-  margin-left: 10%;
+
+.kitcat-l h3{
+  font-size: 24px;
+  margin-left: 4%;
   font-weight:lighter;
-  margin-top: -3%;
   text-transform: uppercase; 
 }
 .star{
-  width: 100px;
-  margin-top: -26%;
-  margin-left: 58%;
-
+  position: relative;
+  width: 120px;
+  margin: 0 auto;
+  margin-right: .4cm;
+  top: .1cm;
 }
 .paralorem{
-  font-size: 13px;
-  margin-left: 10%;
-  margin-top: -7%;
-
+  font-size: 12px;
+  margin-left: 4%;
 }
 
 /*---------------------------------------------------kitchen 2 css------------------------------------------------------*/
@@ -2413,7 +2411,7 @@ ul.list-info-w3pvt {
 
 .kitchenbanner{
   width: 100%;
-  height: 230px;
+  height: 220px;
   background-image: url("../img/kitchenbanner2.png");
   background-position: center;
   background-size: cover;
@@ -2436,45 +2434,37 @@ ul.list-info-w3pvt {
   display: inline;
 }
 
-.cat-h-sub img{
+.kitcat-h-sub img{
   height: 90px;
-  margin-left: 15%;
-  margin-top: 20%;
+  
+ 
 }
-.cat-h-sub{
+.kitcat-h-sub{
   height: 125px;
   margin-top: 27.5%;
-  margin-left: 4%;
   width: 125px;
   background-color: #f4f4f6;
 }
 
-.cat-l h1,
-.cat-l h1{
-  font-size: 15px;
-  margin-left: 7%;
+.kitcat-l h1{
+  font-size: 16px;
   font-weight: 500;
-  margin-top: 6%;
   text-transform: capitalize; 
 }
-.cat-l h3,
-.cat-l h3{
+
+.kitcat-l h3{
   font-size: 12px;
-  margin-left: 10%;
   font-weight:lighter;
-  margin-top: -1%;
   text-transform: uppercase; 
 }
 .star{
-  width: 50px;
-  margin-top: -52%;
-  margin-left: 70%;
+  width: 60px;
+  margin: 0 auto;
 
 }
 .paralorem{
-  font-size: 7px;
-  margin-left: 10%;
-  margin-top: -26%;
+  font-size: 8px;
+ 
 
 }
 .btn-success{
@@ -2995,45 +2985,40 @@ ul.list-info-w3pvt {
   display: inline;
 }
 
-.cat-h-sub img{
+.kitcat-h-sub img{
   height: 110px;
   margin-left: 15%;
   margin-top: 20%;
 }
-.cat-h-sub{
+.kitcat-h-sub{
   height: 150px;
   margin-top: 27.5%;
-  margin-left: 4%;
   width: 150px;
   background-color: #f4f4f6;
 }
 
-.cat-l h1,
-.cat-l h1{
+
+.kitcat-l h1{
   font-size: 18px;
-  margin-left: 7%;
   font-weight: 500;
-  margin-top: 6%;
+  text-align: center;
   text-transform: capitalize; 
 }
-.cat-l h3,
-.cat-l h3{
+
+.kitcat-l h3{
   font-size: 14px;
-  margin-left: 10%;
   font-weight:lighter;
-  margin-top: -1%;
   text-transform: uppercase; 
 }
 .star{
-  width: 70px;
-  margin-top: -40%;
-  margin-left: 50%;
+  width: 82px;
+  margin: 0 auto;
+ 
 
 }
 .paralorem{
-  font-size: 9px;
-  margin-left: 10%;
-  margin-top: -15%;
+  font-size: 10px;
+ 
 
 }
 .btn-success{
@@ -3431,12 +3416,12 @@ bottom: 80px;
   display: inline;
 }
 
-.cat-h-sub img{
+.kitcat-h-sub img{
   height: 130px;
   margin-left: 15%;
   margin-top: 20%;
 }
-.cat-h-sub{
+.kitcat-h-sub{
   height: 200px;
   margin-top: 27.5%;
   margin-left: 4%;
@@ -3444,32 +3429,31 @@ bottom: 80px;
   background-color: #f4f4f6;
 }
 
-.cat-l h1,
-.cat-l h1{
+.kitcat-l h1{
+  text-align: center;
   font-size: 24px;
-  margin-left: 7%;
+  margin-left: 2%;
   font-weight: 500;
   margin-top: 6%;
   text-transform: capitalize; 
 }
-.cat-l h3,
-.cat-l h3{
+
+.kitcat-l h3{
   font-size: 18px;
-  margin-left: 10%;
+  margin-left: 8%;
   font-weight:lighter;
-  margin-top: -1%;
   text-transform: uppercase; 
 }
 .star{
+  position: relative;
   width: 100px;
-  margin-top: -30%;
-  margin-left: 50%;
-
+  margin: 0 auto;
+ 
 }
 .paralorem{
-  font-size: 11px;
-  margin-left: 10%;
-  margin-top: -7%;
+  font-size: 10px;
+  margin-left: 8%;
+  
 
 }
 

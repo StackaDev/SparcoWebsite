@@ -72,7 +72,7 @@ body {
 }
 
 
-/* Navigation Menu */
+/*-----------------------------------------------------Navigation Menu-------------------------------------------------*/
 
 .nav-bar {
   width: 100%;
@@ -195,7 +195,7 @@ body {
   display: none;
 }
 
-/* Slider Css */
+/*---------------------------------------------------Slider Css---------------------------------------------------------*/
 
 
 .carousel-inner img {
@@ -289,7 +289,7 @@ body {
   font-weight: lighter;
 }
 
-/* Best Seller */
+/*-----------------------------------------------Best Seller---------------------------------------------------------*/
 
 .project-tab {
   padding: 10px;
@@ -337,7 +337,7 @@ body {
   font-weight: 400;
 }
 
-/* Inner sections */
+/*-----------------------------------------------Inner sections--------------------------------------------------------*/
 
 .hot img {
   height: 600px;
@@ -437,7 +437,7 @@ body {
   background-color: #cccccc;
 }
 
-/* Middile Banner Section */
+/*---------------------------------------------Middile Banner Section----------------------------------------------------*/
 
 .banner {
   width: 100%;
@@ -469,7 +469,7 @@ body {
   margin-right: 15%;
 }
 
-/* Categories */
+/*---------------------------------------------------Categories---------------------------------------------------------*/
 
 .cat-f {
   background-color: #f4f4f6;
@@ -545,7 +545,7 @@ bottom: 100px;
  
 }
 
-/* Our Market */
+/*---------------------------------------------------Our Market----------------------------------------------------------*/
 
 #market {
   text-align: center;
@@ -571,7 +571,7 @@ bottom: 100px;
   font-weight: 400;
 }
 
-/* Our Clients */
+/*----------------------------------------------------Our Clients--------------------------------------------------------*/
 
 #clients {
   text-align: center;
@@ -593,13 +593,13 @@ bottom: 100px;
 
 }
 
-/* Our Brands */
+/*---------------------------------------------------Our Brands---------------------------------------------------------*/
 
 #brands {
   text-align: center;
 }
 
-/* Footer Tags */
+/*---------------------------------------------------Footer Tags--------------------------------------------------------*/
 
 .margin-h {
   margin-top: 6%;
@@ -717,7 +717,7 @@ ul.list-info-w3pvt {
 
 
 
-/*---------------------------------------------about ---------------------------------css*/
+/*---------------------------------------------------------about page------------------------------------------------css*/
 
 .aboutbanner{
   width: 100%;
@@ -847,7 +847,7 @@ margin-top: -4cm;
 z-index: 0;
 }
 
-
+/*specification*/
 .speci{
   text-align: center;
   margin-bottom: 1cm;
@@ -884,7 +884,6 @@ z-index: 0;
   font-size: 50px;
   font-weight: 580;
   margin-top: 3.5cm;
-
   text-transform: uppercase;
 }
 /* cycle middl section between banner*/
@@ -909,42 +908,41 @@ z-index: 0;
   margin-bottom: 3cm;
 }
 .plastic img{
-height: 600px;
-width: 500px;
+  max-width: 100%;
+  height: auto;
+
 }
 .plastic h2{
   text-align: left;
   text-transform: uppercase;
   font-size: 42px;
-  padding-bottom: 1cm;
-  padding-top: 1.4cm;
+  padding-bottom: .5cm;
+  padding-top: .5cm;
   margin-left: 1cm;
 }
 .plastic p{
   font-size: 18px;
-  line-height: .9cm;
+  line-height: 1.1cm;
   margin-left: 1cm;
 }
 
-.happy{
-  margin-bottom: 3cm;
-}
+
 .happy img{
-  height: 550px;
-  width: 500px;
-  margin-left: 1cm;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 1cm;
   }
   .happy h2{
     text-align: left;
     text-transform: uppercase;
     font-size: 42px;
-    padding-bottom: 1cm;
-    padding-top: 1cm;
+    padding-bottom: .5cm;
+    padding-top: .5cm;
     
   }
   .happy p{
     font-size: 18px;
-    line-height: .9cm;
+    line-height: 1cm;
     
   }
   
@@ -963,7 +961,7 @@ width: 500px;
   font-size: 42px;
   font-weight: 450;
   margin-top: 2.5cm;
-display: inline-block;
+  display: inline-block;
   text-transform: uppercase;
   width: 100%;
 }
@@ -1002,13 +1000,13 @@ display: inline-block;
       font-size: 56px;
       color: #001747; /* Change the color */
       font-weight: lighter; /* If you want it to be bold */
-     line-height: .6cm;
+      line-height: .6cm;
       content: "\2024 ";
       display: inline-block;
       font-size: 72px;
     }
   .card {
-  outline-color: #fff;
+    outline-color: #fff;
     max-width: 300px;
     margin: auto;
     text-align: center;
@@ -1021,17 +1019,14 @@ display: inline-block;
   }
   
   .card button {
- border: #fff;
-outline-color: #fff;
-   
+    border: #fff;
+    outline-color: #fff;
     color: #001747;
     background-color: #fff;
     text-align: center;
     cursor: pointer;
     width: 100%;
     font-size: 18px;
-
-    
   }
   
   .card button:hover {
@@ -1039,7 +1034,7 @@ outline-color: #fff;
   }
 
 
-/*--------------------------------------------kitchen css--------------------------------------------------------*/
+/*--------------------------------------------------kitchen css--------------------------------------------------------*/
 
 .kitchenbanner{
   width: 100%;
@@ -1863,6 +1858,127 @@ ul.list-info-w3pvt {
 
 
 
+
+/*---------------768-----------------------------cycle page-------------------------------992-------------------------*/
+
+/*specification*/
+.speci{
+  text-align: center;
+  margin-bottom: 1cm;
+}
+.speci h2{
+  text-transform: uppercase;
+  margin-top: 1cm;
+  padding-bottom: .2cm;
+  font-weight: 550;
+  font-size: 18px;
+  text-align: center;
+}
+.speci h4{
+  text-transform: uppercase;
+  color: #001747;
+  font-size: 14px;
+  font-weight: 700;
+ 
+}
+.speci p{
+  margin-top: .7cm;
+  font-size: 12px;
+}
+
+/* first banner */
+.cyclebanner{
+  width: 100%;
+  height: 220px;
+  background-image: url("../img/cycle_exp.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cyclebanner h1{
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 580;
+  margin-top: 2cm;
+  text-transform: uppercase;
+}
+/* cycle middl section between banner*/
+.steel{
+  padding-bottom: 1.7cm;
+}
+.steel h2{
+  font-size: 24px;
+  text-align: center;
+}
+.cycle-2-banner1.black{
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+  
+
+}
+
+
+.plastic h2{
+  text-align: center !important;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0 auto;
+}
+.plastic p{
+  text-align: center !important;
+  font-size: 10px;
+  line-height: .5cm;
+  margin: 0 auto;
+}
+
+
+.happy img{
+  height: auto;
+  max-width: 100%;
+  }
+  .happy h2{
+    text-align: center !important;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  .happy p{
+    text-align: center !important;
+    font-size: 10px;
+    line-height: .5cm;
+  }
+  
+/*second cycle banner*/
+.cycle-2-banner{
+  width: 100%;
+  height: 340px;
+  background-image: url("../img/cycle_what_products.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cycle-2-banner h2{
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 450;
+  margin-top: 1cm;
+  display: inline-block;
+  text-transform: uppercase;
+  width: 100%;
+}
+.cycle-2-banner1{
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+  width: 100%;
+  margin-top: .2cm;
+
+}
+
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -2478,7 +2594,125 @@ ul.list-info-w3pvt {
   background-color: #cccccc;
 }
 
+/*---------------768-----------------------------cycle page-------------------------------992-------------------------*/
 
+/*specification*/
+.speci{
+  text-align: center;
+  margin-bottom: 1cm;
+}
+.speci h2{
+  text-transform: uppercase;
+  margin-top: 1cm;
+  padding-bottom: .2cm;
+  font-weight: 550;
+  font-size: 26px;
+}
+.speci h4{
+  text-transform: uppercase;
+  color: #001747;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: -.7cm;
+}
+.speci p{
+  margin-top: .7cm;
+  font-size: 12px;
+}
+
+/* first banner */
+.cyclebanner{
+  width: 100%;
+  height: 220px;
+  background-image: url("../img/cycle_exp.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cyclebanner h1{
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 580;
+  margin-top: 2.3cm;
+  text-transform: uppercase;
+}
+/* cycle middl section between banner*/
+.steel{
+  padding-bottom: 1.7cm;
+}
+.steel h2{
+  font-size: 28px;
+  text-align: center;
+}
+.cycle-2-banner1.black{
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+  
+
+}
+
+
+.plastic h2{
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-left: 1cm;
+}
+.plastic p{
+  font-size: 10px;
+  line-height: .3cm;
+  margin-left: 1cm;
+}
+
+
+.happy img{
+  height: auto;
+  max-width: 100%;
+  
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  }
+  .happy h2{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  .happy p{
+    font-size: 10px;
+    line-height: .3cm;
+  }
+  
+/*second cycle banner*/
+.cycle-2-banner{
+  width: 100%;
+  height: 220px;
+  background-image: url("../img/cycle_what_products.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cycle-2-banner h2{
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 450;
+  margin-top: 1cm;
+  display: inline-block;
+  text-transform: uppercase;
+  width: 100%;
+}
+.cycle-2-banner1{
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+  width: 100%;
+  margin-top: .2cm;
+
+}
 
 }
 
@@ -3032,6 +3266,137 @@ ul.list-info-w3pvt {
   background-color: #cccccc;
 }
 
+
+/*---------------768-----------------------------cycle page-------------------------------992-------------------------*/
+
+/*specification*/
+.speci{
+  text-align: center;
+  margin-bottom: 1cm;
+}
+.speci h2{
+  text-transform: uppercase;
+  margin-top: 1cm;
+  padding-bottom: .2cm;
+  font-weight: 550;
+  font-size: 28px;
+}
+.speci h4{
+  text-transform: uppercase;
+  color: #001747;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: -.7cm;
+}
+.speci p{
+  margin-top: .7cm;
+}
+
+/* first banner */
+.cyclebanner{
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/cycle_exp.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cyclebanner h1{
+  color: #fff;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 580;
+  margin-top: 3.1cm;
+  text-transform: uppercase;
+}
+/* cycle middl section between banner*/
+.steel{
+  padding-bottom: 1.7cm;
+}
+.steel h2{
+  font-size: 32px;
+  text-align: center;
+  margin-top: 2cm;
+}
+.cycle-2-banner1.black{
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+  margin-left: 0cm;
+  margin-top: 1cm;
+
+}
+.plastic{
+  margin-bottom: 3cm;
+}
+.plastic img{
+  max-width: 100%;
+  height: auto;
+
+}
+.plastic h2{
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 28px;
+  
+  padding-top: .5cm;
+  margin-left: 1cm;
+}
+.plastic p{
+  font-size: 12px;
+  line-height: .5cm;
+  margin-left: 1cm;
+}
+
+
+.happy img{
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 1cm;
+  }
+  .happy h2{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 28px;
+    padding-top: .5cm;
+    
+  }
+  .happy p{
+    font-size: 12px;
+    line-height: .5cm;
+    
+  }
+  
+/*second cycle banner*/
+.cycle-2-banner{
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/cycle_what_products.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cycle-2-banner h2{
+  color: #fff;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 450;
+  margin-top: 1.5cm;
+  display: inline-block;
+  text-transform: uppercase;
+  width: 100%;
+}
+.cycle-2-banner1{
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: lighter;
+  width: 100%;
+  margin-top: .5cm;
+
+}
+
 }
 
 
@@ -3453,12 +3818,138 @@ bottom: 80px;
 .paralorem{
   font-size: 10px;
   margin-left: 8%;
-  
-
 }
 
 
 
+/*---------------992-----------------------------cycle page-------------------------------1200-------------------------*/
+
+/*specification*/
+.speci{
+  text-align: center;
+  margin-bottom: 1cm;
+}
+.speci h2{
+  text-transform: uppercase;
+  margin-top: 1cm;
+  padding-bottom: .2cm;
+  font-weight: 550;
+}
+.speci h4{
+  text-transform: uppercase;
+  color: #001747;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: -.7cm;
+}
+.speci p{
+  margin-top: .7cm;
+}
+
+/* first banner */
+.cyclebanner{
+  width: 100%;
+  height: 320px;
+  background-image: url("../img/cycle_exp.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cyclebanner h1{
+  color: #fff;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 580;
+  margin-top: 3.5cm;
+  text-transform: uppercase;
+}
+/* cycle middl section between banner*/
+.steel{
+  padding-bottom: 1.7cm;
+}
+.steel h2{
+  font-size: 38px;
+  text-align: center;
+  margin-top: 2cm;
+}
+.cycle-2-banner1.black{
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-left: 0cm;
+  margin-top: 1cm;
+
+}
+.plastic{
+  margin-bottom: 3cm;
+}
+.plastic img{
+  max-width: 100%;
+  height: auto;
+
+}
+.plastic h2{
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 36px;
+  padding-bottom: .5cm;
+  padding-top: .5cm;
+  margin-left: 1cm;
+}
+.plastic p{
+  font-size: 16px;
+  line-height: .7cm;
+  margin-left: 1cm;
+}
+
+
+.happy img{
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 1cm;
+  }
+  .happy h2{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 36px;
+    padding-bottom: .5cm;
+    padding-top: .5cm;
+    
+  }
+  .happy p{
+    font-size: 16px;
+    line-height: .7cm;
+    
+  }
+  
+/*second cycle banner*/
+.cycle-2-banner{
+  width: 100%;
+  height: 350px;
+  background-image: url("../img/cycle_what_products.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cycle-2-banner h2{
+  color: #fff;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 450;
+
+  display: inline-block;
+  text-transform: uppercase;
+  width: 100%;
+}
+.cycle-2-banner1{
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: lighter;
+  width: 100%;
+
+}
 
 
 }

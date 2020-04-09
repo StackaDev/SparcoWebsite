@@ -980,21 +980,23 @@ z-index: 0;
   }
   .sim h2{
     text-transform: uppercase;
-    margin-bottom: 1.5cm;
+    margin-top: 1cm;
     font-weight: 600;
     font-size: 38px;
   }
   .sim-star{
-    height: 20px;
-    width: 110px;
-    margin-left: 2.7cm;
-    margin-top: -.4cm;
+    height: 18px;
+    width: 100px;
+    margin-left: 2.9cm;
+    position: relative;
     }
 .card ul{
       list-style: none; /* Remove default bullets */
       font-size: 14px;
       margin-right: .7cm;
       line-height: .0001cm;
+      position: relative;
+      bottom: .5cm;
     }
   .card li::before{
       font-size: 56px;
@@ -1015,7 +1017,8 @@ z-index: 0;
   
   .card h6{
     margin-right: 3.1cm;
-    margin-bottom: -.2cm;
+    position: relative;
+    bottom: .5cm;
   }
   
   .card button {
@@ -3394,8 +3397,76 @@ ul.list-info-w3pvt {
   font-weight: lighter;
   width: 100%;
   margin-top: .5cm;
-
 }
+
+/* cycle page similar products*/
+.sim{
+  margin-top: 1.5cm;
+}
+.sim h2{
+  text-transform: uppercase;
+  margin-top: 1cm;
+  font-weight: 500;
+  font-size: 32px;
+}
+.sim-star{
+  height: 18px;
+  width: 80px;
+  margin-left: 1.7cm;
+  bottom: .1cm;
+  position: relative;
+  }
+.card ul{
+    list-style: none; /* Remove default bullets */
+    font-size: 10px;
+    margin-right: .7cm;
+    line-height: .0001cm;
+    position: relative;
+  
+  }
+.card li::before{
+    font-size: 56px;
+    color: #001747; /* Change the color */
+    font-weight: lighter; /* If you want it to be bold */
+    line-height: .6cm;
+    content: "\2024 ";
+    display: inline-block;
+    font-size: 72px;
+  }
+.card {
+  outline-color: #fff;
+  max-width: 200px;
+  margin: auto;
+  text-align: center;
+  border-radius: 0;
+}
+.card h4{
+  font-size: 16px;
+}
+
+.card h6{
+  font-size: 14px;
+ margin-right: 1.9cm;
+  position: relative;
+  
+}
+
+.card button {
+  border: #fff;
+  outline-color: #fff;
+  color: #001747;
+  background-color: #fff;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
 
 }
 
@@ -3950,6 +4021,69 @@ bottom: 80px;
   width: 100%;
 
 }
+/* cycle page similar products*/
+.sim{
+  margin-top: 1.5cm;
+}
+.sim h2{
+  text-transform: uppercase;
+  margin-top: 1cm;
+  font-weight: 500;
+  font-size: 36px;
+}
+.sim-star{
+  height: 18px;
+  width: 100px;
+  margin-left: 2.5cm;
+  position: relative;
+  }
+.card ul{
+    list-style: none; /* Remove default bullets */
+    font-size: 14px;
+    margin-right: .7cm;
+    line-height: .0001cm;
+    position: relative;
+    bottom: .5cm;
+  }
+.card li::before{
+    font-size: 56px;
+    color: #001747; /* Change the color */
+    font-weight: lighter; /* If you want it to be bold */
+    line-height: .6cm;
+    content: "\2024 ";
+    display: inline-block;
+    font-size: 72px;
+  }
+.card {
+  outline-color: #fff;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  border-radius: 0;
+}
+
+.card h6{
+  margin-right: 3.1cm;
+  position: relative;
+  bottom: .5cm;
+}
+
+.card button {
+  border: #fff;
+  outline-color: #fff;
+  color: #001747;
+  background-color: #fff;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
 
 
 }

@@ -72,7 +72,7 @@ body {
 }
 
 
-/* Navigation Menu */
+/*-----------------------------------------------------Navigation Menu-------------------------------------------------*/
 
 .nav-bar {
   width: 100%;
@@ -195,7 +195,7 @@ body {
   display: none;
 }
 
-/* Slider Css */
+/*---------------------------------------------------Slider Css---------------------------------------------------------*/
 
 
 .carousel-inner img {
@@ -289,7 +289,7 @@ body {
   font-weight: lighter;
 }
 
-/* Best Seller */
+/*-----------------------------------------------Best Seller---------------------------------------------------------*/
 
 .project-tab {
   padding: 10px;
@@ -337,7 +337,7 @@ body {
   font-weight: 400;
 }
 
-/* Inner sections */
+/*-----------------------------------------------Inner sections--------------------------------------------------------*/
 
 .hot img {
   height: 600px;
@@ -346,7 +346,7 @@ body {
 }
 
 .hot-s-img img, .hot-t-img img {
-  height: 290px;
+  height: 289px;
   position: relative;
   margin-bottom: 21px;
 }
@@ -437,7 +437,7 @@ body {
   background-color: #cccccc;
 }
 
-/* Middile Banner Section */
+/*---------------------------------------------Middile Banner Section----------------------------------------------------*/
 
 .banner {
   width: 100%;
@@ -447,9 +447,9 @@ body {
 
 .banner1 h1 {
   color: #fff;
-  width: 80%;
+  width: 100%;
   margin-top: 10%;
-  font-size: 50px;
+  font-size: 46px;
   margin-left: 20%;
   text-transform: uppercase;
 }
@@ -457,34 +457,34 @@ body {
 .banner1 h3 {
   color: #fff;
   text-transform: initial;
-  font-size: 35px;
+  font-size: 32px;
   font-weight: 200;
-  width: 40%;
+  width: 100%;
   margin-left: 20%;
 }
 
 .banner2 img {
   height: 300px;
   margin-top: 8%;
+  margin-right: 15%;
 }
 
-/* Categories */
+/*---------------------------------------------------Categories---------------------------------------------------------*/
 
 .cat-f {
   background-color: #f4f4f6;
   height: 200px;
   margin-top: 6%;
-}
-
-.cat-f {
+  
   text-transform: uppercase;
 }
 
 .cat-f img {
-  height: 200px;
+  max-width: 100%;
+  height: 150px;
   float: right;
-  margin-top: -22%;
-  margin-right: 3%;
+  margin: 0 auto;
+  bottom: 100px;
   position: relative;
 }
 
@@ -515,34 +515,38 @@ body {
 .cat-s-sub {
   height: 150px;
   margin-top: 27.5%;
-  margin-left: 20%;
   width: 250px;
   background-color: #f4f4f6;
 }
 
 .cat-s h1, .cat-t h1 {
   font-size: 22px;
-  margin-left: 53%;
+  text-align: center;
   font-weight: lighter;
-  margin-top: 5%;
+  margin-top: 4%;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
   text-transform: capitalize;
 }
 
 .cat-s h3, .cat-t h3 {
   font-size: 12px;
-  margin-left: 58%;
+  text-align: center;
+  padding-top: 0px !important;
   font-weight: bold;
-  margin-top: -4%;
+  margin-top: 0px !important;
+  
   text-transform: uppercase;
 }
 
 .cat-s-sub img {
-  height: 130px;
-  margin-left: 25%;
-  margin-top: 4%;
+  height: 100%;
+  position: relative;
+  margin-left: 20%;
+ 
 }
 
-/* Our Market */
+/*---------------------------------------------------Our Market----------------------------------------------------------*/
 
 #market {
   text-align: center;
@@ -551,7 +555,7 @@ body {
 
 #market h3 {
   font-size: 38px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 #market span {
@@ -568,7 +572,7 @@ body {
   font-weight: 400;
 }
 
-/* Our Clients */
+/*----------------------------------------------------Our Clients--------------------------------------------------------*/
 
 #clients {
   text-align: center;
@@ -578,7 +582,7 @@ body {
 
 #clients h3, #brands h3 {
   font-size: 38px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 #clients h3 {
@@ -587,15 +591,16 @@ body {
 
 .seven-cols img {
   height: 70px;
+
 }
 
-/* Our Brands */
+/*---------------------------------------------------Our Brands---------------------------------------------------------*/
 
 #brands {
   text-align: center;
 }
 
-/* Footer Tags */
+/*---------------------------------------------------Footer Tags--------------------------------------------------------*/
 
 .margin-h {
   margin-top: 6%;
@@ -605,9 +610,7 @@ body {
   margin-top: 8%;
 }
 
-.mar-l {
-  margin-left: -20%;
-}
+
 
 .footer-content {
   height: 50%;
@@ -617,6 +620,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+  text-align: center;
 }
 
 .footer-content h3, .font-h {
@@ -625,6 +629,8 @@ body {
   color: #fff;
   letter-spacing: 0px;
   display: inline;
+  
+  
 }
 
 .footer-content h3 a {
@@ -632,20 +638,24 @@ body {
   color: #fff;
   letter-spacing: 0px;
   margin-top: 25%;
-  margin-left: 25%;
+  text-align: center;
+  
 }
 
 .footer-content p {
   margin-top: 25%;
-  margin-left: 25%;
   font-size: 14px;
   font-weight: lighter;
   line-height: 22px;
+  margin-left: 2cm;
 }
 
 .font-p {
   font-size: 14px;
   font-weight: lighter;
+  text-align: left;
+  
+
 }
 
 .list-info-w3pvt li a {
@@ -664,10 +674,13 @@ ul.list-info-w3pvt {
 
 .last-w3ls-contact a {
   color: #fff;
+  text-align: left;
 }
 
 .last-w3ls-contact p {
-  margin-left: -10%;
+  text-align: left;
+  margin: 0 auto;
+  margin-right: 2cm;
 }
 
 .w3ls-icons li {
@@ -682,13 +695,562 @@ ul.list-info-w3pvt {
 .footer-icons {
   margin-top: 2%;
   margin-left: 5%;
+  text-align: left;
 }
+.copy-g {
+  text-align: right;
+  margin-right: 3cm;
+}
+.navbar-brand{
+  margin-left: 2cm;
+}
+.footer-top{
+  text-align: left;
+  margin-left: cm;
+}
+.footer-w3pvt{
+  text-align: left;
+}
+
+
+
+
+
+
+
+/*---------------------------------------------------------about page------------------------------------------------css*/
+
+.aboutbanner{
+  width: 100%;
+  height: 250px;
+  background-image: url("../img/aboutban.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* about head banner*/
+.aboutheadbanner{
+  width: 100%;
+  height: 430px;
+  background-image: url("../img/aboutheadbanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aboutheadbanner h1{
+  color: #000;
+  font-size: 52px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 18%;
+  text-transform: uppercase;
+}
+.aboutheadbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 31px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline-block;
+}
+/* about last image sections */
+
+.cot img {
+  width: 100%;
+  height: 600px;
+  width: 530px;
+}
+
+.cot-s-img img, .cot-t-img img {
+  width: 100%;
+  height: 273px;
+  margin-bottom: 35px;
+  margin-right: .4cm;
+}
+.cot-f-50 img{
+  width: 100%;
+  height: 350px;
+  margin-bottom: 35px;
+  margin-right: .4cm;
+} 
+.cot-z-50 img{
+  width: 100%;
+  height: 196px;
+  margin-bottom: 35px;
+}
+
+
+
+
+
+/*-----------------------------------------cycle page css strat here----------------------------------------------*/
+.cy-head{
+  margin-top: 1.3cm;
+}
+.cysec img{
+  padding: .3cm .3cm .3cm .3cm;
+height: 180px;
+width: 180px;
+}
+.csec img{
+  height: 528px;
+  width: 500px;
+  padding-top: .3cm;
+  margin-left: .5cm;
+}
+.c-1-sec h3{
+text-transform: uppercase;
+margin-left: 6cm;
+display: inline-block;
+padding-top: 1.4cm;
+font-size: 32px;
+}
+.c-1-sec h4{
+  text-transform: uppercase;
+  margin-left: 6cm;
+  margin-bottom: 11cm;
+  font-weight: 600;
+  font-size: 22px;
+}
+.c-1-sec img{
+height: 28px;
+margin-left: 9cm;
+margin-top: -11.8cm;
+}
+.c-1-sec ul li{
+  list-style: none; /* Remove default bullets */
+}
+.c-1-sec ul li::before{
+  font-size: 56px;
+  color: #E7E5E2; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+ line-height: .6cm;
+  content: "\2024 ";
+  display: inline-block;
+}
+.posi{
+  margin-left: 6cm;
+  margin-top: -10.5cm;
+}
+.cy-para{
+  margin-left: 6.9cm;
+  margin-top: -10.12cm;
+  line-height: .6cm;
+  font-weight: 600;
+}
+.link-am{
+  margin-left: 19cm;
+  z-index: 0;
+}
+#amazon{
+margin-left: 1cm;
+margin-top: -4cm;
+z-index: 0;
+}
+
+/*specification*/
+.speci{
+  text-align: center;
+  margin-bottom: 1cm;
+}
+.speci h2{
+  text-transform: uppercase;
+  margin-top: 1cm;
+  padding-bottom: .2cm;
+  font-weight: 550;
+}
+.speci h4{
+  text-transform: uppercase;
+  color: #001747;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: -.7cm;
+}
+.speci p{
+  margin-top: .7cm;
+}
+
+/* first banner */
+.cyclebanner{
+  width: 100%;
+  height: 350px;
+  background-image: url("../img/cycle_exp.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cyclebanner h1{
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 580;
+  margin-top: 3.5cm;
+  text-transform: uppercase;
+}
+/* cycle middl section between banner*/
+.steel{
+  padding-bottom: 1.7cm;
+}
+.steel h2{
+  font-size: 42px;
+  text-align: center;
+  margin-top: 2cm;
+}
+.cycle-2-banner1.black{
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-left: 0cm;
+  margin-top: 1cm;
+
+}
+.plastic{
+  margin-bottom: 3cm;
+}
+.plastic img{
+  max-width: 100%;
+  height: auto;
+
+}
+.plastic h2{
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 42px;
+  padding-bottom: .5cm;
+  padding-top: .5cm;
+  margin-left: 1cm;
+}
+.plastic p{
+  font-size: 18px;
+  line-height: 1.1cm;
+  margin-left: 1cm;
+}
+
+
+.happy img{
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 1cm;
+  }
+  .happy h2{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 42px;
+    padding-bottom: .5cm;
+    padding-top: .5cm;
+    
+  }
+  .happy p{
+    font-size: 18px;
+    line-height: 1cm;
+    
+  }
+  
+/*second cycle banner*/
+.cycle-2-banner{
+  width: 100%;
+  height: 430px;
+  background-image: url("../img/cycle_what_products.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cycle-2-banner h2{
+  color: #fff;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 450;
+  margin-top: 2.5cm;
+  display: inline-block;
+  text-transform: uppercase;
+  width: 100%;
+}
+.cycle-2-banner1{
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 1cm;
+  width: 100%;
+
+}
+  /* cycle page similar products*/
+  .sim{
+    margin-top: 1.5cm;
+  }
+  .sim h2{
+    text-transform: uppercase;
+    margin-bottom: 1.5cm;
+    font-weight: 600;
+    font-size: 38px;
+  }
+  .sim-star{
+    height: 20px;
+    width: 110px;
+    margin-left: 2.7cm;
+    margin-top: -.4cm;
+    }
+.card ul{
+      list-style: none; /* Remove default bullets */
+      font-size: 14px;
+      margin-right: .7cm;
+      line-height: .0001cm;
+    }
+  .card li::before{
+      font-size: 56px;
+      color: #001747; /* Change the color */
+      font-weight: lighter; /* If you want it to be bold */
+      line-height: .6cm;
+      content: "\2024 ";
+      display: inline-block;
+      font-size: 72px;
+    }
+  .card {
+    outline-color: #fff;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 0;
+  }
+  
+  .card h6{
+    margin-right: 3.1cm;
+    margin-bottom: -.2cm;
+  }
+  
+  .card button {
+    border: #fff;
+    outline-color: #fff;
+    color: #001747;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+
+/*--------------------------------------------------kitchen css--------------------------------------------------------*/
+
+.kitchenbanner{
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/kitchenbanner2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kitchenbanner h1{
+  color: #000;
+  font-size: 52px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 18%;
+  text-transform: uppercase;
+}
+.kitchenbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 36px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline;
+}
+
+.kitcat-h-sub img{
+  height: 170px;
+  margin-left: 15%;
+  margin-top: 20%;
+}
+.kitcat-h-sub{
+  height: 250px;
+  margin-top: 27.5%;
+  width: 250px;
+  background-color: #f4f4f6;
+}
+
+
+
+.kitcat-l h1{
+  font-size: 30px;
+  text-align: center;
+  margin-right: 6%;
+  width: 100%;
+  font-weight: 500;
+  margin-top: 6%;
+  text-transform: capitalize; 
+}
+
+.kitcat-l h3{
+  font-size: 24px;
+  margin-left: 4%;
+  font-weight:lighter;
+  text-transform: uppercase; 
+}
+.star{
+  position: relative;
+  width: 120px;
+  margin: 0 auto;
+  margin-right: .4cm;
+  top: .1cm;
+}
+.paralorem{
+  font-size: 12px;
+  margin-left: 4%;
+}
+
+/*---------------------------------------------------kitchen 2 css------------------------------------------------------*/
+
+.container-kit{
+  margin-left: .5cm;
+  margin-right: 3cm;
+  margin-top: -.8cm;
+}
+.kit-h-sub img{
+  height: 210px;
+  width: 425px;
+  padding-left: 2cm;
+  padding-right: -3cm;
+  margin-left: 0cm;
+  margin-right: -2cm;
+}
+.kit-h-sub{
+  margin-top: 23%;
+  width: 80px;
+}
+
+.kit-l a:hover{
+  background-color: #001747;
+  color: #fff;
+}
+.kit-l a{
+  margin-top: -16%;
+  background-color: #F1F0EE;
+  font-weight: 550;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: 0;
+  border-radius: 0;
+  text-align: center;
+  height: 55px;
+  width: 350px;
+  color: #000;
+  padding-left: 2cm;
+  padding-right: 2cm;
+  padding-top: .4cm;
+  padding-bottom: .4cm;
+  margin-left: 2cm;
+  margin-right: 2cm;
+}
+
+
+
+  /*-----------------------------------------contact page css start here-----------------------------------------------*/
+  .map{
+    background-color: #00143C;
+    padding-top: 2cm;
+  }
+
+  .map h2{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 350;
+  }
+  .map h4{
+    padding-top: 1cm;
+    color: #fff;
+    font-size: 26px;
+  }
+  
+  .map-text{
+    color: #fff;
+  }
+  /*map section 2*/
+  
+  .map-2{
+    background-color: #00143C;
+    margin-bottom: -1cm;
+  }
+  .wrapper{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+    width: 100%;
+    padding: 0 2px;
+  }
+  
+  .contact-form{
+    display: flex;
+    max-width: 550px;
+    margin: 0 auto;
+    background: #00143C;
+    padding: 30px;
+    
+  }
+  
+  .input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+  }
+  
+  .input-fields{
+    width: 48%;
+  }
+  
+  .input-fields .input{
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #ffffff;
+    padding: 13px;
+    color: #ffffff;
+    width: 200%;
+    text-align: center;
+  }
+  
+  
+  
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #ffffff;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #ffffff;
+  }
+  :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #ffffff;
+  }
+  
+  .key {
+      background: #ffffff;
+      text-align: center;
+      padding: 10px 50px;
+      font-weight: 700;
+      color: #001747;
+      cursor: pointer;
+      text-transform: uppercase;
+      margin-left: -2.5cm;
+  margin-top: 8.5cm;
+      
+  }
+
+
+
 
 /* Media Queries Satrt Here */
 
-@media only screen and (max-width: 576px) {}
+@media only screen and (max-width: 574px) {}
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .img-logo {
     width: 200px;
     margin-top: 15px !important;
@@ -965,9 +1527,10 @@ nav.active{
 }
 .hot-s-img a, .hot-t-img a {
   top: 110px;
-  background-position: 85px;
-  background-size: 20px;
-  padding-right: 60px;
+  background-position: 60px;
+  background-size: 12px;
+  padding-right: 30px;
+  padding-left: 10px;
   font-size: 8px;
 }
 .btnload {
@@ -979,20 +1542,20 @@ nav.active{
 /* Middile Banner Section */
 
 .banner {
-  width: 100%;
-  height: 500px;
-  margin-top: 15%;
+  height: auto;
   background-image: url("../img/homebanner.png");
 }
 
 .banner1 h1 {
   color: #fff;
-  width: 55%;
-  margin-top: 55%;
-  font-size: 25px;
-  margin-left: 23%;
+  width: auto;
+  font-size: 28px;
   text-align: center;
   text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 10%;
+  position: relative;
+  
 }
 
 .banner1 h3 {
@@ -1000,15 +1563,22 @@ nav.active{
   text-transform: initial;
   font-size: 22px;
   font-weight: 200;
-  width: 40%;
+  width: auto;
   text-align: center;
-  margin-left: 30%;
+  margin: 0 auto;
+  position: relative;
+  
 }
 
 .banner2 img {
-  height: 200px;
-  margin-top: -115%;
-  margin-left: 20%;
+  max-width: 100%;
+  position: relative;
+  width: 80%;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 10px !important;
+  margin: 0 auto;
+  vertical-align: text-top;
 }
 
 
@@ -1016,46 +1586,50 @@ nav.active{
 /* Categories */
 
 .cat-f {
+  
   background-color: #f4f4f6;
-  height: 600px;
-  margin-top: 6%;
+  height: auto;
+  width: 100%;
+  text-transform: uppercase;
+
+  
 }
 
-.cat-f {
-  text-transform: uppercase;
-}
+
 
 .cat-f img {
-  height: 320px;
-  float: none;
-  margin-top: -95%;
-  margin-left: 20%;
+  max-width: 100%;
   position: relative;
+  width: auto;
+  height: auto;
+  margin: 0 auto !important;
+  bottom: .1cm;
+
 }
 
 .cat-f h1 {
-  font-size: 38px;
-  width: 60%;
+  z-index: 1;
+  font-size: 28px;
   text-align: center;
-  margin-left: 20%;
-  margin-top: 8%;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 35px;
+  padding-bottom: 10px;
+  
 }
 
 .cat-f a {
-  border-radius: 0px;
-  border: 0px;
-  background-color: #01124a;
-  color: #fff;
   font-size: 12px;
-  margin-top: 70%;
-  margin-left: 38%;
-  font-weight: lighter;
-  background-image: url("../img/arrow1.png");
-  background-position: 105px;
+  position: relative;
+  z-index: 1;
+  background-position: 87px;
+  background-size: 20px;
   padding: 10px;
-  background-repeat: no-repeat;
-  padding-right: 60px;
-  padding-left: 30px;
+  padding-right: 40px;
+  padding-left: 20px;
+  bottom: .6cm;
 }
 
 .cat-s-sub {
@@ -1076,10 +1650,11 @@ nav.active{
 #market {
   text-align: center;
   margin-top: 6%;
+ 
 }
 
 #market h3 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
 }
 
@@ -1088,18 +1663,14 @@ nav.active{
   font-weight: 351;
 }
 
-.lead {
-  font-size: 18px;
-  padding-left: 60px;
-  padding-right: 60px;
-  line-height: 30px;
-}
-
 #market h4 {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
 }
 
+#market p {
+  font-size: 16px !important;
+}
 /* Our Clients */
 
 #clients {
@@ -1109,17 +1680,20 @@ nav.active{
 }
 
 #clients h3, #brands h3 {
-  font-size: 38px;
+  font-size: 28px;
   padding-top: 10%;
-  font-weight: 400;
+  font-weight: 500;
 }
 
-#clients h3 {
-  padding-top: 10%;
+#clients p {
+  font-size: 16px !important;
 }
+
+
 
 .seven-cols img {
-  height: 80px;
+  height: 50px;
+  text-align: center;
 }
 
 /* Our Brands */
@@ -1129,7 +1703,291 @@ nav.active{
 }
 
 
+/* Footer Tags */
 
+.margin-h {
+  margin-top: 6%;
+}
+
+.para-h {
+  margin-top: 8%;
+}
+
+.mar-l {
+ 
+}
+
+.footer-content {
+  height: 50%;
+  background-color: #000F47;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center !important;
+}
+
+.footer-content h3, .font-h {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 0px;
+  display: inline;
+  text-align: center !important;
+}
+
+.footer-content h3 a {
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 0px;
+  margin-top: 0px !important;
+ text-align: center;
+}
+.footer-top h3 a{
+  margin-top: 50px !important;
+}
+
+.footer-content p {
+  margin-top: 25%;
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 22px;
+  text-align: center !important;
+  margin: 0 auto;
+}
+.margin-h{
+  margin-top: 2%;
+}
+.para-h{
+  margin-top: 10px;
+}
+
+.font-p {
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.list-info-w3pvt li a {
+  color: #fff;
+  font-size: 0.85em;
+  letter-spacing: 1px;
+}
+
+.list-info-w3pvt li a:hover {
+  opacity: 0.8;
+}
+
+ul.list-info-w3pvt {
+  list-style: none;
+}
+
+.last-w3ls-contact a {
+  color: #fff;
+}
+
+
+.w3ls-icons li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+.w3ls-icons li a span {
+  color: #fff;
+}
+
+.footer-icons {
+  margin-top: 2%;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.w3ls-footer{
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+.copy-g{
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+.copy-g span{
+  display: none;
+}
+.footer-top{
+  text-align: center !important;
+  
+}
+.footer-w3pvt{
+  text-align: center !important;
+}
+.navbar-brand{
+  margin: 0 auto;
+  text-align: center !important;
+}
+
+/*------------------------------------------------576---about css-----------------------------------------------------*/
+
+.aboutbanner{
+  width: auto;
+  height: 130px;
+  background-image: url("../img/aboutban.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+/* about head banner*/
+.aboutheadbanner{
+  width: auto;
+  height: 200px;
+  background-image: url("../img/aboutheadbanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.aboutheadbanner h1{
+  color: #000;
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 18%;
+  text-transform: uppercase;
+}
+.aboutheadbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 17px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline-block;
+}
+/* about last image sections */
+
+
+
+
+/*---------------768-----------------------------cycle page-------------------------------992-------------------------*/
+
+/*specification*/
+.speci{
+  text-align: center;
+  margin-bottom: 1cm;
+}
+.speci h2{
+  text-transform: uppercase;
+  margin-top: 1cm;
+  padding-bottom: .2cm;
+  font-weight: 550;
+  font-size: 18px;
+  text-align: center;
+}
+.speci h4{
+  text-transform: uppercase;
+  color: #001747;
+  font-size: 14px;
+  font-weight: 700;
+ 
+}
+.speci p{
+  margin-top: .7cm;
+  font-size: 12px;
+}
+
+/* first banner */
+.cyclebanner{
+  width: 100%;
+  height: 220px;
+  background-image: url("../img/cycle_exp.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cyclebanner h1{
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 580;
+  margin-top: 2cm;
+  text-transform: uppercase;
+}
+/* cycle middl section between banner*/
+.steel{
+  padding-bottom: 1.7cm;
+}
+.steel h2{
+  font-size: 24px;
+  text-align: center;
+}
+.cycle-2-banner1.black{
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+  
+
+}
+
+
+.plastic h2{
+  text-align: center !important;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0 auto;
+}
+.plastic p{
+  text-align: center !important;
+  font-size: 10px;
+  line-height: .5cm;
+  margin: 0 auto;
+}
+
+
+.happy img{
+  height: auto;
+  max-width: 100%;
+  }
+  .happy h2{
+    text-align: center !important;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  .happy p{
+    text-align: center !important;
+    font-size: 10px;
+    line-height: .5cm;
+  }
+  
+/*second cycle banner*/
+.cycle-2-banner{
+  width: 100%;
+  height: 340px;
+  background-image: url("../img/cycle_what_products.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cycle-2-banner h2{
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 450;
+  margin-top: 1cm;
+  display: inline-block;
+  text-transform: uppercase;
+  width: 100%;
+}
+.cycle-2-banner1{
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+  width: 100%;
+  margin-top: .2cm;
+
+}
 
 }
 
@@ -1266,11 +2124,7 @@ nav.active{
      display: block;
    }
   /* Slider Section */
-  .carousel-sec{
-    
-  }
-  .carousel-inner img {
-  }
+  
   .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 50px !important;
     width: 30px !important;
@@ -1300,8 +2154,7 @@ nav.active{
     font-size: 10px;
     font-size: .8rem !important;
   }
-  .qua-m {
-  }
+  
   .qua-c img {
     margin-bottom: 4%;
   }
@@ -1324,10 +2177,10 @@ nav.active{
   } 
   /* Inner sections */
   .hot img {
-    height: 240px;
+    height: 280px;
   }
   .hot-s-img img, .hot-t-img img {
-    height: 117px;
+    height: 129px;
   }
   .hot-f-50 h1 {
     font-size: 14px;
@@ -1376,111 +2229,90 @@ nav.active{
     height: 200px;
   }
   .banner1 h1 {
-    width: 68%;
-    margin-top: 8%;
     font-size: 22px;
-    margin-left: 20%;
   }
   .banner1 h3 {
-    font-size: 19px;
-    width: 50%;
-    margin-left: 20%;
+    font-size: 18px;
   }
   .banner2 img {
-    height: 150px;
-    margin-top: 8%;
+    height: 140px;
   }
   /* Categories */
   .cat-f {
-    margin-left:-8%;
+    background-color: #f4f4f6;
     height: 120px;
   }
   .cat-f img {
     height: 90px;
-    margin-top: -22%;
-    margin-right: -2%;
+    margin: 0 auto;
+    bottom: 50px;
+  
   }
   .cat-f h1 {
     font-size: 18px;
     width: 40%;
     margin-left: 4%;
-    margin-top: 6%;
+    
   }
   .cat-f a {
-    border-radius: 0px;
-    border: 0px;
-    background-color: #01124a;
-    color: #fff;
     font-size: 8px;
     margin-top: 6%;
     margin-left: 4%;
-    font-weight: lighter;
-    background-image: url("../img/arrow1.png");
-    background-position: 105px;
-    padding: 10px;
-    background-repeat: no-repeat;
-    padding-right: 60px;
-    padding-left: 30px;
+    background-position: 55px;
+    background-size: 22px;
+    padding: 7px;
+    padding-right: 40px;
+    padding-left: 10px;
   }
   .cat-s-sub {
     height: 80px;
-    margin-top: 21%;
-    margin-left: 2%;
-    width: 160px;
-    background-color: #f4f4f6;
+    width: 105px;
+    margin-top: 33px;
   }
-  .cat-s,.cat-t{
-    margin-left: 0%;
-  }
-  .cat-t {
-    margin-top: 1.75%;
-  } 
+  
+ 
   .cat-s h1, .cat-t h1 {
     font-size: 16px;
-    margin-left: 35%;
-    font-weight: lighter;
-    margin-top: 5%;
-    text-transform: capitalize;
   }
   .cat-s h3, .cat-t h3 {
     font-size: 10px;
-    margin-left: 40%;
-    font-weight: bold;
-    margin-top: -4%;
-    text-transform: uppercase;
   }
   .cat-s-sub img {
-    height: 70px;
-    margin-left: 25%;
-    margin-top: 4%;
+    margin-left: 15%;
   }
 
   
+
 /* Our Market */
 
 #market {
+  text-align: center;
   margin-top: 4%;
 }
 
 #market h3 {
   font-size: 28px;
   font-weight: 400;
-}
-.lead{
-  line-height: 18px;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
 }
 
 #market span {
   color: #000684;
   font-weight: 351;
-  font-weight: 14px;
 }
 
 
 
 #market h4 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
+}
+
+
+#market p {
+  padding-top: 0px !important;
+  font-size: 10px !important;
 }
 
 /* Our Clients */
@@ -1488,8 +2320,8 @@ nav.active{
 #clients {
   text-align: center;
   background-color: #F5F5F6;
-  margin-top: 2%;
-  height: 170px;
+  
+  margin-bottom: 5%;
 }
 
 #clients h3, #brands h3 {
@@ -1501,30 +2333,26 @@ nav.active{
   padding-top: 5%;
 }
 
+#clients p {
+  padding-top: 0px !important;
+  font-size: 14px !important;
+}
+
 .seven-cols img {
-  visibility: hidden;
+  height: 40px;
 }
 
 /* Our Brands */
 
 #brands {
   text-align: center;
-  visibility: hidden;
-  height: 0px;
+ margin-bottom: 2%;
 }
 
 /* Footer Tags */
 
-.margin-h {
-  margin-top: 0%;
-}
-
-.para-h {
-  margin-top: 0%;
-}
-
 .mar-l {
-  margin-left: -20%;
+ text-align: center;
 }
 
 .footer-content {
@@ -1533,49 +2361,74 @@ nav.active{
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
+  padding: 0px !important;
   background-size: cover;
   color: #fff;
+  
+}
+.footerwall{
+  padding: 0px !important;
 }
 
-.footer-content h3, .font-h {
-  font-size: 18px;
+
+
+
+.footer-content h3 {
+  
+  font-size: 24px;
   font-weight: 400;
+  margin: 0px !important;
   color: #fff;
   letter-spacing: 0px;
   display: inline;
+  text-align: center;
 }
 
 .footer-content h3 a {
-  font-size: 20px;
+  
+  font-size: 24px;
   color: #fff;
+  margin-top: 0px !important;
   letter-spacing: 0px;
-  margin-top: 25%;
-  margin-left: 25%;
+    text-align: center;
+}
+.footer-top h3 a{
+  margin-top: 50px !important;
 }
 
 .footer-content p {
-  margin-top: 25%;
-  margin-left: 25%;
+  text-align: center;
   font-size: 14px;
   font-weight: lighter;
   line-height: 22px;
+  margin: 0 auto;
 }
 
 .font-p {
   font-size: 14px;
   font-weight: lighter;
+  text-align: center;
 }
 
 .list-info-w3pvt li a {
   color: #fff;
   font-size: 0.85em;
   letter-spacing: 1px;
+  text-align: center;
 }
-
+.margin-h {
+  margin-top: 2%;
+}
+.para-h{
+  margin-top: 10px !important;
+}
 .list-info-w3pvt li a:hover {
   opacity: 0.8;
 }
-
+.font-h{
+  text-align: center;
+  
+}
 ul.list-info-w3pvt {
   list-style: none;
 }
@@ -1585,7 +2438,7 @@ ul.list-info-w3pvt {
 }
 
 .last-w3ls-contact p {
-  margin-left: -10%;
+  margin: 0 auto;
 }
 
 .w3ls-icons li {
@@ -1598,10 +2451,280 @@ ul.list-info-w3pvt {
 }
 
 .footer-icons {
-  margin-top: 2%;
-  margin-left: 5%;
+  margin-top: 0%;
+ text-align: center;
+}
+.footer-w3pvt{
+  text-align: center;
+}
+.footer-top{
+  text-align: center;
+}
+.copy-g{
+  text-align: right;
+}
+.navbar-brand{
+  margin: 0 auto;
+  text-align: center !important;
+}
+.fooot{
+  margin: 0 auto;
+  bottom: 0 auto;
 }
 
+
+/*--------------------576------------------------about css----------------------768--------------------------------------*/
+
+.aboutbanner{
+  width: 100%;
+  height: 200px;
+  background-image: url("../img/aboutban.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* about head banner*/
+.aboutheadbanner{
+  width: 100%;
+  height: 200px;
+  background-image: url("../img/aboutheadbanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aboutheadbanner h1{
+  color: #000;
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 18%;
+  text-transform: uppercase;
+}
+.aboutheadbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 17px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline-block;
+}
+/* about last image sections */
+
+.cot img {
+  height: 600px;
+  width: 425px;
+}
+
+.cot-s-img img, .cot-t-img img {
+  height: 130px;
+  width: 240px;
+  margin-bottom: 20px;
+  margin-right: .4cm;
+  
+}
+.cot-f-50 img{
+  height: 150px;
+  width: 240px;
+  margin-left: .4cm;
+} 
+.cot-z-50 img{
+  height: 95px;
+  width: 240px;
+  margin-left: .4cm;
+}
+
+
+
+/*--------------------------------567--------------kitchen css---------------768-------------------------------------*/
+
+.kitchenbanner{
+  width: 100%;
+  height: 220px;
+  background-image: url("../img/kitchenbanner2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kitchenbanner h1{
+  color: #000;
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 20%;
+  margin-top: 15%;
+  text-transform: uppercase;
+}
+.kitchenbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 24px;
+  font-weight: 200;
+  margin-left: 20%;
+  display: inline;
+}
+
+.kitcat-h-sub img{
+  height: 90px;
+  
+ 
+}
+.kitcat-h-sub{
+  height: 125px;
+  margin-top: 27.5%;
+  width: 125px;
+  background-color: #f4f4f6;
+}
+
+.kitcat-l h1{
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize; 
+}
+
+.kitcat-l h3{
+  font-size: 12px;
+  font-weight:lighter;
+  text-transform: uppercase; 
+}
+.star{
+  width: 60px;
+  margin: 0 auto;
+
+}
+.paralorem{
+  font-size: 8px;
+ 
+
+}
+.btn-success{
+  margin-top: 5%;
+  margin-bottom: 3%; 
+  margin-left: 50%; 
+  color: #000000; 
+  padding-left:6px ;
+  padding-right: 6px; 
+  font-size: 9px; 
+  background-color: #cccccc;
+}
+
+/*---------------768-----------------------------cycle page-------------------------------992-------------------------*/
+
+/*specification*/
+.speci{
+  text-align: center;
+  margin-bottom: 1cm;
+}
+.speci h2{
+  text-transform: uppercase;
+  margin-top: 1cm;
+  padding-bottom: .2cm;
+  font-weight: 550;
+  font-size: 26px;
+}
+.speci h4{
+  text-transform: uppercase;
+  color: #001747;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: -.7cm;
+}
+.speci p{
+  margin-top: .7cm;
+  font-size: 12px;
+}
+
+/* first banner */
+.cyclebanner{
+  width: 100%;
+  height: 220px;
+  background-image: url("../img/cycle_exp.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cyclebanner h1{
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 580;
+  margin-top: 2.3cm;
+  text-transform: uppercase;
+}
+/* cycle middl section between banner*/
+.steel{
+  padding-bottom: 1.7cm;
+}
+.steel h2{
+  font-size: 28px;
+  text-align: center;
+}
+.cycle-2-banner1.black{
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+  
+
+}
+
+
+.plastic h2{
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-left: 1cm;
+}
+.plastic p{
+  font-size: 10px;
+  line-height: .3cm;
+  margin-left: 1cm;
+}
+
+
+.happy img{
+  height: auto;
+  max-width: 100%;
+  
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  }
+  .happy h2{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  .happy p{
+    font-size: 10px;
+    line-height: .3cm;
+  }
+  
+/*second cycle banner*/
+.cycle-2-banner{
+  width: 100%;
+  height: 220px;
+  background-image: url("../img/cycle_what_products.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cycle-2-banner h2{
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 450;
+  margin-top: 1cm;
+  display: inline-block;
+  text-transform: uppercase;
+  width: 100%;
+}
+.cycle-2-banner1{
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+  width: 100%;
+  margin-top: .2cm;
+
+}
 
 }
 
@@ -1746,10 +2869,10 @@ ul.list-info-w3pvt {
   } 
   /* Inner sections */
   .hot img {
-    height: 365px;
+    height: 380px;
   }
   .hot-s-img img, .hot-t-img img {
-    height: 164px;
+    height: 179px;
   }
   .hot-f-50 h1 {
     font-size: 26px;
@@ -1775,7 +2898,7 @@ ul.list-info-w3pvt {
   
   .hot-s-img a, .hot-t-img a {
     font-size: 10px;
-    top: 120px;
+    top: 100px;
     background-size: 20px;
     padding-left: 20px;
     padding-right: 40px;
@@ -1786,86 +2909,60 @@ ul.list-info-w3pvt {
   }
   /* Middile Banner Section */
   .banner {
-    height: 280px;
+    height: 270px;
   }
   .banner1 h1 {
-    width: 75%;
-    margin-top: 8%;
-    font-size: 35px;
-    margin-left: 20%;
+    font-size: 28px;
   }
   .banner1 h3 {
-    font-size: 28px;
-    width: 45%;
-    margin-left: 20%;
+    font-size: 22px;
   }
   .banner2 img {
-    height: 230px;
-    margin-top: 5%;
+    height: 200px;
   }
   /* Categories */
   .cat-f {
-    margin-left:-8%;
+    
     height: 160px;
   }
   .cat-f img {
-    height: 140px;
-    margin-top: -22%;
-    margin-right: -2%;
+    height: 120px;
+    margin: 0 auto;
+    bottom: 60px;
+ 
+    
   }
   .cat-f h1 {
     font-size: 24px;
     width: 40%;
-    margin-left: 4%;
-    margin-top: 6%;
+    
+    
   }
   .cat-f a {
-    border-radius: 0px;
-    border: 0px;
-    background-color: #01124a;
-    color: #fff;
     font-size: 10px;
     margin-top: 6%;
     margin-left: 4%;
-    font-weight: lighter;
-    background-image: url("../img/arrow1.png");
-    background-position: 105px;
+    background-position: 75px;
     padding: 10px;
-    background-repeat: no-repeat;
-    padding-right: 60px;
-    padding-left: 30px;
+    padding-right: 50px;
+    padding-left: 20px;
   }
   .cat-s-sub {
     height: 110px;
-    margin-top: 21%;
-    margin-left: 8%;
-    width: 200px;
+    width: 150px;
     background-color: #f4f4f6;
   }
-  .cat-s,.cat-t{
-    margin-left: 2%;
-  }
-  .cat-t {
-    margin-top: 1.75%;
-  }
+  
+
   .cat-s h1, .cat-t h1 {
     font-size: 20px;
-    margin-left: 40%;
-    font-weight: lighter;
-    margin-top: 5%;
-    text-transform: capitalize;
   }
   .cat-s h3, .cat-t h3 {
     font-size: 12px;
-    margin-left: 45%;
-    font-weight: bold;
-    margin-top: -4%;
-    text-transform: uppercase;
   }
   .cat-s-sub img {
-    height: 100px;
-    margin-left: 25%;
-    margin-top: 4%;
+    margin-left: 16px;
+    
   }
 
   
@@ -1878,6 +2975,8 @@ ul.list-info-w3pvt {
 #market h3 {
   font-size: 33px;
   font-weight: 400;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
 }
 
 #market span {
@@ -1888,8 +2987,11 @@ ul.list-info-w3pvt {
 
 
 #market h4 {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 400;
+}
+#market p{
+  font-size: 14px;
 }
 
 /* Our Clients */
@@ -1898,6 +3000,7 @@ ul.list-info-w3pvt {
   text-align: center;
   background-color: #F5F5F6;
   margin-top: 2%;
+
 }
 
 #clients h3, #brands h3 {
@@ -1912,13 +3015,20 @@ ul.list-info-w3pvt {
 .seven-cols img {
   height: 55px;
 }
+#clients p{
+  font-size: 14px;
+}
 
 /* Our Brands */
 
 #brands {
   text-align: center;
+  margin-top: 2%;
+  
 }
-
+.seven-cols img {
+  height: 55px;
+}
 /* Footer Tags */
 
 .margin-h {
@@ -1930,7 +3040,7 @@ ul.list-info-w3pvt {
 }
 
 .mar-l {
-  margin-left: -20%;
+  margin-left: 0%;
 }
 
 .footer-content {
@@ -1949,6 +3059,7 @@ ul.list-info-w3pvt {
   color: #fff;
   letter-spacing: 0px;
   display: inline;
+  text-align: left;
 }
 
 .footer-content h3 a {
@@ -1956,12 +3067,12 @@ ul.list-info-w3pvt {
   color: #fff;
   letter-spacing: 0px;
   margin-top: 25%;
-  margin-left: 25%;
+ text-align: left;
 }
 
 .footer-content p {
   margin-top: 25%;
-  margin-left: 25%;
+  text-align: left;
   font-size: 14px;
   font-weight: lighter;
   line-height: 22px;
@@ -1970,6 +3081,7 @@ ul.list-info-w3pvt {
 .font-p {
   font-size: 14px;
   font-weight: lighter;
+  text-align: left;
 }
 
 .list-info-w3pvt li a {
@@ -1991,7 +3103,7 @@ ul.list-info-w3pvt {
 }
 
 .last-w3ls-contact p {
-  margin-left: -10%;
+  margin-left: 0%;
 }
 
 .w3ls-icons li {
@@ -2005,7 +3117,283 @@ ul.list-info-w3pvt {
 
 .footer-icons {
   margin-top: 2%;
-  margin-left: 5%;
+  text-align: left;
+}
+.copy-g{
+  text-align: right !important;
+  margin-right: 2cm !important;
+}
+.footer-top{
+  text-align: left;
+}
+.footer-w3pvt{
+  text-align: left;
+}
+
+
+ /*--------------------------------------------768-----about css-----992----------------------------------------------*/
+
+ .aboutbanner{
+  width: 100%;
+  height: 180px;
+  background-image: url("../img/aboutban.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* about head banner*/
+.aboutheadbanner{
+  width: 100%;
+  height: 280px;
+  background-image: url("../img/aboutheadbanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aboutheadbanner h1{
+  color: #000;
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 18%;
+  text-transform: uppercase;
+}
+.aboutheadbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 18px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline-block;
+}
+/* about last image sections */
+
+.cot img {
+  height: 600px;
+  width: 425px;
+}
+
+.cot-s-img img, .cot-t-img img {
+  height: 179px;
+  width: 311px;
+  margin-bottom: 35px;
+  margin-right: .4cm;
+}
+.cot-f-50 img{
+  height: 220px;
+  width: 310px;
+  margin-left: .4cm;
+} 
+.cot-z-50 img{
+  height: 138px;
+  width: 310px;
+  margin-left: .4cm;
+}
+
+
+/*----------------768------------------------------kitchen css----------------992-------------------------------------*/
+
+.kitchenbanner{
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/kitchenbanner2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kitchenbanner h1{
+  color: #000;
+  font-size: 44px;
+  font-weight: 600;
+  margin-left: 20%;
+  margin-top: 15%;
+  text-transform: uppercase;
+}
+.kitchenbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 30px;
+  font-weight: 200;
+  margin-left: 20%;
+  display: inline;
+}
+
+.kitcat-h-sub img{
+  height: 110px;
+  margin-left: 15%;
+  margin-top: 20%;
+}
+.kitcat-h-sub{
+  height: 150px;
+  margin-top: 27.5%;
+  width: 150px;
+  background-color: #f4f4f6;
+}
+
+
+.kitcat-l h1{
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: capitalize; 
+}
+
+.kitcat-l h3{
+  font-size: 14px;
+  font-weight:lighter;
+  text-transform: uppercase; 
+}
+.star{
+  width: 82px;
+  margin: 0 auto;
+ 
+
+}
+.paralorem{
+  font-size: 10px;
+ 
+
+}
+.btn-success{
+  margin-top: 5%;
+  margin-bottom: 3%; 
+  margin-left: 25%; 
+  color: #000000; 
+  padding-left:10px ;
+  padding-right: 10px; 
+  font-size: 12px; 
+  background-color: #cccccc;
+}
+
+
+/*---------------768-----------------------------cycle page-------------------------------992-------------------------*/
+
+/*specification*/
+.speci{
+  text-align: center;
+  margin-bottom: 1cm;
+}
+.speci h2{
+  text-transform: uppercase;
+  margin-top: 1cm;
+  padding-bottom: .2cm;
+  font-weight: 550;
+  font-size: 28px;
+}
+.speci h4{
+  text-transform: uppercase;
+  color: #001747;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: -.7cm;
+}
+.speci p{
+  margin-top: .7cm;
+}
+
+/* first banner */
+.cyclebanner{
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/cycle_exp.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cyclebanner h1{
+  color: #fff;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 580;
+  margin-top: 3.1cm;
+  text-transform: uppercase;
+}
+/* cycle middl section between banner*/
+.steel{
+  padding-bottom: 1.7cm;
+}
+.steel h2{
+  font-size: 32px;
+  text-align: center;
+  margin-top: 2cm;
+}
+.cycle-2-banner1.black{
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+  margin-left: 0cm;
+  margin-top: 1cm;
+
+}
+.plastic{
+  margin-bottom: 3cm;
+}
+.plastic img{
+  max-width: 100%;
+  height: auto;
+
+}
+.plastic h2{
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 28px;
+  
+  padding-top: .5cm;
+  margin-left: 1cm;
+}
+.plastic p{
+  font-size: 12px;
+  line-height: .5cm;
+  margin-left: 1cm;
+}
+
+
+.happy img{
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 1cm;
+  }
+  .happy h2{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 28px;
+    padding-top: .5cm;
+    
+  }
+  .happy p{
+    font-size: 12px;
+    line-height: .5cm;
+    
+  }
+  
+/*second cycle banner*/
+.cycle-2-banner{
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/cycle_what_products.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cycle-2-banner h2{
+  color: #fff;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 450;
+  margin-top: 1.5cm;
+  display: inline-block;
+  text-transform: uppercase;
+  width: 100%;
+}
+.cycle-2-banner1{
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: lighter;
+  width: 100%;
+  margin-top: .5cm;
+
 }
 
 }
@@ -2163,7 +3551,7 @@ width: 45px;
 
 
 .hot img{
-  height: 480px;
+  height: 470px;
 }  
 .hot-s-img img,
 .hot-t-img img {
@@ -2216,88 +3604,332 @@ margin-top: 4px;
 
 
 .banner{
-  height: 300px;
+  height: 350px;
 }
 .banner1 h1{
-  width: 75%;
-  margin-top: 8%;
   font-size: 38px;
-  margin-left: 20%;
 }
 .banner1 h3{
   font-size: 30px;
-  width:55%;
-  margin-left: 20%;
 }
 .banner2 img{
   height: 260px;
-  margin-top: 4%;
 }
 
 /* Categories */
-.cat-f{
-  margin-left: -2%;
+.cat-f {
+  height: 200px;
 }
 .cat-f img{
-  height: 170px;
-  margin-top: -22%;
-  margin-right: 1%;
+  height: 140px;
+  bottom: 80px;
 }
 .cat-f h1{
   font-size: 34px;
-  width: 40%;
-  margin-left: 4%;
-  margin-top: 4%;
+ 
 }
 .cat-f a{
-  border-radius: 0px;
-  border: 0px;
-  background-color:#01124a ;
-  color: #fff;
-  font-size: 12px;
-  margin-top: 4%;
-  margin-left: 4%;
-  font-weight: lighter;
-    background-image: url("../img/arrow1.png");
-    background-position: 105px;
+    font-size: 10px;
+    margin-top: 4%;
+    margin-left: 4%;
+    background-position: 80px;
     padding: 10px;
-    background-repeat: no-repeat;
-    padding-right: 60px;
-    padding-left:30px;
+    padding-right: 50px;
+    padding-left:20px;
 }
 
 .cat-s-sub{
   height: 150px;
-  margin-top: 23%;
-  margin-left: 8%;
-  width: 250px;
-  background-color: #f4f4f6;
+  width: 200px;
 }
-.cat-t{
-  margin-top: 1%;
-}
+
 .cat-s h1,
 .cat-t h1{
   font-size: 22px;
-  margin-left: 43%;
-  font-weight: lighter;
-  margin-top: 5%;
-  text-transform: capitalize; 
+   
 }
 .cat-s h3,
 .cat-t h3{
-  font-size: 12px;
-  margin-left: 48%;
-  font-weight: bold;
-  margin-top: -4%;
-  text-transform: uppercase; 
+  font-size: 12px; 
 }
 .cat-s-sub img{
-  height: 130px;
-  margin-left: 25%;
-  margin-top: 4%;
+  margin-left: 18px;
 }
 
+#market p{
+  font-size: 18px;
+}
+#market h4 {
+  font-weight: 400;
+  font-size: 20px;
+}
+#clients p{
+  font-size: 18px;
+}
+
+
+/*footer*/
+.copy-g {
+ margin-right: 1cm;
+}
+
+
+
+/*--------------------------------------992----------about css----------1200--------------------------------------------*/
+
+.aboutbanner{
+  width: 100%;
+  height: 250px;
+  background-image: url("../img/aboutban.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* about head banner*/
+.aboutheadbanner{
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/aboutheadbanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aboutheadbanner h1{
+  color: #000;
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 18%;
+  text-transform: uppercase;
+}
+.aboutheadbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 24px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline-block;
+}
+/* about last image sections */
+
+.cot img {
+  height: 600px;
+  width: 425px;
+}
+
+.cot-s-img img, .cot-t-img img {
+  height: 273px;
+  margin-bottom: 35px;
+  margin-right: .4cm;
+}
+.cot-f-50 img{
+  height: 316px;
+  width: 425px;
+  margin-left: .4cm;
+} 
+.cot-z-50 img{
+  height: 230px;
+  width: 425px;
+  margin-left: .4cm;
+}
+
+
+/*-------------------------992-----------------kitchen css--------------------1200--------------------------------------*/
+
+.kitchenbanner{
+  width: 100%;
+  height: 350px;
+  background-image: url("../img/kitchenbanner2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kitchenbanner h1{
+  color: #000;
+  font-size: 52px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 15%;
+  text-transform: uppercase;
+}
+.kitchenbanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 36px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline;
+}
+
+.kitcat-h-sub img{
+  height: 130px;
+  margin-left: 15%;
+  margin-top: 20%;
+}
+.kitcat-h-sub{
+  height: 200px;
+  margin-top: 27.5%;
+  margin-left: 4%;
+  width: 200px;
+  background-color: #f4f4f6;
+}
+
+.kitcat-l h1{
+  text-align: center;
+  font-size: 24px;
+  margin-left: 2%;
+  font-weight: 500;
+  margin-top: 6%;
+  text-transform: capitalize; 
+}
+
+.kitcat-l h3{
+  font-size: 18px;
+  margin-left: 8%;
+  font-weight:lighter;
+  text-transform: uppercase; 
+}
+.star{
+  position: relative;
+  width: 100px;
+  margin: 0 auto;
+ 
+}
+.paralorem{
+  font-size: 10px;
+  margin-left: 8%;
+}
+
+
+
+/*---------------992-----------------------------cycle page-------------------------------1200-------------------------*/
+
+/*specification*/
+.speci{
+  text-align: center;
+  margin-bottom: 1cm;
+}
+.speci h2{
+  text-transform: uppercase;
+  margin-top: 1cm;
+  padding-bottom: .2cm;
+  font-weight: 550;
+}
+.speci h4{
+  text-transform: uppercase;
+  color: #001747;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: -.7cm;
+}
+.speci p{
+  margin-top: .7cm;
+}
+
+/* first banner */
+.cyclebanner{
+  width: 100%;
+  height: 320px;
+  background-image: url("../img/cycle_exp.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cyclebanner h1{
+  color: #fff;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 580;
+  margin-top: 3.5cm;
+  text-transform: uppercase;
+}
+/* cycle middl section between banner*/
+.steel{
+  padding-bottom: 1.7cm;
+}
+.steel h2{
+  font-size: 38px;
+  text-align: center;
+  margin-top: 2cm;
+}
+.cycle-2-banner1.black{
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-left: 0cm;
+  margin-top: 1cm;
+
+}
+.plastic{
+  margin-bottom: 3cm;
+}
+.plastic img{
+  max-width: 100%;
+  height: auto;
+
+}
+.plastic h2{
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 36px;
+  padding-bottom: .5cm;
+  padding-top: .5cm;
+  margin-left: 1cm;
+}
+.plastic p{
+  font-size: 16px;
+  line-height: .7cm;
+  margin-left: 1cm;
+}
+
+
+.happy img{
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 1cm;
+  }
+  .happy h2{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 36px;
+    padding-bottom: .5cm;
+    padding-top: .5cm;
+    
+  }
+  .happy p{
+    font-size: 16px;
+    line-height: .7cm;
+    
+  }
+  
+/*second cycle banner*/
+.cycle-2-banner{
+  width: 100%;
+  height: 350px;
+  background-image: url("../img/cycle_what_products.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cycle-2-banner h2{
+  color: #fff;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 450;
+
+  display: inline-block;
+  text-transform: uppercase;
+  width: 100%;
+}
+.cycle-2-banner1{
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: lighter;
+  width: 100%;
+
+}
 
 
 }

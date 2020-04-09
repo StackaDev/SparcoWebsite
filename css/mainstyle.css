@@ -1103,29 +1103,22 @@ z-index: 0;
 /*---------------------------------------------------kitchen 2 css------------------------------------------------------*/
 
 .container-kit{
-  margin-left: .5cm;
-  margin-right: 3cm;
-  margin-top: -.8cm;
+
 }
 .kit-h-sub img{
-  height: 210px;
-  width: 425px;
-  padding-left: 2cm;
-  padding-right: -3cm;
-  margin-left: 0cm;
-  margin-right: -2cm;
+
+  height: auto;
+  width: 100%;
+  padding: 30px;
 }
-.kit-h-sub{
-  margin-top: 23%;
-  width: 80px;
-}
+
 
 .kit-l a:hover{
   background-color: #001747;
   color: #fff;
 }
 .kit-l a{
-  margin-top: -16%;
+  
   background-color: #F1F0EE;
   font-weight: 550;
   font-size: 22px;
@@ -1134,15 +1127,12 @@ z-index: 0;
   border: 0;
   border-radius: 0;
   text-align: center;
-  height: 55px;
-  width: 350px;
+  height: auto;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
   color: #000;
-  padding-left: 2cm;
-  padding-right: 2cm;
-  padding-top: .4cm;
-  padding-bottom: .4cm;
-  margin-left: 2cm;
-  margin-right: 2cm;
+  
 }
 
 

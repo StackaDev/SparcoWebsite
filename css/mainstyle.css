@@ -422,6 +422,7 @@ body {
   padding-left: 30px;
 }
 
+
 .hot-s-img a {
   margin-bottom: 17%;
 }
@@ -787,56 +788,49 @@ ul.list-info-w3pvt {
   margin-top: 1.3cm;
 }
 .cysec img{
+  position: relative;
   padding: .3cm .3cm .3cm .3cm;
 height: 180px;
 width: 180px;
 }
 .csec img{
+  position: relative;
   height: 528px;
   width: 500px;
   padding-top: .3cm;
-  margin-left: .5cm;
+  padding-left: .9cm;
 }
 .c-1-sec h3{
 text-transform: uppercase;
-margin-left: 6cm;
-display: inline-block;
-padding-top: 1.4cm;
 font-size: 32px;
 }
 .c-1-sec h4{
+  position: relative;
   text-transform: uppercase;
-  margin-left: 6cm;
-  margin-bottom: 11cm;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
+  margin-bottom: 9cm;
 }
 .c-1-sec img{
+  position: relative;
 height: 28px;
-margin-left: 9cm;
-margin-top: -11.8cm;
 }
 .c-1-sec ul li{
   list-style: none; /* Remove default bullets */
 }
 .c-1-sec ul li::before{
-  font-size: 56px;
+  position: relative;
+  font-size: 58px;
   color: #E7E5E2; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
- line-height: .6cm;
+  line-height: .6cm;
   content: "\2024 ";
   display: inline-block;
 }
 .posi{
-  margin-left: 6cm;
-  margin-top: -10.5cm;
+  
 }
-.cy-para{
-  margin-left: 6.9cm;
-  margin-top: -10.12cm;
-  line-height: .6cm;
-  font-weight: 600;
-}
+
 .link-am{
   margin-left: 19cm;
   z-index: 0;

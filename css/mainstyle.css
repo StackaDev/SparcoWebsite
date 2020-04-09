@@ -712,14 +712,44 @@ ul.list-info-w3pvt {
   text-align: left;
 }
 
-
-
-
-
-
-
 /*---------------------------------------------------------about page------------------------------------------------css*/
 
+
+/*-------------About Head Banner Section-----------------*/
+
+.abanner {
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/banner_new.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.abanner1 h1 {
+  color: #000;
+  font-size: 52px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 12%;
+  text-transform: uppercase;
+}
+
+.abanner1 h3 {
+  color: #000;
+  text-transform: initial;
+  font-size: 31px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline-block;
+}
+
+.abanner2 img {
+  height: 300px;
+  margin-top: 8%;
+  margin-right: 15%;
+}
+/*-------------about middle banner section-----------------*/
 .aboutbanner{
   width: 100%;
   height: 250px;
@@ -728,31 +758,8 @@ ul.list-info-w3pvt {
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* about head banner*/
-.aboutheadbanner{
-  width: 100%;
-  height: 430px;
-  background-image: url("../img/aboutheadbanner.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.aboutheadbanner h1{
-  color: #000;
-  font-size: 52px;
-  font-weight: 600;
-  margin-left: 25%;
-  margin-top: 18%;
-  text-transform: uppercase;
-}
-.aboutheadbanner1 h3{
-  color: #000;
-  text-transform: initial;
-  font-size: 31px;
-  font-weight: 200;
-  margin-left: 25%;
-  display: inline-block;
-}
+
+
 /* about last image sections */
 
 .cot img {
@@ -1805,7 +1812,47 @@ ul.list-info-w3pvt {
 }
 
 /*------------------------------------------------576---about css-----------------------------------------------------*/
+/* Middile Banner Section */
 
+.abanner {
+  
+  width: 100%;
+  height: auto;
+
+  background-image: url("../img/banner_new.png");
+}
+
+.abanner1 h1 {
+  color: #000;
+  font-size: 22px;
+  font-weight: 600;
+ margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+
+.abanner1 h3 {
+  color: #000;
+  text-transform: initial;
+  font-size: 22px;
+  font-weight: 100;
+  text-align: center !important;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.abanner2 img {
+  max-width: 80%;
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  vertical-align: text-top;
+}
+
+/*about middle banner*/
 .aboutbanner{
   width: auto;
   height: 130px;
@@ -1815,32 +1862,7 @@ ul.list-info-w3pvt {
   background-repeat: no-repeat;
   text-align: center;
 }
-/* about head banner*/
-.aboutheadbanner{
-  width: auto;
-  height: 200px;
-  background-image: url("../img/aboutheadbanner.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 
-}
-.aboutheadbanner h1{
-  color: #000;
-  font-size: 22px;
-  font-weight: 600;
-  margin-left: 25%;
-  margin-top: 18%;
-  text-transform: uppercase;
-}
-.aboutheadbanner1 h3{
-  color: #000;
-  text-transform: initial;
-  font-size: 17px;
-  font-weight: 200;
-  margin-left: 25%;
-  display: inline-block;
-}
 /* about last image sections */
 
 
@@ -2450,6 +2472,37 @@ ul.list-info-w3pvt {
 
 /*--------------------576------------------------about css----------------------768--------------------------------------*/
 
+/* about head Banner Section */
+.abanner {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.abanner1 h1 {
+  color: #000;
+  font-size: 26px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 10%;
+  text-transform: uppercase;
+}
+.abanner1 h3 {
+  color: #000;
+  text-transform: initial;
+  font-size: 16px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline-block;
+}
+.abanner2 img {
+  height: 140px;
+  margin-top: 12%;
+  margin-right: 20%;
+}
+
+/*about middle banner*/
 .aboutbanner{
   width: 100%;
   height: 200px;
@@ -2458,31 +2511,7 @@ ul.list-info-w3pvt {
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* about head banner*/
-.aboutheadbanner{
-  width: 100%;
-  height: 200px;
-  background-image: url("../img/aboutheadbanner.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.aboutheadbanner h1{
-  color: #000;
-  font-size: 28px;
-  font-weight: 600;
-  margin-left: 25%;
-  margin-top: 18%;
-  text-transform: uppercase;
-}
-.aboutheadbanner1 h3{
-  color: #000;
-  text-transform: initial;
-  font-size: 17px;
-  font-weight: 200;
-  margin-left: 25%;
-  display: inline-block;
-}
+
 /* about last image sections */
 
 .cot img {
@@ -2888,7 +2917,7 @@ ul.list-info-w3pvt {
   }
   .banner1 h1 {
     width: 75%;
-    margin-top: 15%;
+    margin-top: 5%;
     font-size: 28px;
     margin-left: 20%;
   }
@@ -3121,24 +3150,16 @@ ul.list-info-w3pvt {
 
  /*--------------------------------------------768-----about css-----992----------------------------------------------*/
 
- .aboutbanner{
-  width: 100%;
-  height: 180px;
-  background-image: url("../img/aboutban.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-/* about head banner*/
-.aboutheadbanner{
+/* about head Banner Section */
+.abanner {
   width: 100%;
   height: 280px;
-  background-image: url("../img/aboutheadbanner.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.aboutheadbanner h1{
+
+.abanner1 h1 {
   color: #000;
   font-size: 32px;
   font-weight: 600;
@@ -3146,7 +3167,7 @@ ul.list-info-w3pvt {
   margin-top: 18%;
   text-transform: uppercase;
 }
-.aboutheadbanner1 h3{
+.abanner1 h3 {
   color: #000;
   text-transform: initial;
   font-size: 18px;
@@ -3154,6 +3175,21 @@ ul.list-info-w3pvt {
   margin-left: 25%;
   display: inline-block;
 }
+.abanner2 img {
+  height: 200px;
+  margin-top: 10%;
+}
+
+/*about middle banner*/
+.aboutbanner{
+  width: 100%;
+  height: 180px;
+  background-image: url("../img/aboutban.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* about last image sections */
 
 .cot img {
@@ -3451,8 +3487,8 @@ ul.list-info-w3pvt {
 }
 
 
-
 }
+
 
 
 
@@ -3660,7 +3696,12 @@ margin-top: 4px;
 
 
 .banner{
+  width: 100%;
   height: 300px;
+  background-image: url("../img/homebanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .banner1 h1{
   width: 75%;
@@ -3674,7 +3715,7 @@ margin-top: 4px;
   margin-left: 20%;
 }
 .banner2 img{
-  height: 260px;
+  height: 250px;
   margin-top: 4%;
   margin-right: 20%;
 }
@@ -3752,6 +3793,34 @@ bottom: 80px;
 
 /*--------------------------------------992----------about css----------1200--------------------------------------------*/
 
+/*-----about head banner*/
+.abanner{
+  width: 100%;
+  height: 300px;
+}
+.abanner1 h1{
+  color: #000;
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-top: 10%;
+  text-transform: uppercase;
+}
+.abanner1 h3{
+  color: #000;
+  text-transform: initial;
+  font-size: 24px;
+  font-weight: 200;
+  margin-left: 25%;
+  display: inline-block;
+}
+.abanner2 img{
+  height: 270px;
+  margin-top: 4%;
+  margin-right: 22%;
+}
+
+/*about middle banner*/
 .aboutbanner{
   width: 100%;
   height: 250px;
@@ -3760,31 +3829,7 @@ bottom: 80px;
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* about head banner*/
-.aboutheadbanner{
-  width: 100%;
-  height: 300px;
-  background-image: url("../img/aboutheadbanner.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.aboutheadbanner h1{
-  color: #000;
-  font-size: 40px;
-  font-weight: 600;
-  margin-left: 25%;
-  margin-top: 18%;
-  text-transform: uppercase;
-}
-.aboutheadbanner1 h3{
-  color: #000;
-  text-transform: initial;
-  font-size: 24px;
-  font-weight: 200;
-  margin-left: 25%;
-  display: inline-block;
-}
+
 /* about last image sections */
 
 .cot img {

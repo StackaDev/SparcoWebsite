@@ -427,16 +427,8 @@ body {
   margin-bottom: 17%;
 }
 
-.btnload {
 
-  color: #000000;
-  border: 0px;
-  border-radius: 0px;
-  padding-left:45px ;
-  padding-right: 45px;
-  font-size: 12px;
-  background-color: #cccccc;
-}
+
 
 /*---------------------------------------------Middile Banner Section----------------------------------------------------*/
 
@@ -1530,7 +1522,7 @@ nav.active{
   font-size: 8px;
 }
 .btnload {
-  display: none;
+  display: none !important;
 
 }
 
@@ -2610,16 +2602,7 @@ ul.list-info-w3pvt {
  
 
 }
-.btn-success{
-  margin-top: 5%;
-  margin-bottom: 3%; 
-  margin-left: 50%; 
-  color: #000000; 
-  padding-left:6px ;
-  padding-right: 6px; 
-  font-size: 9px; 
-  background-color: #cccccc;
-}
+
 
 /*---------------768-----------------------------cycle page-------------------------------992-------------------------*/
 
@@ -3289,16 +3272,7 @@ ul.list-info-w3pvt {
  
 
 }
-.btn-success{
-  margin-top: 5%;
-  margin-bottom: 3%; 
-  margin-left: 25%; 
-  color: #000000; 
-  padding-left:10px ;
-  padding-right: 10px; 
-  font-size: 12px; 
-  background-color: #cccccc;
-}
+
 
 
 /*---------------768-----------------------------cycle page-------------------------------992-------------------------*/

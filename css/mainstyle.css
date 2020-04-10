@@ -1221,13 +1221,13 @@ z-index: 0;
   .key {
       background: #ffffff;
       text-align: center;
+      position: relative;
+      margin: 0 auto;
       padding: 10px 50px;
       font-weight: 700;
       color: #001747;
       cursor: pointer;
       text-transform: uppercase;
-      margin-left: -2.5cm;
-      margin-top: 8.5cm;
       
   }
 
@@ -1286,17 +1286,23 @@ z-index: 0;
 }
   
 .key1 {
+  font-weight: lighter;
+  border-color: #000684;
+  border-style: solid;
   background: transparent;
   text-align: center;
   padding: 10px 50px;
-  font-weight: 700;
-  color: #001747;
+  font-weight: 600;
+  font-size: 12px;
+  color: #000;
   cursor: pointer;
   text-transform: uppercase;
-
+  margin: 0 auto;
+  
   
 }
 .key2 {
+  margin: 0 auto;
   background: #001747;
   text-align: center;
   padding: 10px 50px;
@@ -1304,6 +1310,7 @@ z-index: 0;
   color: #fff;
   cursor: pointer;
   text-transform: uppercase;
+  
 
 }
 

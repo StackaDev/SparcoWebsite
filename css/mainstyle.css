@@ -700,9 +700,10 @@ ul.list-info-w3pvt {
 }
 .copy-g {
   position: relative;
-  margin: 0 auto;
   bottom: 1cm;
-  margin-left: 11cm !important;
+  width: 100%;
+  text-align: right;
+  padding-right: 2cm;
 }
 .navbar-brand{
   margin-left: 2cm;
@@ -1795,6 +1796,7 @@ ul.list-info-w3pvt {
   margin: 0 auto !important;
 }
 .copy-g{
+  padding: 0;
   text-align: center !important;
   margin: 0 auto !important;
   top: 0;
@@ -2462,8 +2464,10 @@ ul.list-info-w3pvt {
   text-align: center;
 }
 .copy-g{
+  padding: 0;
+  position: relative;
   text-align: center !important;
-  margin: 0 auto !important;
+  margin: 0 auto;
   top: 0;
   padding-bottom: 1cm;
 }
@@ -2924,7 +2928,6 @@ ul.list-info-w3pvt {
   }
   .banner1 h1 {
     width: 75%;
-    margin-top: 5%;
     font-size: 28px;
     margin-left: 20%;
   }
@@ -3139,8 +3142,12 @@ ul.list-info-w3pvt {
   color: #fff;
 }
 .copy-g {
-  margin: 0 auto !important;
-margin-left: 9cm !important;
+  position: relative;
+  margin: 0 auto;
+  bottom: 1cm;
+  width: 100%;
+  text-align: right !important;
+  padding-right: 2cm !important;
 }
 
 
@@ -3790,10 +3797,13 @@ bottom: 80px;
 
 /*footer*/
 .copy-g {
-  margin: 0 auto !important;
-margin-left: 7cm !important;
+  position: relative;
+  margin: 0 auto;
+  bottom: 1cm;
+  width: 100%;
+  text-align: right;
+  
 }
-
 
 
 /*--------------------------------------992----------about css----------1200--------------------------------------------*/

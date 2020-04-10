@@ -2218,8 +2218,9 @@ ul.list-info-w3pvt {
     padding: 6px;
 
   }
-  .btnlaod {
-    margin-top:   4px;
+  .btnload {
+    display: none !important;
+  
   }
   /* Middile Banner Section */
   .banner {

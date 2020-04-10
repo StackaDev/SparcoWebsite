@@ -1202,21 +1202,21 @@ z-index: 0;
     width: 200%;
     text-align: center;
   }
+
+    ::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #ffffff;
+    }
+    ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #ffffff;
+    }
+    :-ms-input-placeholder {
+      /* IE 10+ */
+      color: #ffffff;
+  }
   
   
-  
-  ::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    color: #ffffff;
-  }
-  ::-moz-placeholder {
-    /* Firefox 19+ */
-    color: #ffffff;
-  }
-  :-ms-input-placeholder {
-    /* IE 10+ */
-    color: #ffffff;
-  }
   
   .key {
       background: #ffffff;
@@ -1227,9 +1227,90 @@ z-index: 0;
       cursor: pointer;
       text-transform: uppercase;
       margin-left: -2.5cm;
-  margin-top: 8.5cm;
+      margin-top: 8.5cm;
       
   }
+
+/*-----------------------------------------careers page css start here-----------------------------------------------*/
+
+
+.carebanner {
+  width: 100%;
+  height: 850px;
+  background-image: url("../img/banner_new.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.carebanner h5{
+  color: #000;
+  font-weight: 500;
+  margin-top: 2cm;
+  text-align: center;
+}
+.carebanner h2{
+  color: #000;
+  text-align: center;
+  font-weight: 500;
+}
+
+.care-form{
+  display: flex;
+  max-width: 550px;
+  margin: 0 auto;
+ 
+  padding: 30px;
+  
+}
+
+.input-care-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-care-fields{
+  width: 48%;
+}
+
+.input-care-fields input{
+  margin: 10px 0;
+  background: #F2F1EF;
+  border: 0px;
+  font-weight: 600;
+  padding: 25px;
+  color: #000;
+  width: 200%;
+  text-align: left;
+  
+}
+  
+.key1 {
+  background: transparent;
+  text-align: center;
+  padding: 10px 50px;
+  font-weight: 700;
+  color: #001747;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  
+}
+.key2 {
+  background: #001747;
+  text-align: center;
+  padding: 10px 50px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+
+}
+
+
+
+
+
 
 
 

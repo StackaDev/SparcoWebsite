@@ -1657,7 +1657,7 @@ nav.active{
 }
 
 #market h3 {
-  font-size: 28px;
+  font-size: 28px !important;
   font-weight: 500;
 }
 
@@ -1688,6 +1688,8 @@ nav.active{
 
 
 .seven-cols img {
+  padding: 5px;
+  margin-top: .5cm;
   height: 50px;
   text-align: center;
 }
@@ -1709,9 +1711,7 @@ nav.active{
   margin-top: 8%;
 }
 
-.mar-l {
- 
-}
+
 
 .footer-content {
   height: 50%;

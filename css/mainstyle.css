@@ -693,20 +693,22 @@ ul.list-info-w3pvt {
 }
 
 .footer-icons {
-  margin-top: 2%;
+  margin: 0 auto;
   margin-left: 5%;
   text-align: left;
+  margin-top: 1cm;
 }
 .copy-g {
-  text-align: right;
-  margin-right: 3cm;
+  position: relative;
+  margin: 0 auto;
+  bottom: 1cm;
+  margin-left: 11cm !important;
 }
 .navbar-brand{
   margin-left: 2cm;
 }
 .footer-top{
   text-align: left;
-  margin-left: cm;
 }
 .footer-w3pvt{
   text-align: left;
@@ -1795,6 +1797,8 @@ ul.list-info-w3pvt {
 .copy-g{
   text-align: center !important;
   margin: 0 auto !important;
+  top: 0;
+  padding-bottom: .7cm;
 }
 .copy-g span{
   display: none;
@@ -2448,7 +2452,7 @@ ul.list-info-w3pvt {
 }
 
 .footer-icons {
-  margin-top: 0%;
+  margin: 0  auto;
  text-align: center;
 }
 .footer-w3pvt{
@@ -2458,7 +2462,10 @@ ul.list-info-w3pvt {
   text-align: center;
 }
 .copy-g{
-  text-align: right;
+  text-align: center !important;
+  margin: 0 auto !important;
+  top: 0;
+  padding-bottom: 1cm;
 }
 .navbar-brand{
   margin: 0 auto;
@@ -3131,15 +3138,12 @@ ul.list-info-w3pvt {
 .w3ls-icons li a span {
   color: #fff;
 }
+.copy-g {
+  margin: 0 auto !important;
+margin-left: 11cm !important;
+}
 
-.footer-icons {
-  margin-top: 2%;
-  text-align: left;
-}
-.copy-g{
-  text-align: right !important;
-  margin-right: 2cm !important;
-}
+
 .footer-top{
   text-align: left;
 }
@@ -3786,7 +3790,8 @@ bottom: 80px;
 
 /*footer*/
 .copy-g {
- margin-right: 1cm;
+  margin: 0 auto !important;
+margin-left: 7cm !important;
 }
 
 

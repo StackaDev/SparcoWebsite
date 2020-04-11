@@ -1108,21 +1108,23 @@ z-index: 0;
 /*---------------------------------------------------kitchen 2 css------------------------------------------------------*/
 
 .container-kit{
-
+margin-top: 1cm;
 }
-.kit-h-sub img{
-
+.kit-a-sub img{
   height: auto;
+  max-width: 100%;
   width: 100%;
-  padding: 30px;
+  position: relative;
+
+
 }
 
 
-.kit-l a:hover{
+.kit-a a:hover{
   background-color: #001747;
   color: #fff;
 }
-.kit-l a{
+.kit-a a{
   
   background-color: #F1F0EE;
   font-weight: 550;
@@ -1134,8 +1136,7 @@ z-index: 0;
   text-align: center;
   height: auto;
   width: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
+  
   color: #000;
   
 }

@@ -972,67 +972,6 @@ z-index: 0;
   width: 100%;
 
 }
-  /* cycle page similar products*/
-  .sim{
-    margin-top: 1.5cm;
-  }
-  .sim h2{
-    text-transform: uppercase;
-    margin-top: 1cm;
-    font-weight: 600;
-    font-size: 38px;
-  }
-  .sim-star{
-    height: 18px;
-    width: 100px;
-    margin-left: 2.9cm;
-    position: relative;
-    }
-.card ul{
-      list-style: none; /* Remove default bullets */
-      font-size: 14px;
-      margin-right: .7cm;
-      line-height: .0001cm;
-      position: relative;
-      bottom: .5cm;
-    }
-  .card li::before{
-      font-size: 56px;
-      color: #001747; /* Change the color */
-      font-weight: lighter; /* If you want it to be bold */
-      line-height: .6cm;
-      content: "\2024 ";
-      display: inline-block;
-      font-size: 72px;
-    }
-  .card {
-    outline-color: #fff;
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    border-radius: 0;
-  }
-  
-  .card h6{
-    margin-right: 3.1cm;
-    position: relative;
-    bottom: .5cm;
-  }
-  
-  .card button {
-    border: #fff;
-    outline-color: #fff;
-    color: #001747;
-    background-color: #fff;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-  
-  .card button:hover {
-    opacity: 0.7;
-  }
 
 
 /*--------------------------------------------------kitchen css--------------------------------------------------------*/
@@ -1320,12 +1259,156 @@ margin-right: 2cm;
 
 }
 
+/*------------------------------------------------ Kettels2 page css start here ---------------------------------------*/
+.kett-2{
+  margin-left: .5cm;
+  margin-right: .5cm;
+}
+.kett-2 h5{
+  margin-top: 1.4cm;
+  font-weight: 900;
+  font-weight: bold;
+
+}
+.kett-2 span{
+  color: #001747;
+}
+
+/*-----kettles2 only sim*/
+
+  /* -----------whole sim ------------------ kettels page cycle page similar products*/
+  .sim-2{
+    margin-top: 1.5cm;
+  }
+  .sim-2 h2{
+    text-transform: uppercase;
+    margin-top: 1cm;
+    font-weight: 600;
+    font-size: 38px;
+  }
+  .sim-2-star{
+    height: 18px;
+    width: 100px;
+    margin-left: 3.5cm;
+    position: relative;
+    }
+.card-2 ul{
+      list-style: none; /* Remove default bullets */
+      font-size: 14px;
+      margin-right: .7cm;
+      line-height: .0001cm;
+      position: relative;
+      bottom: .5cm;
+    }
+  .card-2 li::before{
+      font-size: 56px;
+      color: #001747; /* Change the color */
+      font-weight: lighter; /* If you want it to be bold */
+      line-height: .6cm;
+      content: "\2024 ";
+      display: inline-block;
+      font-size: 72px;
+    }
+  .card-2 {
+    background-color: #F5F4F5;
+    outline-color: #fff;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 0;
+  }
+  
+  .card-2 h6{
+    margin-right: 3.1cm;
+    position: relative;
+    bottom: .5cm;
+  }
+  
+  .card-2 button {
+    border: none !important;
+    outline: none !important;
+    outline-color: transparent;
+    border: #fff;
+    outline-color: #fff;
+    color: #fff;
+    background-color: #001747;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  .card-2 button:hover {
+    opacity: 0.7;
+  }
 
 
 
-
-
-
+  /* -----------whole sim ------------------ kettels page cycle page similar products*/
+  .sim{
+    margin-top: 1.5cm;
+  }
+  .sim h2{
+    text-transform: uppercase;
+    margin-top: 1cm;
+    font-weight: 600;
+    font-size: 38px;
+  }
+  .sim-star{
+    height: 18px;
+    width: 100px;
+    margin-left: 3.5cm;
+    position: relative;
+    }
+.card ul{
+      list-style: none; /* Remove default bullets */
+      font-size: 14px;
+      margin-right: .7cm;
+      line-height: .0001cm;
+      position: relative;
+      bottom: .5cm;
+    }
+  .card li::before{
+      font-size: 56px;
+      color: #001747; /* Change the color */
+      font-weight: lighter; /* If you want it to be bold */
+      line-height: .6cm;
+      content: "\2024 ";
+      display: inline-block;
+      font-size: 72px;
+    }
+  .card {
+    outline-color: #fff;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 0;
+  }
+  
+  .card h6{
+    margin-right: 3.1cm;
+    position: relative;
+    bottom: .5cm;
+  }
+  
+  .card button {
+    border: none !important;
+    outline: none !important;
+    outline-color: transparent;
+    color: #001747;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.6;
+   
+  }
 
 
 /* Media Queries Satrt Here */
@@ -2118,6 +2201,30 @@ ul.list-info-w3pvt {
     padding-bottom: 1cm;
   }
 
+
+  /*-------- cycle and kettles page simlar pro*/
+  .sim{
+    margin-left: .5cm;
+    margin-right: .5cm;
+  }
+  .sim-star{
+    height: 17px;
+    width: 80px;
+    margin-left: 3.4cm;
+    bottom: .02cm;
+    position: relative;
+    }
+    .sim-2{
+      margin-left: .5cm;
+      margin-right: .5cm;
+    }
+    .sim-2-star{
+      height: 17px;
+      width: 80px;
+      margin-left: 3.4cm;
+      bottom: .02cm;
+      position: relative;
+      }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -3511,10 +3618,10 @@ ul.list-info-w3pvt {
   font-size: 32px;
 }
 .sim-star{
-  height: 18px;
-  width: 80px;
-  margin-left: 1.7cm;
-  bottom: .1cm;
+  height: 15px;
+  width: 70px;
+  margin-left: 2.6cm;
+  bottom: .07cm;
   position: relative;
   }
 .card ul{
@@ -3566,7 +3673,23 @@ ul.list-info-w3pvt {
 .card button:hover {
   opacity: 0.7;
 }
-
+/* cycle page similar products*/
+.sim-2{
+  margin-top: 1.5cm;
+}
+.sim-2 h2{
+  text-transform: uppercase;
+  margin-top: 1cm;
+  font-weight: 500;
+  font-size: 32px;
+}
+.sim-2-star{
+  height: 15px;
+  width: 70px;
+  margin-left: 2.6cm;
+  bottom: .07cm;
+  position: relative;
+  }
 
 }
 
@@ -4136,7 +4259,7 @@ bottom: 80px;
   width: 100%;
 
 }
-/* cycle page similar products*/
+/* cycle page and kitchen2 similar products*/
 .sim{
   margin-top: 1.5cm;
 }
@@ -4149,7 +4272,7 @@ bottom: 80px;
 .sim-star{
   height: 18px;
   width: 100px;
-  margin-left: 2.5cm;
+  margin-left: 3.5cm;
   position: relative;
   }
 .card ul{
@@ -4198,7 +4321,67 @@ bottom: 80px;
   opacity: 0.7;
 }
 
+/* kettles2 page-------------------------- similar products*/
+.sim-2{
+  margin-top: 1.5cm;
+}
+.sim-2 h2{
+  text-transform: uppercase;
+  margin-top: 1cm;
+  font-weight: 500;
+  font-size: 36px;
+}
+.sim-2-star{
+  height: 18px;
+  width: 100px;
+  margin-left: 3.5cm;
+  position: relative;
+  }
+.card-2 ul{
+    list-style: none; /* Remove default bullets */
+    font-size: 14px;
+    margin-right: .7cm;
+    line-height: .0001cm;
+    position: relative;
+    bottom: .5cm;
+  }
+.card-2 li::before{
+    font-size: 56px;
+    color: #001747; /* Change the color */
+    font-weight: lighter; /* If you want it to be bold */
+    line-height: .6cm;
+    content: "\2024 ";
+    display: inline-block;
+    font-size: 72px;
+  }
+.card-2 {
+  outline-color: #fff;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  border-radius: 0;
+}
 
+.card-2 h6{
+  margin-right: 3.1cm;
+  position: relative;
+  bottom: .5cm;
+}
+
+.card-2 button {
+  border: #fff;
+  outline-color: #fff;
+  color: #fff;
+  background-color: #001747;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card-2 button:hover {
+  opacity: 0.7;
+}
 
 
 }

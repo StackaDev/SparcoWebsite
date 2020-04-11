@@ -1133,7 +1133,7 @@ margin-right: 2cm;
   background-color: #F1F0EE;
   font-weight: 500;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 16px;
   border: 0;
   border-radius: 0;
   text-align: center;
@@ -2108,7 +2108,6 @@ ul.list-info-w3pvt {
   margin-top: 1cm;
   margin-left: 1cm;
   margin-right: 1cm;
-  margin-bottom: .7cm;
   }
   .kit-a-sub{
     padding-bottom: 1cm;

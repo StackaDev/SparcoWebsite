@@ -2076,6 +2076,11 @@ ul.list-info-w3pvt {
 
 /*kitchen banner 575px start here*/
 
+.kitcat{
+  padding-left: 1.1cm !important;
+  padding-right: 1.1cm !important;
+}
+
 .kitcat-l h1{
   font-size: 30px;
   text-align: center !important;

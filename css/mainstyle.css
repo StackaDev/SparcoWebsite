@@ -1109,34 +1109,36 @@ z-index: 0;
 
 .container-kit{
 margin-top: 1cm;
+margin-left: 2cm;
+margin-right: 2cm;
 }
+
+
 .kit-a-sub img{
   height: auto;
-  max-width: 100%;
   width: 100%;
   position: relative;
-
-
+  z-index: -1;
+  
 }
 
 
 .kit-a a:hover{
   background-color: #001747;
   color: #fff;
+  
 }
 .kit-a a{
   
   background-color: #F1F0EE;
-  font-weight: 550;
-  font-size: 22px;
+  font-weight: 500;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 12px;
   border: 0;
   border-radius: 0;
   text-align: center;
   height: auto;
   width: 100%;
-  
   color: #000;
   
 }
@@ -2100,6 +2102,17 @@ ul.list-info-w3pvt {
   text-align: center !important;
 }
 
+/*---575-----kitchen 2 css------------------------------------------*/
+
+.container-kit{
+  margin-top: 1cm;
+  margin-left: 1cm;
+  margin-right: 1cm;
+  margin-bottom: .7cm;
+  }
+  .kit-a-sub{
+    padding-bottom: 1cm;
+  }
 
 }
 

@@ -706,9 +706,7 @@ ul.list-info-w3pvt {
 .footer-w3pvt{
   text-align: left;
 }
-.fooot{
-  padding-top: 1cm;
-}
+
 /*---------------------------------------------------------about page------------------------------------------------css*/
 
 
@@ -1108,20 +1106,17 @@ margin-right: 2cm;
   
   .map-2{
     background-color: #00143C;
-    
+    margin-bottom: 0cm !important;
   }
   .wrapper{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-40%);
-    width: 100%;
-    padding: 0 2px;
+
+    
   }
   
   .contact-form{
     display: flex;
-    max-width: 550px;
-    margin: 0 auto;
+    max-width: 100%;
+    
     background: #00143C;
     padding: 30px;
     
@@ -1134,7 +1129,7 @@ margin-right: 2cm;
   }
   
   .input-fields{
-    width: 48%;
+    width: 50%;
   }
   
   .input-fields .input{
@@ -1165,14 +1160,21 @@ margin-right: 2cm;
   
   .key {
       background: #ffffff;
+      
       text-align: center;
+      max-width: 100%;
       position: relative;
-      margin: 0 auto;
-      padding: 10px 50px;
+      
+      padding-top: 13px;
+      padding-bottom: 13px;
+      
       font-weight: 700;
       color: #001747;
       cursor: pointer;
       text-transform: uppercase;
+
+      margin-top: .5cm;
+      margin-bottom: 1cm;
       
   }
 
@@ -2703,9 +2705,7 @@ ul.list-info-w3pvt {
   margin: 0 auto;
   text-align: center !important;
 }
-.fooot{
-  padding-top: 1cm;
-}
+
 
 
 /*--------------------576------------------------about css----------------------768--------------------------------------*/

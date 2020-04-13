@@ -790,58 +790,91 @@ ul.list-info-w3pvt {
   margin-top: 1.3cm;
 }
 .cysec img{
+  height: auto;
+  width: 100%;
   position: relative;
-  padding: .3cm .3cm .3cm .3cm;
-height: 180px;
-width: 180px;
+  padding-left: unset;
+  padding-right: unset;
+  padding-bottom: 31px;
 }
 .csec img{
+  height: auto;
+  width: 100%;
   position: relative;
-  height: 528px;
-  width: 500px;
-  padding-top: .3cm;
-  padding-left: .9cm;
-}
-.c-1-sec h3{
-text-transform: uppercase;
-font-size: 32px;
-}
-.c-1-sec h4{
-  position: relative;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 22px;
-  margin-bottom: 9cm;
-}
-.c-1-sec img{
-  position: relative;
-height: 28px;
-}
-.c-1-sec ul li{
-  list-style: none; /* Remove default bullets */
-}
-.c-1-sec ul li::before{
-  position: relative;
-  font-size: 58px;
-  color: #E7E5E2; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  line-height: .6cm;
-  content: "\2024 ";
-  display: inline-block;
-}
-.posi{
-  
+ padding-left: 20px;
+ padding-right: 20px;
 }
 
-.link-am{
-  margin-left: 19cm;
-  z-index: 0;
+/*cycle ul card*/
+.card-cycle ul{
+  list-style: none; /* Remove default bullets */
+  font-size: 14px;
+  font-weight: 700;
+  margin:  0 auto;
+  line-height: .0001cm;
+  position: relative;
+  bottom: .5cm;
+  text-align: left;
 }
-#amazon{
-margin-left: 1cm;
-margin-top: -4cm;
-z-index: 0;
+.card-cycle li::before{
+  font-size: 56px;
+  color: #E7E5E2; /* Change the color */
+  font-weight: lighter; /* If you want it to be bold */
+  line-height: .01cm;
+  content: "\2024 ";
+  display: inline-block;
+  font-size: 100px;
 }
+.card-cycle {
+margin-top: 1.5cm !important;
+max-width: 300px;
+margin: auto;
+border-radius: 0;
+}
+
+.card-cycle h4{
+margin: 0 auto;
+margin-left: .3cm;
+position: relative;
+bottom: .5cm;
+text-align: left;
+}
+.card-cycle h3{
+  font-size: 27px;
+  margin: 0 auto;
+  margin-left: .3cm;
+  position: relative;
+  bottom: .5cm;
+  text-align: left;
+  }
+  .sim-cycle-star{
+    height: 25px;
+    width: 120px;
+    margin-left: 3.2cm;
+    top: .2cm;
+    position: relative;
+  }
+
+  .card-amfl{
+    border-color: #E7E5E2;
+    max-width: 120px;
+    border-style: solid;
+    text-align: center;
+    border-radius: 0;
+    border-width: 1px;
+    position: relative;
+  }
+  .card-whatsapp{
+    margin: auto;
+    border-color: #E7E5E2;
+    border-style: solid;
+    max-width: 245px;
+    margin-top: .1cm;
+    text-align: center;
+    border-radius: 0;
+    border-width: 1px;
+  }
+
 
 /*specification*/
 .speci{
@@ -1318,6 +1351,7 @@ margin-right: 2cm;
     margin: auto;
     text-align: center;
     border-radius: 0;
+    
   }
   
   .card-2 h6{
@@ -1387,6 +1421,7 @@ margin-right: 2cm;
     margin: auto;
     text-align: center;
     border-radius: 0;
+    margin-bottom: 1cm;
   }
   
   .card h6{

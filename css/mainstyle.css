@@ -862,17 +862,20 @@ text-align: left;
     text-align: center;
     border-radius: 0;
     border-width: 1px;
-    position: relative;
+    margin: 0 auto;
+    margin-left: .4cm;
+    width: auto;
   }
   .card-whatsapp{
     margin: auto;
     border-color: #E7E5E2;
     border-style: solid;
-    max-width: 245px;
+    max-width: 260px;
     margin-top: .1cm;
     text-align: center;
     border-radius: 0;
     border-width: 1px;
+    margin-left: .4cm;
   }
 
 
@@ -3514,6 +3517,82 @@ ul.list-info-w3pvt {
 
 
 /*---------------768-----------------------------cycle page-------------------------------992-------------------------*/
+
+/*cycle ul card*/
+.card-cycle ul{
+  list-style: none; /* Remove default bullets */
+  font-size: 12px;
+  font-weight: 700;
+  margin:  0 auto;
+  line-height: .0009cm;
+  position: relative;
+  bottom: .7cm;
+  text-align: left;
+}
+.card-cycle li::before{
+  font-size: 46px !important;
+  color: #E7E5E2; /* Change the color */
+  font-weight: lighter; /* If you want it to be bold */
+  line-height: .5cm;
+  content: "\2024 ";
+  display: inline-block;
+  font-size: 100px;
+}
+.card-cycle {
+margin:  0 auto !important;
+margin-top: .6cm !important;
+max-width: 300px;
+
+border-radius: 0;
+}
+
+.card-cycle h4{
+
+margin-left: .3cm;
+position: relative;
+margin-bottom: .1cm !important;
+text-align: left;
+font-size: 18px;
+}
+.card-cycle h3{
+  font-size: 22px;
+  margin: 0 auto;
+  bottom: .1cm !important;
+  margin-left: .3cm;
+  position: relative;
+  text-align: left;
+  }
+  .sim-cycle-star{
+    height: 15px;
+    width: 80px;
+    margin-left: 2.5cm !important;
+    bottom: .5cm !important;
+  }
+
+  .card-amfl{
+    border-color: #E7E5E2;
+    max-width: 85px;
+    border-style: solid;
+    text-align: center;
+    border-radius: 0;
+    border-width: 1px;
+    margin: 0 auto;
+    margin-left: .3cm;
+    width: auto;
+  }
+  .card-whatsapp{
+    margin: auto;
+    border-color: #E7E5E2;
+    border-style: solid;
+    max-width: 186px;
+    margin-top: .1cm;
+    text-align: center;
+    border-radius: 0;
+    border-width: 1px;
+    margin-left: .3cm;
+  }
+
+
 
 /*specification*/
 .speci{

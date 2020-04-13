@@ -1427,7 +1427,7 @@ margin-right: 2cm;
   .sim-star{
     height: 18px;
     width: 100px;
-    margin-left: 3.5cm;
+    margin-left: 3cm;
     position: relative;
     }
 .card ul{
@@ -1452,7 +1452,7 @@ margin-right: 2cm;
     max-width: 300px;
     margin: auto;
     text-align: center;
-    border-radius: 0;
+    border-radius: 0 !important;
     margin-bottom: 1cm;
   }
   
@@ -3763,7 +3763,7 @@ font-size: 18px;
 .sim-star{
   height: 15px;
   width: 70px;
-  margin-left: 2.6cm;
+  margin-left: 1.9cm;
   bottom: .07cm;
   position: relative;
   }
@@ -4415,7 +4415,7 @@ bottom: 80px;
 .sim-star{
   height: 18px;
   width: 100px;
-  margin-left: 3.5cm;
+  margin-left: 2.5cm;
   position: relative;
   }
 .card ul{

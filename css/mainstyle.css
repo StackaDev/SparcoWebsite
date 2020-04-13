@@ -1115,7 +1115,36 @@ margin-right: 2cm;
   color: #000;
   
 }
+/*--------------------------------------------------kitchen3-----------------------------------------------------*/
+.kit-b-sub img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: auto;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  
+}
 
+
+.kit-b a:hover{
+  background-color: #001747;
+  color: #fff;
+  
+}
+.kit-b a{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #F1F0EE;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 18px;
+  border: 0;
+  border-radius: 0;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  color: #000;
+  
+}
 
 
   /*-----------------------------------------contact page css start here-----------------------------------------------*/

@@ -1634,15 +1634,23 @@ nav.active{
 }
 
 .carousel-caption h1 {
-  top: -50px !important;
-  float: none;
-  width: 100% !important;
+  top: 50px !important;
+  
+  
   letter-spacing: 2px;
-  margin-left: 0px !important;
-  margin-right: 0px !important;
+  
   line-height: 50px;
   font-size: 8vw;
   text-align: center;
+
+
+position: relative;
+  
+  
+  
+  letter-spacing: 2px;
+  
+  
 }
 .carousel-item{
   text-align: center !important;

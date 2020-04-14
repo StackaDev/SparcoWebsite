@@ -14,11 +14,13 @@ body {
 .padding-0 {
   padding-right: 0;
   padding-left: 0;
-  height: 65px;
+  height: 50px;
 }
 
 .img-logo {
+  
   width: 100%;
+  
 }
 
 .social-links {
@@ -202,7 +204,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: 0;
-  margin-top: -30px;
+  
   position: relative;
 }
 
@@ -1620,8 +1622,9 @@ nav.active{
   text-align: center;
 }
 .carousel-inner img {
+  margin-top: -1cm;
   width: 100%;
-  height: 90vh;
+  height: 95vh;
 
 }
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -1629,34 +1632,21 @@ nav.active{
   width: 35px !important;
 }
 
-.carousel-caption {
-  text-align: center;
-}
+
 
 .carousel-caption h1 {
-  top: 50px !important;
   
   
   letter-spacing: 2px;
-  
-  line-height: 50px;
+ line-height: 40px;
   font-size: 8vw;
   text-align: center;
-
-
-position: relative;
-  
-  
-  
-  letter-spacing: 2px;
+  position: relative !important;
   
   
 }
-.carousel-item{
-  text-align: center !important;
-}
+
 .carousel-caption a {
-  margin-top: 10px;
   background-color: #01124a;
   text-transform: uppercase;
   font-size: 3vw;
@@ -1667,27 +1657,32 @@ position: relative;
   border-radius: 0;
   float: none;
   text-align: center;
+  position: relative;
+  top: 100%;
+  
+  
+
 }
 
 .carousel-caption h3 {
   width: 100%;
-  margin-top: 60px;
-  text-align: left;
   text-align: center;
   letter-spacing: 2px;
   font-size: 6vw;
   line-height: 30px;
+  margin: 0 auto;
+  top: 0% !important;
+  
+  
 }
 .carousel-caption img{
-  width: 252px;
+  width: 100%;
   height: auto;
-  float: none;
-  max-width: 100%;
-  position: relative;
-  margin: 0 auto;
-  margin-top: 4%;
+  position: relative !important;
+  float: none !important;
+  
+ 
 }
-
 /* Explore quality */
 
 #quality {
@@ -1825,6 +1820,9 @@ position: relative;
 
 
 /* Categories */
+.cat{
+  
+}
 
 .cat-f {
   background-color: #f4f4f6;
@@ -1838,7 +1836,7 @@ position: relative;
 .cat-f img {
   max-width: 100%;
   position: relative;
-  width: auto;
+  
   height: auto;
   margin: 0 auto;
   bottom: .1cm;
@@ -1858,7 +1856,7 @@ position: relative;
 }
 
 .cat-f a {
-  border-radius: 0px;
+   border-radius: 0px;
   border: 0px;
   background-color: #01124a;
   color: #fff;
@@ -1874,6 +1872,7 @@ position: relative;
   padding-right: 40px;
   padding-left: 20px;
   bottom: .6cm;
+    
 }
 
 .cat-s-sub {
@@ -3085,7 +3084,7 @@ ul.list-info-w3pvt {
     
   }
   .carousel-inner img {
-    margin-top: -20px;
+    
  
   }
   .carousel-control-prev-icon, .carousel-control-next-icon {
